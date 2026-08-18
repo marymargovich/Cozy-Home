@@ -178,12 +178,12 @@ TextureImporter:
       name: little things_0
       rect:
         serializedVersion: 2
-        x: 70
-        y: 582
-        width: 229
-        height: 103
+        x: 0
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: little things_1
       rect:
         serializedVersion: 2
-        x: 476
-        y: 540
-        width: 146
-        height: 207
+        x: 352
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,12 +222,12 @@ TextureImporter:
       name: little things_2
       rect:
         serializedVersion: 2
-        x: 748
-        y: 567
-        width: 261
-        height: 146
+        x: 704
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: little things_3
       rect:
         serializedVersion: 2
-        x: 1121
-        y: 596
-        width: 110
-        height: 102
+        x: 1056
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: little things_4
       rect:
         serializedVersion: 2
-        x: 1172
-        y: 568
-        width: 168
-        height: 109
+        x: 0
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: little things_5
       rect:
         serializedVersion: 2
-        x: 53
-        y: 287
-        width: 247
-        height: 179
+        x: 352
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: little things_6
       rect:
         serializedVersion: 2
-        x: 421
-        y: 295
-        width: 216
-        height: 154
+        x: 704
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -332,12 +332,12 @@ TextureImporter:
       name: little things_7
       rect:
         serializedVersion: 2
-        x: 791
-        y: 281
-        width: 174
-        height: 197
+        x: 1056
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,12 +354,12 @@ TextureImporter:
       name: little things_8
       rect:
         serializedVersion: 2
-        x: 1129
-        y: 297
-        width: 207
-        height: 154
+        x: 0
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: little things_9
       rect:
         serializedVersion: 2
-        x: 99
-        y: 39
-        width: 146
-        height: 169
+        x: 352
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -398,12 +398,12 @@ TextureImporter:
       name: little things_10
       rect:
         serializedVersion: 2
-        x: 433
-        y: 44
-        width: 186
-        height: 146
+        x: 704
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: little things_11
       rect:
         serializedVersion: 2
-        x: 798
-        y: 71
-        width: 161
-        height: 101
+        x: 1056
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,33 +438,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: little things_12
-      rect:
-        serializedVersion: 2
-        x: 1166
-        y: 64
-        width: 133
-        height: 116
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dbcce5a24c18028b0800000000000000
-      internalID: -5178996891951641411
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 13a89a4b23206457cb8d8437291e67d2
     internalID: 0
     vertices: []
     indices: 
@@ -472,13 +450,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":352.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       little things_0: -675934419343538224
       little things_1: -1331235781236453588
       little things_10: 6295520125264359510
       little things_11: -9092046028831646856
-      little things_12: -5178996891951641411
       little things_2: 8049039267119023648
       little things_3: -5394440922495824395
       little things_4: -7648049535268427109

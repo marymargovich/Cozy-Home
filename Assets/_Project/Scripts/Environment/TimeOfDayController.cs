@@ -30,6 +30,16 @@ namespace CozyHome.Environment
         // The visual tint configuration used during the nighttime period.
         [SerializeField] private TimeOfDayConfig nightConfig;
 
+        [Header("Lamp Tint Reductions")]
+        // The tint reduction applied when the floor lamp is active.
+        [Range(0f, 1f)] [SerializeField] private float floorLampTintReduction = 0.10f;
+
+        // The tint reduction applied when the ceiling lamp is active.
+        [Range(0f, 1f)] [SerializeField] private float ceilingLampTintReduction = 0.25f;
+
+        // The tint reduction applied when the garland is active.
+        [Range(0f, 1f)] [SerializeField] private float garlandTintReduction = 0.08f;
+
         [Header("Debug / Testing")]
         // Enables the debug override so the designer can preview a specific time without waiting for the system clock.
         [SerializeField] private bool overrideSystemTime = false;
@@ -60,6 +70,10 @@ namespace CozyHome.Environment
             // The color applied to the indoor room overlay.
             public Color roomColor;
         }
+
+        private bool isFloorLampOn;
+        private bool isCeilingLampOn;
+        private bool isGarlandOn;
 
         private void Awake()
         {
@@ -132,6 +146,65 @@ namespace CozyHome.Environment
             return TimeOfDay.Night;
         }
 
+        public void SetFloorLampState(bool isOn)
+        {
+            isFloorLampOn = isOn;
+            RefreshLampTint();
+        }
+
+        public void SetCeilingLampState(bool isOn)
+        {
+            isCeilingLampOn = isOn;
+            RefreshLampTint();
+        }
+
+        public void SetGarlandState(bool isOn)
+        {
+            isGarlandOn = isOn;
+            RefreshLampTint();
+        }
+
+        private void RefreshLampTint()
+        {
+            if (roomTintOverlay == null)
+            {
+                return;
+            }
+
+            TimeOfDay activeTimeOfDay = overrideSystemTime ? debugTimeOfDay : GetCurrentTimeOfDay();
+
+            TimeOfDayConfig activeConfig = activeTimeOfDay switch
+            {
+                TimeOfDay.Morning => morningConfig,
+                TimeOfDay.Day => dayConfig,
+                TimeOfDay.Evening => eveningConfig,
+                TimeOfDay.Night => nightConfig,
+                _ => default
+            };
+
+            Color baseRoomColor = activeConfig.roomColor;
+            float totalReduction = 0f;
+
+            if (isFloorLampOn)
+            {
+                totalReduction += floorLampTintReduction;
+            }
+
+            if (isCeilingLampOn)
+            {
+                totalReduction += ceilingLampTintReduction;
+            }
+
+            if (isGarlandOn)
+            {
+                totalReduction += garlandTintReduction;
+            }
+
+            totalReduction = Mathf.Clamp01(totalReduction);
+            float adjustedAlpha = Mathf.Clamp01(baseRoomColor.a * (1f - totalReduction));
+            roomTintOverlay.color = new Color(baseRoomColor.r, baseRoomColor.g, baseRoomColor.b, adjustedAlpha);
+        }
+
         /// <summary>
         /// Applies the color configuration for the specified time-of-day state to both tinted overlays.
         /// </summary>
@@ -155,6 +228,7 @@ namespace CozyHome.Environment
             if (roomTintOverlay != null)
             {
                 roomTintOverlay.color = config.roomColor;
+                RefreshLampTint();
             }
         }
     }
