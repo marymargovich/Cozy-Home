@@ -178,12 +178,12 @@ TextureImporter:
       name: dreamcatcher_0
       rect:
         serializedVersion: 2
-        x: 56
-        y: 429
-        width: 123
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 384
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4926288, y: 0.69763976}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -200,12 +200,12 @@ TextureImporter:
       name: dreamcatcher_1
       rect:
         serializedVersion: 2
-        x: 283
-        y: 434
-        width: 131
-        height: 318
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 234
+        y: 384
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5147423, y: 0.7066234}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -222,12 +222,12 @@ TextureImporter:
       name: dreamcatcher_2
       rect:
         serializedVersion: 2
-        x: 525
-        y: 429
-        width: 123
-        height: 324
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 468
+        y: 384
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.70213157}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -244,12 +244,12 @@ TextureImporter:
       name: dreamcatcher_3
       rect:
         serializedVersion: 2
-        x: 759
-        y: 429
-        width: 123
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 702
+        y: 384
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5221135, y: 0.7066234}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -266,12 +266,12 @@ TextureImporter:
       name: dreamcatcher_4
       rect:
         serializedVersion: 2
-        x: 995
-        y: 431
-        width: 130
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 936
+        y: 384
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.69763976}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -288,12 +288,12 @@ TextureImporter:
       name: dreamcatcher_5
       rect:
         serializedVersion: 2
-        x: 1229
-        y: 429
-        width: 123
-        height: 323
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1170
+        y: 384
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5294847, y: 0.70213157}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -310,12 +310,12 @@ TextureImporter:
       name: dreamcatcher_6
       rect:
         serializedVersion: 2
-        x: 56
-        y: 46
-        width: 123
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.6976397}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -332,12 +332,12 @@ TextureImporter:
       name: dreamcatcher_7
       rect:
         serializedVersion: 2
-        x: 291
-        y: 48
-        width: 123
-        height: 319
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 234
+        y: 0
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7066234}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -354,12 +354,12 @@ TextureImporter:
       name: dreamcatcher_8
       rect:
         serializedVersion: 2
-        x: 525
-        y: 46
-        width: 123
-        height: 321
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 468
+        y: 0
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.7021315}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -376,12 +376,12 @@ TextureImporter:
       name: dreamcatcher_9
       rect:
         serializedVersion: 2
-        x: 760
-        y: 80
-        width: 122
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 702
+        y: 0
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5147423, y: 0.6976397}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -398,12 +398,12 @@ TextureImporter:
       name: dreamcatcher_10
       rect:
         serializedVersion: 2
-        x: 995
-        y: 45
-        width: 123
-        height: 322
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 936
+        y: 0
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5073712, y: 0.6886561}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -420,12 +420,12 @@ TextureImporter:
       name: dreamcatcher_11
       rect:
         serializedVersion: 2
-        x: 1229
-        y: 80
-        width: 123
-        height: 287
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1170
+        y: 0
+        width: 234
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5221135, y: 0.6976397}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -438,33 +438,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: dreamcatcher_12
-      rect:
-        serializedVersion: 2
-        x: 1281
-        y: 77
-        width: 21
-        height: 20
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 23a888e99d96a1750800000000000000
-      internalID: 6276445414082775602
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: a666c183b32c24fcc8dee3f875b3475a
     internalID: 0
     vertices: []
     indices: 
@@ -472,13 +450,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":2.0},"gridSpriteSize":{"x":234.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       dreamcatcher_0: -5532452742030622350
       dreamcatcher_1: -2465999995876947513
       dreamcatcher_10: -3651275194171673737
       dreamcatcher_11: -8876066801250597840
-      dreamcatcher_12: 6276445414082775602
       dreamcatcher_2: -2513050119492628408
       dreamcatcher_3: 6249387183886687310
       dreamcatcher_4: 1077153610664585545

@@ -108,7 +108,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -175,12 +175,12 @@ TextureImporter:
       name: kitty_0
       rect:
         serializedVersion: 2
-        x: 57
-        y: 564
-        width: 247
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 54
+        y: 567
+        width: 322
+        height: 201
+      alignment: 9
+      pivot: {x: 0.27409908, y: 0.012696831}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: kitty_1
       rect:
         serializedVersion: 2
-        x: 386
-        y: 576
-        width: 277
-        height: 120
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 379
+        y: 568
+        width: 325
+        height: 200
+      alignment: 9
+      pivot: {x: 0.2939792, y: 0.025393981}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: kitty_2
       rect:
         serializedVersion: 2
-        x: 731
-        y: 564
-        width: 252
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 728
+        y: 568
+        width: 324
+        height: 200
+      alignment: 9
+      pivot: {x: 0.24146363, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: kitty_3
       rect:
         serializedVersion: 2
-        x: 1072
-        y: 564
-        width: 253
-        height: 129
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1068
+        y: 566
+        width: 324
+        height: 200
+      alignment: 9
+      pivot: {x: 0.259971, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: kitty_4
       rect:
         serializedVersion: 2
-        x: 58
-        y: 310
-        width: 255
-        height: 126
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 290
+        width: 352
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -285,12 +285,12 @@ TextureImporter:
       name: kitty_5
       rect:
         serializedVersion: 2
-        x: 378
-        y: 307
-        width: 283
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 292
+        width: 352
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: kitty_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 296
-        width: 337
-        height: 159
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 704
+        y: 292
+        width: 352
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: kitty_7
       rect:
         serializedVersion: 2
-        x: 1056
-        y: 288
-        width: 298
-        height: 252
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1062
+        y: 290
+        width: 346
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: kitty_8
       rect:
         serializedVersion: 2
-        x: 36
-        y: 60
-        width: 332
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 21
+        y: 56
+        width: 352
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: kitty_9
       rect:
         serializedVersion: 2
-        x: 408
-        y: 57
-        width: 310
-        height: 154
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 378
+        y: 52
+        width: 352
+        height: 250
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,12 +395,12 @@ TextureImporter:
       name: kitty_10
       rect:
         serializedVersion: 2
-        x: 751
-        y: 57
-        width: 264
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 732
+        y: 50
+        width: 349
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -417,12 +417,12 @@ TextureImporter:
       name: kitty_11
       rect:
         serializedVersion: 2
-        x: 1094
-        y: 59
-        width: 248
-        height: 130
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1054
+        y: 47
+        width: 352
+        height: 245
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -439,7 +439,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 12e19d058849f48c58e63dc950915194
     internalID: 0
     vertices: []
     indices: 
@@ -447,7 +447,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":352.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       kitty_0: -8664014179036876150
       kitty_1: -2764859099569014217

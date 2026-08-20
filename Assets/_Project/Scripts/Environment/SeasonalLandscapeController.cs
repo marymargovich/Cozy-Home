@@ -25,12 +25,54 @@ namespace CozyHome.Environment
         // Background sprite used when the system date indicates winter.
         [SerializeField] private Sprite winterSprite;
 
+        [Header("Room Decor Slots")]
+        [SerializeField] private SeasonalSpriteSlot rugSlot;
+        [SerializeField] private SeasonalSpriteSlot vaseSlot;
+        [SerializeField] private SeasonalSpriteSlot plaidSlot;
+
         [Header("Debug / Testing")]
         // Enables the debug override so the designer can preview a season without waiting for the system date.
         [SerializeField] private bool overrideSystemSeason = false;
 
         // The season to preview when the override is enabled.
         [SerializeField] private Season debugSeason;
+
+        [System.Serializable]
+        public class SeasonalSpriteSlot
+        {
+            public Image targetImage;
+            public Sprite springSprite;
+            public Sprite summerSprite;
+            public Sprite autumnSprite;
+            public Sprite winterSprite;
+
+            public void Apply(Season season)
+            {
+                if (targetImage == null)
+                {
+                    return;
+                }
+
+                Sprite spriteToApply = season switch
+                {
+                    Season.Spring => springSprite,
+                    Season.Summer => summerSprite,
+                    Season.Autumn => autumnSprite,
+                    Season.Winter => winterSprite,
+                    _ => null
+                };
+
+                if (spriteToApply != null)
+                {
+                    targetImage.gameObject.SetActive(true);
+                    targetImage.sprite = spriteToApply;
+                }
+                else
+                {
+                    targetImage.gameObject.SetActive(false);
+                }
+            }
+        }
 
         /// <summary>
         /// Represents the four standard seasonal periods used for the landscape artwork.
@@ -46,7 +88,8 @@ namespace CozyHome.Environment
         private void Awake()
         {
             CacheTargetImage();
-            ApplySeason(GetCurrentSeason());
+            Season initialSeason = overrideSystemSeason ? debugSeason : GetCurrentSeason();
+            ApplySeason(initialSeason);
         }
 
         private void OnValidate()
@@ -142,6 +185,10 @@ namespace CozyHome.Environment
             {
                 targetImage.sprite = spriteToApply;
             }
+
+            rugSlot?.Apply(season);
+            vaseSlot?.Apply(season);
+            plaidSlot?.Apply(season);
         }
     }
 }

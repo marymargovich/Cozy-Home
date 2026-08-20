@@ -166,12 +166,12 @@ TextureImporter:
       name: mouse_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 504
-        width: 187
-        height: 98
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 101
+        y: 505
+        width: 184
+        height: 96
+      alignment: 9
+      pivot: {x: 0.4999999, y: -0.003083229}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -188,12 +188,12 @@ TextureImporter:
       name: mouse_1
       rect:
         serializedVersion: 2
-        x: 368
-        y: 504
-        width: 286
-        height: 102
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 370
+        y: 506
+        width: 283
+        height: 99
+      alignment: 9
+      pivot: {x: 0.621898, y: 0.012162025}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -210,12 +210,12 @@ TextureImporter:
       name: mouse_2
       rect:
         serializedVersion: 2
-        x: 726
-        y: 507
-        width: 306
-        height: 110
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 727
+        y: 508
+        width: 303
+        height: 108
+      alignment: 9
+      pivot: {x: 0.6024665, y: 0.0049025924}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -232,12 +232,12 @@ TextureImporter:
       name: mouse_3
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 505
-        width: 295
-        height: 121
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1078
+        y: 507
+        width: 292
+        height: 118
+      alignment: 9
+      pivot: {x: 0.63586175, y: 0.017624935}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -254,12 +254,12 @@ TextureImporter:
       name: mouse_4
       rect:
         serializedVersion: 2
-        x: 142
-        y: 412
-        width: 16
-        height: 23
+        x: 143
+        y: 413
+        width: 14
+        height: 21
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -276,12 +276,12 @@ TextureImporter:
       name: mouse_5
       rect:
         serializedVersion: 2
-        x: 13
-        y: 115
-        width: 308
-        height: 124
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 15
+        y: 117
+        width: 304
+        height: 120
+      alignment: 9
+      pivot: {x: 0.57943416, y: 0.02566452}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: mouse_6
       rect:
         serializedVersion: 2
-        x: 373
-        y: 120
-        width: 295
-        height: 131
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 374
+        y: 122
+        width: 292
+        height: 128
+      alignment: 9
+      pivot: {x: 0.5945125, y: 0.014884293}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -320,12 +320,12 @@ TextureImporter:
       name: mouse_7
       rect:
         serializedVersion: 2
-        x: 725
-        y: 117
-        width: 279
-        height: 108
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 726
+        y: 119
+        width: 277
+        height: 105
+      alignment: 9
+      pivot: {x: 0.62453836, y: 0.0071841287}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -342,12 +342,12 @@ TextureImporter:
       name: mouse_8
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 117
-        width: 302
-        height: 100
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1079
+        y: 118
+        width: 298
+        height: 98
+      alignment: 9
+      pivot: {x: 0.5926096, y: 0.024784634}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -364,7 +364,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: ee910be67b46d42339afe32e83a0799a
     internalID: 0
     vertices: []
     indices: 
@@ -372,7 +372,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":2.0},"gridSpriteSize":{"x":234.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       mouse_0: 4454631428275665778
       mouse_1: -3397387025712965628

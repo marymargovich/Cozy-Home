@@ -163,12 +163,12 @@ TextureImporter:
       name: book_0
       rect:
         serializedVersion: 2
-        x: 19
-        y: 497
-        width: 313
-        height: 166
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 384
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.49999997, y: 0.31891862}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -185,12 +185,12 @@ TextureImporter:
       name: book_1
       rect:
         serializedVersion: 2
-        x: 371
-        y: 497
-        width: 313
-        height: 220
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 384
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.3144268}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -207,12 +207,12 @@ TextureImporter:
       name: book_2
       rect:
         serializedVersion: 2
-        x: 724
-        y: 497
-        width: 313
-        height: 244
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 704
+        y: 384
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.49509966, y: 0.32790223}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -229,12 +229,12 @@ TextureImporter:
       name: book_3
       rect:
         serializedVersion: 2
-        x: 1077
-        y: 497
-        width: 313
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1056
+        y: 384
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.50490016, y: 0.32341042}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -251,12 +251,12 @@ TextureImporter:
       name: book_4
       rect:
         serializedVersion: 2
-        x: 18
-        y: 102
-        width: 315
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.4950998, y: 0.29196784}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -273,12 +273,12 @@ TextureImporter:
       name: book_5
       rect:
         serializedVersion: 2
-        x: 371
-        y: 102
-        width: 314
-        height: 208
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 0
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.49509984, y: 0.27849242}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -295,12 +295,12 @@ TextureImporter:
       name: book_6
       rect:
         serializedVersion: 2
-        x: 723
-        y: 102
-        width: 315
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 704
+        y: 0
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.49509966, y: 0.29196784}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -317,12 +317,12 @@ TextureImporter:
       name: book_7
       rect:
         serializedVersion: 2
-        x: 1076
-        y: 102
-        width: 314
-        height: 172
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1056
+        y: 0
+        width: 352
+        height: 384
+      alignment: 9
+      pivot: {x: 0.5, y: 0.28298423}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -339,7 +339,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: b8149d19f28f54a94b52516be1a8a813
     internalID: 0
     vertices: []
     indices: 
@@ -347,7 +347,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":352.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       book_0: 3843231544584785974
       book_1: -6053866238764602296

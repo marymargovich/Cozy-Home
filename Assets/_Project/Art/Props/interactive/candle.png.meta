@@ -173,11 +173,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 384
+        y: 415
         width: 352
-        height: 384
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 353
+      alignment: 9
+      pivot: {x: 0.49509972, y: 0.006486066}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: candle_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 384
+        x: 350
+        y: 413
         width: 352
-        height: 384
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 354
+      alignment: 9
+      pivot: {x: 0.5, y: 0.0016549124}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -217,11 +217,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 704
-        y: 384
+        y: 415
         width: 352
-        height: 384
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 352
+      alignment: 9
+      pivot: {x: 0.5049, y: 0.0057996255}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -239,11 +239,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1056
-        y: 384
+        y: 413
         width: 352
-        height: 384
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        height: 355
+      alignment: 9
+      pivot: {x: 0.50490016, y: 0.00926634}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []

@@ -73,12 +73,21 @@ namespace CozyHome.Environment
 
         private bool isFloorLampOn;
         private bool isCeilingLampOn;
-        private bool isGarlandOn;
+        private bool isGarland1On;
+        private bool isGarland2On;
 
         private void Awake()
         {
             CacheTargetImages();
-            ApplyTimeOfDay(GetCurrentTimeOfDay());
+
+            if (overrideSystemTime)
+            {
+                ApplyTimeOfDay(debugTimeOfDay);
+            }
+            else
+            {
+                ApplyTimeOfDay(GetCurrentTimeOfDay());
+            }
         }
 
         private void OnValidate()
@@ -158,9 +167,15 @@ namespace CozyHome.Environment
             RefreshLampTint();
         }
 
-        public void SetGarlandState(bool isOn)
+        public void SetGarland1State(bool isOn)
         {
-            isGarlandOn = isOn;
+            isGarland1On = isOn;
+            RefreshLampTint();
+        }
+
+        public void SetGarland2State(bool isOn)
+        {
+            isGarland2On = isOn;
             RefreshLampTint();
         }
 
@@ -195,7 +210,12 @@ namespace CozyHome.Environment
                 totalReduction += ceilingLampTintReduction;
             }
 
-            if (isGarlandOn)
+            if (isGarland1On)
+            {
+                totalReduction += garlandTintReduction;
+            }
+
+            if (isGarland2On)
             {
                 totalReduction += garlandTintReduction;
             }

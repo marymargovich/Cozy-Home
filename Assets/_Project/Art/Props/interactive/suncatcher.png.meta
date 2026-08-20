@@ -172,12 +172,12 @@ TextureImporter:
       name: suncatcher_0
       rect:
         serializedVersion: 2
-        x: 43
-        y: 456
-        width: 265
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 384
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -194,12 +194,12 @@ TextureImporter:
       name: suncatcher_1
       rect:
         serializedVersion: 2
-        x: 395
-        y: 456
-        width: 265
-        height: 312
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 384
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -216,12 +216,12 @@ TextureImporter:
       name: suncatcher_2
       rect:
         serializedVersion: 2
-        x: 747
-        y: 456
-        width: 265
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 704
+        y: 384
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -238,12 +238,12 @@ TextureImporter:
       name: suncatcher_3
       rect:
         serializedVersion: 2
-        x: 825
-        y: 741
-        width: 6
-        height: 7
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1056
+        y: 384
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: suncatcher_4
       rect:
         serializedVersion: 2
-        x: 1099
-        y: 456
-        width: 265
-        height: 292
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 0
+        y: 0
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -282,12 +282,12 @@ TextureImporter:
       name: suncatcher_5
       rect:
         serializedVersion: 2
-        x: 1173
-        y: 736
-        width: 11
-        height: 12
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 352
+        y: 0
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -304,12 +304,12 @@ TextureImporter:
       name: suncatcher_6
       rect:
         serializedVersion: 2
-        x: 43
-        y: 66
-        width: 266
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 704
+        y: 0
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -326,12 +326,12 @@ TextureImporter:
       name: suncatcher_7
       rect:
         serializedVersion: 2
-        x: 351
-        y: 66
-        width: 310
-        height: 320
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 1056
+        y: 0
+        width: 352
+        height: 384
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -344,77 +344,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: suncatcher_8
-      rect:
-        serializedVersion: 2
-        x: 702
-        y: 214
-        width: 6
-        height: 146
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ae8f073f07d814970800000000000000
-      internalID: 8737420268335593706
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: suncatcher_9
-      rect:
-        serializedVersion: 2
-        x: 747
-        y: 66
-        width: 312
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 6e980ac21bf39cfa0800000000000000
-      internalID: -5780018616562841114
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: suncatcher_10
-      rect:
-        serializedVersion: 2
-        x: 1100
-        y: 66
-        width: 266
-        height: 294
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: dadbf23d21c27a820800000000000000
-      internalID: 2929358541991951789
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 44604cbb6d20e4bfea1397ecdae6a34a
     internalID: 0
     vertices: []
     indices: 
@@ -422,19 +356,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":2.0},"gridSpriteSize":{"x":352.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.0},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":7,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       suncatcher_0: 7736896052846059616
       suncatcher_1: -2727659503988004467
-      suncatcher_10: 2929358541991951789
       suncatcher_2: -7301138359345876900
       suncatcher_3: 1884390440492347347
       suncatcher_4: 62194992742304339
       suncatcher_5: 4881190944006952735
       suncatcher_6: -6376617885345289828
       suncatcher_7: -4117023936891892418
-      suncatcher_8: 8737420268335593706
-      suncatcher_9: -5780018616562841114
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

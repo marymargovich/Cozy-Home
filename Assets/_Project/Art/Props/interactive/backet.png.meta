@@ -157,12 +157,12 @@ TextureImporter:
       name: backet_0
       rect:
         serializedVersion: 2
-        x: 99
-        y: 466
-        width: 287
-        height: 223
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 96
+        y: 451
+        width: 400
+        height: 234
+      alignment: 9
+      pivot: {x: 0.3125956, y: 0.10717682}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -179,12 +179,12 @@ TextureImporter:
       name: backet_1
       rect:
         serializedVersion: 2
-        x: 519
-        y: 459
-        width: 328
-        height: 230
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 516
+        y: 451
+        width: 400
+        height: 234
+      alignment: 9
+      pivot: {x: 0.30939972, y: 0.124543674}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -201,12 +201,12 @@ TextureImporter:
       name: backet_2
       rect:
         serializedVersion: 2
-        x: 925
-        y: 453
-        width: 425
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 930
+        y: 454
+        width: 438
+        height: 234
+      alignment: 9
+      pivot: {x: 0.2779931, y: 0.08798857}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: backet_3
       rect:
         serializedVersion: 2
-        x: 88
+        x: 90
         y: 95
-        width: 417
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        width: 415
+        height: 235
+      alignment: 9
+      pivot: {x: 0.25772387, y: 0.10926978}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -245,12 +245,12 @@ TextureImporter:
       name: backet_4
       rect:
         serializedVersion: 2
-        x: 544
-        y: 95
-        width: 353
-        height: 236
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 538
+        y: 94
+        width: 400
+        height: 234
+      alignment: 9
+      pivot: {x: 0.26740482, y: 0.13795103}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -267,12 +267,12 @@ TextureImporter:
       name: backet_5
       rect:
         serializedVersion: 2
-        x: 976
-        y: 94
-        width: 304
-        height: 237
-      alignment: 0
-      pivot: {x: 0, y: 0}
+        x: 973
+        y: 95
+        width: 400
+        height: 234
+      alignment: 9
+      pivot: {x: 0.25765318, y: 0.15164591}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -289,7 +289,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 35de04469fe0b40b09478574b08a974a
     internalID: 0
     vertices: []
     indices: 
