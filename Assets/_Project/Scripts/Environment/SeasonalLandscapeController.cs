@@ -26,9 +26,21 @@ namespace CozyHome.Environment
         [SerializeField] private Sprite winterSprite;
 
         [Header("Room Decor Slots")]
-        [SerializeField] private SeasonalSpriteSlot rugSlot;
-        [SerializeField] private SeasonalSpriteSlot vaseSlot;
-        [SerializeField] private SeasonalSpriteSlot plaidSlot;
+        [SerializeField] private SeasonalSlotData rugSlot;
+        [SerializeField] private SeasonalSlotData vaseSlot;
+        [SerializeField] private SeasonalSlotData plaidSlot;
+
+        // The second plaid slot used for decorative seasonal plaid variants when the scene includes an extra plaid layer.
+        [SerializeField] private SeasonalSlotData plaid2Slot;
+
+        // The seasonal curtain slot used for the room curtain layer.
+        [SerializeField] private SeasonalSlotData curtainSlot;
+
+        // The seasonal floor pillow slot used for a pillow on the floor.
+        [SerializeField] private SeasonalSlotData pillowFloorSlot;
+
+        // The seasonal armchair pillow slot used for a pillow on the armchair.
+        [SerializeField] private SeasonalSlotData pillowArmchairSlot;
 
         [Header("Debug / Testing")]
         // Enables the debug override so the designer can preview a season without waiting for the system date.
@@ -38,7 +50,7 @@ namespace CozyHome.Environment
         [SerializeField] private Season debugSeason;
 
         [System.Serializable]
-        public class SeasonalSpriteSlot
+        public class SeasonalSlotData
         {
             public Image targetImage;
             public Sprite springSprite;
@@ -62,16 +74,26 @@ namespace CozyHome.Environment
                     _ => null
                 };
 
-                if (spriteToApply != null)
-                {
-                    targetImage.gameObject.SetActive(true);
-                    targetImage.sprite = spriteToApply;
-                }
-                else
-                {
-                    targetImage.gameObject.SetActive(false);
-                }
+                ApplySprite(targetImage, spriteToApply);
             }
+        }
+
+        private static void ApplySprite(Image targetImage, Sprite spriteToApply)
+        {
+            if (targetImage == null)
+            {
+                return;
+            }
+
+            if (spriteToApply != null)
+            {
+                targetImage.gameObject.SetActive(true);
+                targetImage.sprite = spriteToApply;
+                return;
+            }
+
+            targetImage.sprite = null;
+            targetImage.gameObject.SetActive(false);
         }
 
         /// <summary>
@@ -189,6 +211,10 @@ namespace CozyHome.Environment
             rugSlot?.Apply(season);
             vaseSlot?.Apply(season);
             plaidSlot?.Apply(season);
+            plaid2Slot?.Apply(season);
+            curtainSlot?.Apply(season);
+            pillowFloorSlot?.Apply(season);
+            pillowArmchairSlot?.Apply(season);
         }
     }
 }
