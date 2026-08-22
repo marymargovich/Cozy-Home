@@ -1,5 +1,6 @@
 using UnityEngine;
-using System;
+using UnityEngine.InputSystem;
+using CozyHome.UI;
 
 namespace CozyHome.Interaction
 {
@@ -8,5 +9,28 @@ namespace CozyHome.Interaction
     /// </summary>
     public class InteractiveProp : MonoBehaviour
     {
+        /// <summary>
+        /// Called when the prop is clicked in the world. This example spawns a floating note at
+        /// the prop's pointer or world-to-screen position so the visual appears where the interaction happened.
+        /// </summary>
+        protected virtual void OnMouseDown()
+        {
+            Vector3 notePosition = transform.position;
+
+            if (UnityEngine.InputSystem.Pointer.current != null)
+            {
+                notePosition = UnityEngine.InputSystem.Pointer.current.position.ReadValue();
+            }
+            else
+            {
+                Camera mainCamera = Camera.main;
+                if (mainCamera != null)
+                {
+                    notePosition = mainCamera.WorldToScreenPoint(transform.position);
+                }
+            }
+
+            EffectManager.Instance?.SpawnNoteAt(notePosition);
+        }
     }
 }

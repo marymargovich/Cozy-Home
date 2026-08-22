@@ -1,12 +1,15 @@
 using System.Collections;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using UnityEngine.InputSystem;
+using CozyHome.UI;
 
 namespace CozyHome.Interaction
 {
     [RequireComponent(typeof(Button), typeof(Image), typeof(Animator))]
-    public class InteractiveAnimatedToggle : MonoBehaviour
+    public class InteractiveAnimatedToggle : MonoBehaviour, IPointerClickHandler
     {
         [SerializeField] private Sprite offSprite;
         [SerializeField] private string defaultAnimationState = "Fireplace_Burn";
@@ -28,12 +31,6 @@ namespace CozyHome.Interaction
         private void Awake()
         {
             CacheComponents();
-
-            if (button != null)
-            {
-                button.onClick.RemoveAllListeners();
-                button.onClick.AddListener(HandleButtonClick);
-            }
 
             isActive = startActive;
             ApplyState();
@@ -75,12 +72,39 @@ namespace CozyHome.Interaction
             }
         }
 
-        private void HandleButtonClick()
+        public void OnPointerClick(PointerEventData eventData)
+        {
+            HandleButtonClick(eventData);
+        }
+
+        private void HandleButtonClick(PointerEventData eventData = null)
         {
             if (button == null || animator == null || image == null)
             {
                 return;
             }
+
+            // Capture the pointer position from the event data when possible, or use the generic
+            // Input System pointer as a safe fallback for mouse and touch input.
+            Vector3 notePosition = transform.position;
+            if (eventData != null)
+            {
+                notePosition = eventData.position;
+            }
+            else if (UnityEngine.InputSystem.Pointer.current != null)
+            {
+                notePosition = UnityEngine.InputSystem.Pointer.current.position.ReadValue();
+            }
+            else
+            {
+                Camera mainCamera = Camera.main;
+                if (mainCamera != null)
+                {
+                    notePosition = mainCamera.WorldToScreenPoint(transform.position);
+                }
+            }
+
+            EffectManager.Instance?.SpawnNoteAt(notePosition);
 
             if (singleTapCoroutine != null)
             {

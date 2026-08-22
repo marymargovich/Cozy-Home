@@ -1,34 +1,55 @@
 fileFormatVersion: 2
-guid: b28d5ad3e464048adb95cf3edbd7a917
+guid: 19c516d88570d4303b56885aab6f2714
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4454631428275665778
-    second: mouse_0
+      213: -3598916374439202735
+    second: Notes_0
   - first:
-      213: -3397387025712965628
-    second: mouse_1
+      213: -733219096263470103
+    second: Notes_1
   - first:
-      213: -3124372832261642726
-    second: mouse_2
+      213: 8722924714100469040
+    second: Notes_2
   - first:
-      213: 3612782681000396837
-    second: mouse_3
+      213: 6257677035871968672
+    second: Notes_3
   - first:
-      213: -3154446981457803592
-    second: mouse_4
+      213: 8039372748551541876
+    second: Notes_4
   - first:
-      213: 4930236773760687789
-    second: mouse_5
+      213: -2870236734101642953
+    second: Notes_5
   - first:
-      213: 1938311220257969084
-    second: mouse_6
+      213: -8422380503605110267
+    second: Notes_6
   - first:
-      213: -7201445750087952622
-    second: mouse_7
+      213: -4033378587868176147
+    second: Notes_7
   - first:
-      213: 7494918433759398995
-    second: mouse_8
+      213: -5364639794917071987
+    second: Notes_8
+  - first:
+      213: 8230106714801608619
+    second: Notes_9
+  - first:
+      213: 292014467029829287
+    second: Notes_10
+  - first:
+      213: -1721156879495644149
+    second: Notes_11
+  - first:
+      213: -15512175077094711
+    second: Notes_12
+  - first:
+      213: 4685801893328365384
+    second: Notes_13
+  - first:
+      213: 7024730218406149019
+    second: Notes_14
+  - first:
+      213: 4543914928925607290
+    second: Notes_15
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -99,7 +120,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 2
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -163,101 +184,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mouse_0
+      name: Notes_0
       rect:
         serializedVersion: 2
-        x: 101
-        y: 505
-        width: 184
-        height: 96
-      alignment: 9
-      pivot: {x: 0.4999999, y: -0.003083229}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 27b79afaea702dd30800000000000000
-      internalID: 4454631428275665778
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse_1
-      rect:
-        serializedVersion: 2
-        x: 370
-        y: 506
-        width: 283
-        height: 99
-      alignment: 9
-      pivot: {x: 0.621898, y: 0.012162025}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 4089bdf008e0ad0d0800000000000000
-      internalID: -3397387025712965628
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse_2
-      rect:
-        serializedVersion: 2
-        x: 727
-        y: 508
-        width: 303
-        height: 108
-      alignment: 9
-      pivot: {x: 0.6024665, y: 0.0049025924}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: a16e923767ff3a4d0800000000000000
-      internalID: -3124372832261642726
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse_3
-      rect:
-        serializedVersion: 2
-        x: 1078
-        y: 507
-        width: 292
-        height: 118
-      alignment: 9
-      pivot: {x: 0.63586175, y: 0.017624935}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 52846bff4be232230800000000000000
-      internalID: 3612782681000396837
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: mouse_4
-      rect:
-        serializedVersion: 2
-        x: 143
-        y: 413
-        width: 14
-        height: 21
+        x: 0
+        y: 0
+        width: 176
+        height: 768
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -266,96 +199,162 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8b6876fee272934d0800000000000000
-      internalID: -3154446981457803592
+      spriteID: 150f63510a41e0ec0800000000000000
+      internalID: -3598916374439202735
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_5
+      name: Notes_1
       rect:
         serializedVersion: 2
-        x: 15
-        y: 117
-        width: 304
-        height: 120
-      alignment: 9
-      pivot: {x: 0.57943416, y: 0.02566452}
+        x: 176
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: daed2966938bb6440800000000000000
-      internalID: 4930236773760687789
+      spriteID: 9e3dea0ed1513d5f0800000000000000
+      internalID: -733219096263470103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_6
+      name: Notes_2
       rect:
         serializedVersion: 2
-        x: 374
-        y: 122
-        width: 292
-        height: 128
-      alignment: 9
-      pivot: {x: 0.5945125, y: 0.014884293}
+        x: 352
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb351a309c346ea10800000000000000
-      internalID: 1938311220257969084
+      spriteID: 03d2f6abfcd0e0970800000000000000
+      internalID: 8722924714100469040
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_7
+      name: Notes_3
       rect:
         serializedVersion: 2
-        x: 726
-        y: 119
-        width: 277
-        height: 105
-      alignment: 9
-      pivot: {x: 0.62453836, y: 0.0071841287}
+        x: 528
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 217d2c4ce335f0c90800000000000000
-      internalID: -7201445750087952622
+      spriteID: 0ad944a0c1cb7d650800000000000000
+      internalID: 6257677035871968672
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mouse_8
+      name: Notes_4
       rect:
         serializedVersion: 2
-        x: 1079
-        y: 118
-        width: 298
-        height: 98
-      alignment: 9
-      pivot: {x: 0.5926096, y: 0.024784634}
+        x: 704
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 35c81c01b9c430860800000000000000
-      internalID: 7494918433759398995
+      spriteID: 474de5e9be6919f60800000000000000
+      internalID: 8039372748551541876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Notes_5
+      rect:
+        serializedVersion: 2
+        x: 880
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7312892c5eeda28d0800000000000000
+      internalID: -2870236734101642953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Notes_6
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 50a117f3e81bd1b80800000000000000
+      internalID: -8422380503605110267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Notes_7
+      rect:
+        serializedVersion: 2
+        x: 1232
+        y: 0
+        width: 176
+        height: 768
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de063794b8f8608c0800000000000000
+      internalID: -4033378587868176147
       vertices: []
       indices: 
       edges: []
@@ -364,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: ee910be67b46d42339afe32e83a0799a
+    spriteID: d54e51dc7c7b348f7a44d3966841c1f3
     internalID: 0
     vertices: []
     indices: 
@@ -374,17 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":6.0,"y":2.0},"gridSpriteSize":{"x":234.0,"y":384.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":176.0,"y":768.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      mouse_0: 4454631428275665778
-      mouse_1: -3397387025712965628
-      mouse_2: -3124372832261642726
-      mouse_3: 3612782681000396837
-      mouse_4: -3154446981457803592
-      mouse_5: 4930236773760687789
-      mouse_6: 1938311220257969084
-      mouse_7: -7201445750087952622
-      mouse_8: 7494918433759398995
+      Notes_0: -3598916374439202735
+      Notes_1: -733219096263470103
+      Notes_2: 8722924714100469040
+      Notes_3: 6257677035871968672
+      Notes_4: 8039372748551541876
+      Notes_5: -2870236734101642953
+      Notes_6: -8422380503605110267
+      Notes_7: -4033378587868176147
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
