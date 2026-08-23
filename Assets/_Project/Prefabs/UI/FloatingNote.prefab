@@ -29,7 +29,7 @@ RectTransform:
   m_GameObject: {fileID: 629985315650641223}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.7, y: 0.7, z: 0.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -37,8 +37,8 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 176, y: 768}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_SizeDelta: {x: 172, y: 768}
+  m_Pivot: {x: 0.5, y: 0}
 --- !u!222 &8807129692290643055
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -67,9 +67,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -3598916374439202735, guid: 19c516d88570d4303b56885aab6f2714, type: 3}
+  m_Sprite: {fileID: 2115667976614097209, guid: 767602eb1340540cd9ff2d6d81763799, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1

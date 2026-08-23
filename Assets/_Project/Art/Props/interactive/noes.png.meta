@@ -1,55 +1,58 @@
 fileFormatVersion: 2
-guid: 19c516d88570d4303b56885aab6f2714
+guid: 767602eb1340540cd9ff2d6d81763799
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3598916374439202735
-    second: Notes_0
+      213: 2115667976614097209
+    second: noes_0
   - first:
-      213: -733219096263470103
-    second: Notes_1
+      213: -3447927569879148381
+    second: noes_1
   - first:
-      213: 8722924714100469040
-    second: Notes_2
+      213: 1266876906141812685
+    second: noes_2
   - first:
-      213: 6257677035871968672
-    second: Notes_3
+      213: -1106995468438221555
+    second: noes_3
   - first:
-      213: 8039372748551541876
-    second: Notes_4
+      213: 7987139048777872553
+    second: noes_4
   - first:
-      213: -2870236734101642953
-    second: Notes_5
+      213: -8809336544793478244
+    second: noes_5
   - first:
-      213: -8422380503605110267
-    second: Notes_6
+      213: 821686969355599982
+    second: noes_6
   - first:
-      213: -4033378587868176147
-    second: Notes_7
+      213: 1453920086768261561
+    second: noes_7
   - first:
-      213: -5364639794917071987
-    second: Notes_8
+      213: 1003622087227251529
+    second: noes_8
   - first:
-      213: 8230106714801608619
-    second: Notes_9
+      213: 5374670967519713986
+    second: noes_9
   - first:
-      213: 292014467029829287
-    second: Notes_10
+      213: 8602030921174956448
+    second: noes_10
   - first:
-      213: -1721156879495644149
-    second: Notes_11
+      213: 4665164604223405409
+    second: noes_11
   - first:
-      213: -15512175077094711
-    second: Notes_12
+      213: -1015216295387777993
+    second: noes_12
   - first:
-      213: 4685801893328365384
-    second: Notes_13
+      213: -248254937375162632
+    second: noes_13
   - first:
-      213: 7024730218406149019
-    second: Notes_14
+      213: -3484220033158116918
+    second: noes_14
   - first:
-      213: 4543914928925607290
-    second: Notes_15
+      213: 9186671090960886462
+    second: noes_15
+  - first:
+      213: -5565464333114570087
+    second: noes_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -120,7 +123,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 2
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -184,177 +187,177 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Notes_0
+      name: noes_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 150f63510a41e0ec0800000000000000
-      internalID: -3598916374439202735
+      spriteID: 931b0c0c0dc5c5d10800000000000000
+      internalID: 2115667976614097209
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_1
+      name: noes_1
       rect:
         serializedVersion: 2
-        x: 176
+        x: 172
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 9e3dea0ed1513d5f0800000000000000
-      internalID: -733219096263470103
+      spriteID: f41caf50143754dfa8e5f6a6f46fe135
+      internalID: -3447927569879148381
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_2
+      name: noes_2
       rect:
         serializedVersion: 2
-        x: 352
+        x: 344
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 03d2f6abfcd0e0970800000000000000
-      internalID: 8722924714100469040
+      spriteID: a7f8bd60a84b941f1aaef8ec3009f7e8
+      internalID: 1266876906141812685
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_3
+      name: noes_3
       rect:
         serializedVersion: 2
-        x: 528
+        x: 516
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 0ad944a0c1cb7d650800000000000000
-      internalID: 6257677035871968672
+      spriteID: fac5cce3e1f14443da2e767b4483eca8
+      internalID: -1106995468438221555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_4
+      name: noes_4
       rect:
         serializedVersion: 2
-        x: 704
+        x: 688
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 474de5e9be6919f60800000000000000
-      internalID: 8039372748551541876
+      spriteID: d3125ac467253459588495a841b14171
+      internalID: 7987139048777872553
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_5
+      name: noes_5
       rect:
         serializedVersion: 2
-        x: 880
+        x: 860
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 7312892c5eeda28d0800000000000000
-      internalID: -2870236734101642953
+      spriteID: d4339061f0abb4c0ca8fe6d209dfdf09
+      internalID: -8809336544793478244
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_6
+      name: noes_6
       rect:
         serializedVersion: 2
-        x: 1056
+        x: 1032
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 50a117f3e81bd1b80800000000000000
-      internalID: -8422380503605110267
+      spriteID: 83c0ef7f344164a7e8ea5433f16fb04c
+      internalID: 821686969355599982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Notes_7
+      name: noes_7
       rect:
         serializedVersion: 2
-        x: 1232
+        x: 1204
         y: 0
-        width: 176
+        width: 172
         height: 768
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: de063794b8f8608c0800000000000000
-      internalID: -4033378587868176147
+      spriteID: 4fe917cc08a8d4df4b960bcedc314389
+      internalID: 1453920086768261561
       vertices: []
       indices: 
       edges: []
@@ -363,7 +366,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: d54e51dc7c7b348f7a44d3966841c1f3
+    spriteID: 6a42ee28be1e44f11b8843cdb99b5740
     internalID: 0
     vertices: []
     indices: 
@@ -373,16 +376,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries:
       - key: SpriteEditor.SliceSettings
-        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":176.0,"y":768.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":8.0,"y":1.0},"gridSpriteSize":{"x":172.0,"y":768.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Notes_0: -3598916374439202735
-      Notes_1: -733219096263470103
-      Notes_2: 8722924714100469040
-      Notes_3: 6257677035871968672
-      Notes_4: 8039372748551541876
-      Notes_5: -2870236734101642953
-      Notes_6: -8422380503605110267
-      Notes_7: -4033378587868176147
+      noes_0: 2115667976614097209
+      noes_1: -3447927569879148381
+      noes_2: 1266876906141812685
+      noes_3: -1106995468438221555
+      noes_4: 7987139048777872553
+      noes_5: -8809336544793478244
+      noes_6: 821686969355599982
+      noes_7: 1453920086768261561
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
