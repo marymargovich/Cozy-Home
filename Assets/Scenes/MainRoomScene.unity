@@ -899,7 +899,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.105882354, g: 0.16470589, b: 0.2901961, a: 0.8666667}
+  m_Color: {r: 1, g: 0.8509804, b: 0.7607843, a: 0.13333334}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1663,7 +1663,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 0.07058824, g: 0.101960786, b: 0.1764706, a: 0.7607843}
+  m_Color: {r: 1, g: 0.9019608, b: 0.8352941, a: 0.16470589}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -3758,50 +3758,6 @@ MonoBehaviour:
   summerSprite: {fileID: -1644055081, guid: ec67c17027ed64c5db99f15c3b0bdd59, type: 3}
   autumnSprite: {fileID: -1755107571, guid: ec67c17027ed64c5db99f15c3b0bdd59, type: 3}
   winterSprite: {fileID: 958126420, guid: ec67c17027ed64c5db99f15c3b0bdd59, type: 3}
-  rugSlot:
-    targetImage: {fileID: 1558996844}
-    springSprite: {fileID: 4923710951680367139, guid: 9e9d0661272a941208b4eb7cb68fecf3, type: 3}
-    summerSprite: {fileID: -5418673081809569704, guid: 9e9d0661272a941208b4eb7cb68fecf3, type: 3}
-    autumnSprite: {fileID: 5721227569925756341, guid: 9e9d0661272a941208b4eb7cb68fecf3, type: 3}
-    winterSprite: {fileID: 1066113055760288890, guid: 9e9d0661272a941208b4eb7cb68fecf3, type: 3}
-  vaseSlot:
-    targetImage: {fileID: 949949842}
-    springSprite: {fileID: 6373082634178986753, guid: 04a334d1c82e44e9ca49be4aa7a91181, type: 3}
-    summerSprite: {fileID: -9191997543465879642, guid: 04a334d1c82e44e9ca49be4aa7a91181, type: 3}
-    autumnSprite: {fileID: 240212076235823218, guid: 04a334d1c82e44e9ca49be4aa7a91181, type: 3}
-    winterSprite: {fileID: -7168927915992081159, guid: 04a334d1c82e44e9ca49be4aa7a91181, type: 3}
-  plaidSlot:
-    targetImage: {fileID: 1932442426}
-    springSprite: {fileID: 5480270283359048715, guid: 7d34dab67d89e46e597567669dcdfe2a, type: 3}
-    summerSprite: {fileID: 2158682313163429520, guid: 7d34dab67d89e46e597567669dcdfe2a, type: 3}
-    autumnSprite: {fileID: 4572655805039394211, guid: 7d34dab67d89e46e597567669dcdfe2a, type: 3}
-    winterSprite: {fileID: 8200946646853055197, guid: 7d34dab67d89e46e597567669dcdfe2a, type: 3}
-  plaid2Slot:
-    targetImage: {fileID: 1343799912}
-    springSprite: {fileID: -7900362149642167947, guid: 1a2ea9b3187434ecc9c277540c8f087f, type: 3}
-    summerSprite: {fileID: -3164272741589406060, guid: 1a2ea9b3187434ecc9c277540c8f087f, type: 3}
-    autumnSprite: {fileID: 4578915517242602794, guid: 1a2ea9b3187434ecc9c277540c8f087f, type: 3}
-    winterSprite: {fileID: 4607696264710075291, guid: 1a2ea9b3187434ecc9c277540c8f087f, type: 3}
-  curtainSlot:
-    targetImage: {fileID: 207903615}
-    springSprite: {fileID: -1945920011541812976, guid: 73aedd1133b6144c0a4f6640ffba0670, type: 3}
-    summerSprite: {fileID: -9062350675499592522, guid: 73aedd1133b6144c0a4f6640ffba0670, type: 3}
-    autumnSprite: {fileID: 5985943198395807203, guid: 73aedd1133b6144c0a4f6640ffba0670, type: 3}
-    winterSprite: {fileID: 4511244500115640724, guid: 73aedd1133b6144c0a4f6640ffba0670, type: 3}
-  pillowFloorSlot:
-    targetImage: {fileID: 829521094}
-    springSprite: {fileID: -6821854444429707098, guid: bfdeccfa3877b49d5afacf995c2cfd58, type: 3}
-    summerSprite: {fileID: 2859288064985111034, guid: bfdeccfa3877b49d5afacf995c2cfd58, type: 3}
-    autumnSprite: {fileID: -2478846626757143624, guid: bfdeccfa3877b49d5afacf995c2cfd58, type: 3}
-    winterSprite: {fileID: 6588095140485709570, guid: bfdeccfa3877b49d5afacf995c2cfd58, type: 3}
-  pillowArmchairSlot:
-    targetImage: {fileID: 2063472754}
-    springSprite: {fileID: 8725810190767086685, guid: 2e2379cb2a6b84834892ff79ed34d264, type: 3}
-    summerSprite: {fileID: -8024659846407577507, guid: 2e2379cb2a6b84834892ff79ed34d264, type: 3}
-    autumnSprite: {fileID: 7106094985064351896, guid: 2e2379cb2a6b84834892ff79ed34d264, type: 3}
-    winterSprite: {fileID: -408248124864045789, guid: 2e2379cb2a6b84834892ff79ed34d264, type: 3}
-  overrideSystemSeason: 1
-  debugSeason: 3
 --- !u!114 &887575474
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3822,7 +3778,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 958126420, guid: ec67c17027ed64c5db99f15c3b0bdd59, type: 3}
+  m_Sprite: {fileID: -1644055081, guid: ec67c17027ed64c5db99f15c3b0bdd59, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4012,14 +3968,14 @@ MonoBehaviour:
   landscapeTintOverlay: {fileID: 188787752}
   roomTintOverlay: {fileID: 404752305}
   morningConfig:
-    landscapeColor: {r: 0.9647059, g: 0.78431374, b: 0.5882353, a: 0.36862746}
-    roomColor: {r: 0.9647059, g: 0.8745098, b: 0.7058824, a: 0.07058824}
+    landscapeColor: {r: 1, g: 0.8509804, b: 0.7607843, a: 0.13333334}
+    roomColor: {r: 1, g: 0.9019608, b: 0.8352941, a: 0.16470589}
   dayConfig:
     landscapeColor: {r: 1, g: 1, b: 1, a: 0}
     roomColor: {r: 1, g: 1, b: 1, a: 0}
   eveningConfig:
     landscapeColor: {r: 0.41568628, g: 0.35686275, b: 0.5803922, a: 0.45490196}
-    roomColor: {r: 0.40784314, g: 0.25490198, b: 0.15686275, a: 0.29803923}
+    roomColor: {r: 0.40784314, g: 0.25490198, b: 0.15686275, a: 0.3764706}
   nightConfig:
     landscapeColor: {r: 0.105882354, g: 0.16470589, b: 0.2901961, a: 0.8666667}
     roomColor: {r: 0.07058824, g: 0.101960786, b: 0.1764706, a: 0.7607843}
@@ -4027,7 +3983,7 @@ MonoBehaviour:
   ceilingLampTintReduction: 0.61
   garlandTintReduction: 0.057
   overrideSystemTime: 1
-  debugTimeOfDay: 3
+  debugTimeOfDay: 0
 --- !u!1 &977248619
 GameObject:
   m_ObjectHideFlags: 0
@@ -6443,7 +6399,7 @@ MonoBehaviour:
   hasAnimation: 1
   offSprite: {fileID: 0}
   defaultAnimationState: Candle_Loop
-  secretAnimationState: 
+  secretAnimationState: Candle_Secret
   doubleClickThreshold: 0.3
   startActive: 0
 --- !u!1 &1601911906
@@ -6567,7 +6523,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -447, y: -216}
+  m_AnchoredPosition: {x: -469, y: -208}
   m_SizeDelta: {x: 324, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1717788428

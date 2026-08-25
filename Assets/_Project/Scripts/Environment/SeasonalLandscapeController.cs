@@ -10,44 +10,11 @@ namespace CozyHome.Environment
     [ExecuteAlways]
     public class SeasonalLandscapeController : MonoBehaviour
     {
-        // The UI image that displays the season-specific landscape background.
         [SerializeField] private Image targetImage;
-
-        // Background sprite used when the system date indicates spring.
         [SerializeField] private Sprite springSprite;
-
-        // Background sprite used when the system date indicates summer.
         [SerializeField] private Sprite summerSprite;
-
-        // Background sprite used when the system date indicates autumn.
         [SerializeField] private Sprite autumnSprite;
-
-        // Background sprite used when the system date indicates winter.
         [SerializeField] private Sprite winterSprite;
-
-        [Header("Room Decor Slots")]
-        [SerializeField] private SeasonalSlotData rugSlot;
-        [SerializeField] private SeasonalSlotData vaseSlot;
-        [SerializeField] private SeasonalSlotData plaidSlot;
-
-        // The second plaid slot used for decorative seasonal plaid variants when the scene includes an extra plaid layer.
-        [SerializeField] private SeasonalSlotData plaid2Slot;
-
-        // The seasonal curtain slot used for the room curtain layer.
-        [SerializeField] private SeasonalSlotData curtainSlot;
-
-        // The seasonal floor pillow slot used for a pillow on the floor.
-        [SerializeField] private SeasonalSlotData pillowFloorSlot;
-
-        // The seasonal armchair pillow slot used for a pillow on the armchair.
-        [SerializeField] private SeasonalSlotData pillowArmchairSlot;
-
-        [Header("Debug / Testing")]
-        // Enables the debug override so the designer can preview a season without waiting for the system date.
-        [SerializeField] private bool overrideSystemSeason = false;
-
-        // The season to preview when the override is enabled.
-        [SerializeField] private Season debugSeason;
 
         [System.Serializable]
         public class SeasonalSlotData
@@ -74,31 +41,18 @@ namespace CozyHome.Environment
                     _ => null
                 };
 
-                ApplySprite(targetImage, spriteToApply);
+                if (spriteToApply != null)
+                {
+                    targetImage.gameObject.SetActive(true);
+                    targetImage.sprite = spriteToApply;
+                    return;
+                }
+
+                targetImage.sprite = null;
+                targetImage.gameObject.SetActive(false);
             }
         }
 
-        private static void ApplySprite(Image targetImage, Sprite spriteToApply)
-        {
-            if (targetImage == null)
-            {
-                return;
-            }
-
-            if (spriteToApply != null)
-            {
-                targetImage.gameObject.SetActive(true);
-                targetImage.sprite = spriteToApply;
-                return;
-            }
-
-            targetImage.sprite = null;
-            targetImage.gameObject.SetActive(false);
-        }
-
-        /// <summary>
-        /// Represents the four standard seasonal periods used for the landscape artwork.
-        /// </summary>
         public enum Season
         {
             Spring,
@@ -110,27 +64,15 @@ namespace CozyHome.Environment
         private void Awake()
         {
             CacheTargetImage();
-            Season initialSeason = overrideSystemSeason ? debugSeason : GetCurrentSeason();
-            ApplySeason(initialSeason);
+            ApplySeason(GetCurrentSeason());
         }
 
         private void OnValidate()
         {
             CacheTargetImage();
-
-            // Use the debug season in the editor for instant visual testing when the override is active.
-            if (overrideSystemSeason)
-            {
-                ApplySeason(debugSeason);
-                return;
-            }
-
             ApplySeason(GetCurrentSeason());
         }
 
-        /// <summary>
-        /// Finds the Image component on this GameObject if one has not been assigned in the Inspector.
-        /// </summary>
         private void CacheTargetImage()
         {
             if (targetImage != null)
@@ -139,17 +81,8 @@ namespace CozyHome.Environment
             }
 
             targetImage = GetComponent<Image>();
-
-            if (targetImage == null)
-            {
-                Debug.LogWarning($"{nameof(SeasonalLandscapeController)} requires an Image component on the same GameObject or a reference in the Inspector.", this);
-            }
         }
 
-        /// <summary>
-        /// Returns the season based on the current local system month.
-        /// </summary>
-        /// <returns>The calculated season for the current date.</returns>
         public Season GetCurrentSeason()
         {
             int currentMonth = DateTime.Now.Month;
@@ -172,16 +105,11 @@ namespace CozyHome.Environment
             return Season.Winter;
         }
 
-        /// <summary>
-        /// Applies the sprite associated with the provided season to the target UI image.
-        /// </summary>
-        /// <param name="season">The season whose sprite should be displayed.</param>
         public void ApplySeason(Season season)
         {
             if (targetImage == null)
             {
                 CacheTargetImage();
-
                 if (targetImage == null)
                 {
                     return;
@@ -197,24 +125,10 @@ namespace CozyHome.Environment
                 _ => null
             };
 
-            if (spriteToApply == null)
-            {
-                Debug.LogWarning($"No sprite is assigned for season '{season}' on {nameof(SeasonalLandscapeController)}.", this);
-                return;
-            }
-
-            if (targetImage.sprite != spriteToApply)
+            if (spriteToApply != null)
             {
                 targetImage.sprite = spriteToApply;
             }
-
-            rugSlot?.Apply(season);
-            vaseSlot?.Apply(season);
-            plaidSlot?.Apply(season);
-            plaid2Slot?.Apply(season);
-            curtainSlot?.Apply(season);
-            pillowFloorSlot?.Apply(season);
-            pillowArmchairSlot?.Apply(season);
         }
     }
 }
