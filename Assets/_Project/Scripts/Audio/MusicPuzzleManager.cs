@@ -56,13 +56,13 @@ namespace CozyHome.Audio
             targetList.Remove(slot);
         }
 
-        public void InitializeRound(int interactiveActiveTarget = 3, int staticActiveTarget = 3)
+        public void InitializeRound(int interactiveActiveTarget = 3, int staticActiveTarget = 4)
         {
             foreach (MusicInteractableSlot slot in interactiveSlots)
             {
-                if (slot != null && !slot.IsAlwaysActive)
+                if (slot != null)
                 {
-                    slot.IsActive = false;
+                    slot.IsActive = true;
                 }
             }
 
@@ -74,7 +74,6 @@ namespace CozyHome.Audio
                 }
             }
 
-            ActivateRandomSlots(interactiveSlots, interactiveActiveTarget);
             ActivateRandomSlots(staticSlots, staticActiveTarget);
 
             int activeCount = interactiveSlots.Count(slot => slot != null && slot.IsActive)
@@ -101,6 +100,49 @@ namespace CozyHome.Audio
             }
 
             return propSoundClips[Random.Range(0, propSoundClips.Length)];
+        }
+
+        public bool IsObjectActiveInCurrentRound(Component target)
+        {
+            if (target == null)
+            {
+                return false;
+            }
+
+            if (target.TryGetComponent(out MusicInteractableSlot slot))
+            {
+                return slot.IsActive || slot.IsAlwaysActive || !slot.IsStaticSlot;
+            }
+
+            return false;
+        }
+
+        public bool PlayInteractionSound(Component target)
+        {
+            if (target == null)
+            {
+                return false;
+            }
+
+            if (target.TryGetComponent(out MusicInteractableSlot slot))
+            {
+                return slot.TryPlayAssignedSound();
+            }
+
+            AudioSource audioSource = target.GetComponent<AudioSource>();
+            if (audioSource == null)
+            {
+                return false;
+            }
+
+            if (audioSource.clip == null)
+            {
+                return false;
+            }
+
+            audioSource.Stop();
+            audioSource.Play();
+            return true;
         }
 
         private void ActivateRandomSlots(List<MusicInteractableSlot> slots, int targetCount)

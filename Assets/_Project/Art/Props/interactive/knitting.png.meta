@@ -175,12 +175,12 @@ TextureImporter:
       name: knitting_0
       rect:
         serializedVersion: 2
-        x: 87
-        y: 538
-        width: 178
-        height: 183
+        x: 0
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -197,12 +197,12 @@ TextureImporter:
       name: knitting_1
       rect:
         serializedVersion: 2
-        x: 432
-        y: 542
-        width: 192
-        height: 184
+        x: 352
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -219,12 +219,12 @@ TextureImporter:
       name: knitting_2
       rect:
         serializedVersion: 2
-        x: 743
-        y: 550
-        width: 276
-        height: 143
+        x: 704
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -241,12 +241,12 @@ TextureImporter:
       name: knitting_3
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 567
-        width: 291
-        height: 128
+        x: 1056
+        y: 512
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -263,12 +263,12 @@ TextureImporter:
       name: knitting_4
       rect:
         serializedVersion: 2
-        x: 840
-        y: 514
-        width: 19
-        height: 23
+        x: 0
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -285,12 +285,12 @@ TextureImporter:
       name: knitting_5
       rect:
         serializedVersion: 2
-        x: 36
-        y: 302
-        width: 280
-        height: 130
+        x: 352
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -307,12 +307,12 @@ TextureImporter:
       name: knitting_6
       rect:
         serializedVersion: 2
-        x: 390
-        y: 305
-        width: 277
-        height: 131
+        x: 704
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -329,12 +329,12 @@ TextureImporter:
       name: knitting_7
       rect:
         serializedVersion: 2
-        x: 743
-        y: 294
-        width: 279
-        height: 143
+        x: 1056
+        y: 256
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -351,12 +351,12 @@ TextureImporter:
       name: knitting_8
       rect:
         serializedVersion: 2
-        x: 1086
-        y: 296
-        width: 289
-        height: 126
+        x: 0
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -373,12 +373,12 @@ TextureImporter:
       name: knitting_9
       rect:
         serializedVersion: 2
-        x: 37
-        y: 69
-        width: 279
-        height: 127
+        x: 352
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -395,12 +395,12 @@ TextureImporter:
       name: knitting_10
       rect:
         serializedVersion: 2
-        x: 394
-        y: 62
-        width: 270
-        height: 133
+        x: 704
+        y: 0
+        width: 352
+        height: 256
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -413,33 +413,11 @@ TextureImporter:
       indices: 
       edges: []
       weights: []
-    - serializedVersion: 2
-      name: knitting_11
-      rect:
-        serializedVersion: 2
-        x: 791
-        y: 50
-        width: 180
-        height: 178
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: b5d8b6faee4e07c90800000000000000
-      internalID: -7173982492604789413
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 3828fd374ee984046a0aca40cd332dea
     internalID: 0
     vertices: []
     indices: 
@@ -447,12 +425,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":4.0,"y":3.0},"gridSpriteSize":{"x":352.0,"y":256.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
       knitting_0: 567029976559542584
       knitting_1: 5392106495456864282
       knitting_10: -4307643957328526889
-      knitting_11: -7173982492604789413
       knitting_2: -2825308578393588376
       knitting_3: 4561603634323202859
       knitting_4: -2120191670288004961

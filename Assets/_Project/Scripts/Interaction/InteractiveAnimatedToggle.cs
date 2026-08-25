@@ -4,6 +4,7 @@ using UnityEngine.Events;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using UnityEngine.InputSystem;
+using CozyHome.Audio;
 using CozyHome.UI;
 
 namespace CozyHome.Interaction
@@ -104,7 +105,13 @@ namespace CozyHome.Interaction
                 }
             }
 
+            if (MusicPuzzleManager.Instance == null || !MusicPuzzleManager.Instance.IsObjectActiveInCurrentRound(this))
+            {
+                return;
+            }
+
             EffectManager.Instance?.SpawnNoteAt(notePosition);
+            MusicPuzzleManager.Instance.PlayInteractionSound(this);
 
             if (singleTapCoroutine != null)
             {

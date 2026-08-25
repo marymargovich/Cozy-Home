@@ -14,6 +14,7 @@ namespace CozyHome.Audio
         public bool IsActive { get; set; } = false;
         public bool IsPlaying { get; private set; } = false;
         public bool IsAlwaysActive => isAlwaysActive;
+        public bool IsStaticSlot => isStaticSlot;
 
         private AudioSource audioSource;
         private bool isRegistered = false;
@@ -72,6 +73,34 @@ namespace CozyHome.Audio
             isRegistered = true;
         }
 
+        public bool TryPlayAssignedSound()
+        {
+            if (audioSource == null)
+            {
+                return false;
+            }
+
+            AudioClip clipToPlay = null;
+            if (soundVariations != null && soundVariations.Length > 0)
+            {
+                clipToPlay = soundVariations[Random.Range(0, soundVariations.Length)];
+                audioSource.clip = clipToPlay;
+            }
+            else if (audioSource.clip != null)
+            {
+                clipToPlay = audioSource.clip;
+            }
+
+            if (clipToPlay == null)
+            {
+                return false;
+            }
+
+            audioSource.Stop();
+            audioSource.Play();
+            return true;
+        }
+
         public void HandleToggleState(bool turnedOn)
         {
             if (!IsActive)
@@ -82,21 +111,13 @@ namespace CozyHome.Audio
             if (turnedOn)
             {
                 IsPlaying = true;
-                EffectManager.Instance?.SpawnNoteAt(transform.position);
 
-                if (audioSource != null)
+                if (EffectManager.Instance != null && IsActive)
                 {
-                    if (soundVariations != null && soundVariations.Length > 0)
-                    {
-                        AudioClip clipToPlay = soundVariations[Random.Range(0, soundVariations.Length)];
-                        audioSource.clip = clipToPlay;
-                        audioSource.Play();
-                    }
-                    else if (audioSource.clip != null)
-                    {
-                        audioSource.Play();
-                    }
+                    EffectManager.Instance.SpawnNoteAt(transform.position);
                 }
+
+                TryPlayAssignedSound();
             }
             else
             {
