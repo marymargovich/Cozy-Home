@@ -205,9 +205,11 @@ GameObject:
   - component: {fileID: 70419594}
   - component: {fileID: 70419596}
   - component: {fileID: 70419595}
+  - component: {fileID: 70419597}
+  - component: {fileID: 70419601}
+  - component: {fileID: 70419600}
   - component: {fileID: 70419599}
   - component: {fileID: 70419598}
-  - component: {fileID: 70419597}
   m_Layer: 5
   m_Name: Slot_Static_Garland
   m_TagString: Untagged
@@ -284,27 +286,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
+--- !u!114 &70419598
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70419593}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 3
+  timeOfDayController: {fileID: 957120920}
+  canPlaySound: 0
+  isGuaranteedSound: 0
+  soundVariations: []
+  audioSource: {fileID: 0}
+  loopSound: 0
+  hasAnimation: 1
   offSprite: {fileID: -8738174992892183196, guid: bcd6c59935cea4bb8b2ed6571622f04f, type: 3}
   defaultAnimationState: Garland_On
   secretAnimationState: 
   doubleClickThreshold: 0.3
   startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 957120920}
-        m_TargetAssemblyTypeName: CozyHome.Environment.TimeOfDayController, Assembly-CSharp
-        m_MethodName: SetGarland1State
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!95 &70419598
+--- !u!95 &70419599
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -326,7 +333,104 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &70419599
+--- !u!82 &70419600
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70419593}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &70419601
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -369,19 +473,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 70419595}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 957120920}
-        m_TargetAssemblyTypeName: CozyHome.Environment.TimeOfDayController, Assembly-CSharp
-        m_MethodName: SetGarlandState
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &90723932
 GameObject:
   m_ObjectHideFlags: 0
@@ -436,26 +528,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 3843231544584785974, guid: 80d0c5b3929e8436d86f5754f15c8e33, type: 3}
-  defaultAnimationState: Book_Loop
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 90723939}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &90723935
 Animator:
   serializedVersion: 7
@@ -572,13 +644,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: ac6a748a1f6104f0e82d64960ecaf229, type: 3}
-  - {fileID: 8300000, guid: e2de4d73672fd42c89e963a98d3231ac, type: 3}
-  - {fileID: 8300000, guid: c338423f13f6045468766665a82daa61, type: 3}
-  loopSound: 0
 --- !u!82 &90723940
 AudioSource:
   m_ObjectHideFlags: 0
@@ -844,7 +909,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.105882354, g: 0.16470589, b: 0.2901961, a: 0.8666667}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -942,26 +1007,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 4469230173143076309, guid: e433e12bf7f454805a533a22fc009c8d, type: 3}
-  defaultAnimationState: TeaCup_Loop
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 199019045}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &199019041
 Animator:
   serializedVersion: 7
@@ -1078,13 +1123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: e0ddc5b302c94424fbacceffda583ccf, type: 3}
-  - {fileID: 8300000, guid: a2411aeed848a479e9cb0e0c8d3cd73b, type: 3}
-  - {fileID: 8300000, guid: f2a514e41f3954b0d9c690c92be082e3, type: 3}
-  loopSound: 1
 --- !u!82 &199019046
 AudioSource:
   m_ObjectHideFlags: 0
@@ -1345,7 +1383,9 @@ GameObject:
   - component: {fileID: 383429241}
   - component: {fileID: 383429240}
   - component: {fileID: 383429239}
-  - component: {fileID: 383429238}
+  - component: {fileID: 383429243}
+  - component: {fileID: 383429245}
+  - component: {fileID: 383429244}
   m_Layer: 5
   m_Name: Slot_Basket
   m_TagString: Untagged
@@ -1372,26 +1412,6 @@ RectTransform:
   m_AnchoredPosition: {x: -154, y: -372}
   m_SizeDelta: {x: 411, y: 247}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &383429238
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 383429236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 8643604809756096428, guid: 8de46c2ca42d44636b5592c30005124d, type: 3}
-  defaultAnimationState: Backet_Loop
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!95 &383429239
 Animator:
   serializedVersion: 7
@@ -1496,6 +1516,127 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383429236}
   m_CullTransparentMesh: 1
+--- !u!114 &383429243
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383429236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
+--- !u!114 &383429244
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383429236}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
+--- !u!82 &383429245
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 383429236}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &404752304
 GameObject:
   m_ObjectHideFlags: 0
@@ -1530,7 +1671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.07058824, g: 0.101960786, b: 0.1764706, a: 0.7607843}
   m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1586,14 +1727,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 0}
-  defaultAnimationState: Fireplace_Burn
-  secretAnimationState: Secret
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
 --- !u!95 &404752309
 Animator:
   serializedVersion: 7
@@ -1784,9 +1917,11 @@ GameObject:
   - component: {fileID: 473641734}
   - component: {fileID: 473641739}
   - component: {fileID: 473641738}
-  - component: {fileID: 473641737}
-  - component: {fileID: 473641736}
   - component: {fileID: 473641735}
+  - component: {fileID: 473641743}
+  - component: {fileID: 473641742}
+  - component: {fileID: 473641741}
+  - component: {fileID: 473641740}
   m_Layer: 5
   m_Name: Slot_Static_Garland (2)
   m_TagString: Untagged
@@ -1825,27 +1960,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
+--- !u!114 &473641738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473641733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: -8738174992892183196, guid: bcd6c59935cea4bb8b2ed6571622f04f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 1
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &473641739
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473641733}
+  m_CullTransparentMesh: 1
+--- !u!114 &473641740
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473641733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 4
+  timeOfDayController: {fileID: 957120920}
+  canPlaySound: 0
+  isGuaranteedSound: 0
+  soundVariations: []
+  audioSource: {fileID: 0}
+  loopSound: 0
+  hasAnimation: 1
   offSprite: {fileID: -8738174992892183196, guid: bcd6c59935cea4bb8b2ed6571622f04f, type: 3}
   defaultAnimationState: Garland_On
   secretAnimationState: 
   doubleClickThreshold: 0.3
   startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 957120920}
-        m_TargetAssemblyTypeName: CozyHome.Environment.TimeOfDayController, Assembly-CSharp
-        m_MethodName: SetGarland2State
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!95 &473641736
+--- !u!95 &473641741
 Animator:
   serializedVersion: 7
   m_ObjectHideFlags: 0
@@ -1867,7 +2045,104 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &473641737
+--- !u!82 &473641742
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 473641733}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &473641743
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1910,57 +2185,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 473641738}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 957120920}
-        m_TargetAssemblyTypeName: CozyHome.Environment.TimeOfDayController, Assembly-CSharp
-        m_MethodName: SetGarlandState
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &473641738
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473641733}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8738174992892183196, guid: bcd6c59935cea4bb8b2ed6571622f04f, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 1
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &473641739
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 473641733}
-  m_CullTransparentMesh: 1
 --- !u!1 &488877941
 GameObject:
   m_ObjectHideFlags: 0
@@ -2302,6 +2527,8 @@ GameObject:
   - component: {fileID: 654366022}
   - component: {fileID: 654366021}
   - component: {fileID: 654366020}
+  - component: {fileID: 654366025}
+  - component: {fileID: 654366024}
   m_Layer: 5
   m_Name: Slot_Static_CeilingLamp
   m_TagString: Untagged
@@ -2318,15 +2545,15 @@ RectTransform:
   m_GameObject: {fileID: 654366017}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.2539563, y: 1.2539563, z: 1.2539563}
+  m_LocalScale: {x: 0.7662676, y: 0.7662676, z: 0.7662676}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 870250646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1, y: 393}
-  m_SizeDelta: {x: 162.376, y: 100}
+  m_AnchoredPosition: {x: -1, y: 395}
+  m_SizeDelta: {x: 214, y: 181}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &654366019
 Animator:
@@ -2362,26 +2589,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: -3209833726738011397, guid: 37ee9148ec2b6487b849d1b427389f17, type: 3}
-  defaultAnimationState: CeilingLamp_On
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 957120920}
-        m_TargetAssemblyTypeName: CozyHome.Environment.TimeOfDayController, Assembly-CSharp
-        m_MethodName: SetCeilingLampState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &654366021
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2464,6 +2671,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 654366017}
   m_CullTransparentMesh: 1
+--- !u!114 &654366024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654366017}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 2
+  timeOfDayController: {fileID: 957120920}
+  canPlaySound: 0
+  isGuaranteedSound: 0
+  soundVariations: []
+  audioSource: {fileID: 0}
+  loopSound: 0
+  hasAnimation: 1
+  offSprite: {fileID: -3209833726738011397, guid: 37ee9148ec2b6487b849d1b427389f17, type: 3}
+  defaultAnimationState: CeilingLamp_On
+  secretAnimationState: 
+  doubleClickThreshold: 0.3
+  startActive: 0
+--- !u!82 &654366025
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654366017}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &660320647
 GameObject:
   m_ObjectHideFlags: 0
@@ -2518,26 +2847,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 0}
-  defaultAnimationState: Clock_Loop
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 660320654}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &660320650
 Animator:
   serializedVersion: 7
@@ -2654,13 +2963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: 1c08be315e2ab4ddeab4e5674573903d, type: 3}
-  - {fileID: 8300000, guid: a5ba8b2a713eb4ae4840cc6df714e9d4, type: 3}
-  - {fileID: 8300000, guid: 5e9f1da5136ab44ee9bf4e2ac6e0bb64, type: 3}
-  loopSound: 1
 --- !u!82 &660320655
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3046,12 +3348,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 1
-  isAlwaysActive: 0
-  soundVariations:
-  - {fileID: 8300000, guid: 30911889139154da99cdde38158e04f9, type: 3}
-  - {fileID: 8300000, guid: 3d437879ee9514452a7e3d2c277b97f9, type: 3}
-  loopSound: 0
 --- !u!82 &813958076
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3309,7 +3605,7 @@ GameObject:
   m_Component:
   - component: {fileID: 870250646}
   m_Layer: 5
-  m_Name: STATE SLOTS
+  m_Name: SLOTS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3744,11 +4040,11 @@ MonoBehaviour:
   nightConfig:
     landscapeColor: {r: 0.105882354, g: 0.16470589, b: 0.2901961, a: 0.8666667}
     roomColor: {r: 0.07058824, g: 0.101960786, b: 0.1764706, a: 0.7607843}
-  floorLampTintReduction: 0.23
-  ceilingLampTintReduction: 0.49
+  floorLampTintReduction: 0.309
+  ceilingLampTintReduction: 0.61
   garlandTintReduction: 0.057
   overrideSystemTime: 1
-  debugTimeOfDay: 1
+  debugTimeOfDay: 3
 --- !u!1 &977248619
 GameObject:
   m_ObjectHideFlags: 0
@@ -3895,26 +4191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 1424811450211751209, guid: 10c7f413c0d524418810eec0f576edc5, type: 3}
-  defaultAnimationState: Recorder_Loop
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1074735965}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &1074735961
 Animator:
   serializedVersion: 7
@@ -4031,22 +4307,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: de83cbd8f31394ec088adda6b66ef945, type: 3}
-  - {fileID: 8300000, guid: 2e4d48f115c55484ca9bb8004da7098e, type: 3}
-  - {fileID: 8300000, guid: 854b03bc4f1b547abac2653a279efa6e, type: 3}
-  - {fileID: 8300000, guid: dc546fd89375349baafd0f5113008aee, type: 3}
-  - {fileID: 8300000, guid: 18ca1b6e37ea54dd99f42f7e21a4a018, type: 3}
-  - {fileID: 8300000, guid: dcdd344387f5f4478984da473e57da72, type: 3}
-  - {fileID: 8300000, guid: fbae58d7cdddb4ed78c86572d7bf60e1, type: 3}
-  - {fileID: 8300000, guid: 928c44a4e0aef4332bc6323c1e55981f, type: 3}
-  - {fileID: 8300000, guid: 27dc0ba261c834d6aa589dffe0189c11, type: 3}
-  - {fileID: 8300000, guid: 284b7c3df66cc4533b911c428fc7646c, type: 3}
-  - {fileID: 8300000, guid: 4691d0a652d8b41f5b453a383ccfbd67, type: 3}
-  - {fileID: 8300000, guid: 894161a1136304f0da583362dcec75fb, type: 3}
-  loopSound: 1
 --- !u!82 &1074735966
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4234,11 +4494,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 1
-  isAlwaysActive: 0
-  soundVariations:
-  - {fileID: 8300000, guid: 15ae740dc8d0941238dfb449e9a73fe7, type: 3}
-  loopSound: 0
 --- !u!82 &1116656651
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4478,9 +4733,11 @@ GameObject:
   - component: {fileID: 1343799911}
   - component: {fileID: 1343799913}
   - component: {fileID: 1343799912}
+  - component: {fileID: 1343799914}
+  - component: {fileID: 1343799918}
+  - component: {fileID: 1343799917}
   - component: {fileID: 1343799916}
   - component: {fileID: 1343799915}
-  - component: {fileID: 1343799914}
   m_Layer: 5
   m_Name: Slot_Seasonal_Plaid2
   m_TagString: Untagged
@@ -4557,12 +4814,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 1
-  isAlwaysActive: 0
+--- !u!114 &1343799915
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343799910}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 0
+  timeOfDayController: {fileID: 0}
+  canPlaySound: 1
+  isGuaranteedSound: 0
   soundVariations:
-  - {fileID: 8300000, guid: 5dd93bf58f1cd437d9b36d7332f6fec4, type: 3}
+  - {fileID: 8300000, guid: f39dc0d5b4144415b93921de665083de, type: 3}
+  audioSource: {fileID: 0}
   loopSound: 0
---- !u!82 &1343799915
+  hasAnimation: 0
+  offSprite: {fileID: 0}
+  defaultAnimationState: 
+  secretAnimationState: 
+  doubleClickThreshold: 0.3
+  startActive: 0
+--- !u!95 &1343799916
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1343799910}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &1343799917
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4574,14 +4874,14 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 0.52
+  m_PlayOnAwake: 1
+  m_Volume: 0.342
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 125
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -4659,7 +4959,7 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1343799916
+--- !u!114 &1343799918
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4702,19 +5002,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1343799912}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1343799914}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
+      m_Calls: []
 --- !u!1 &1409388098
 GameObject:
   m_ObjectHideFlags: 0
@@ -4729,6 +5017,8 @@ GameObject:
   - component: {fileID: 1409388102}
   - component: {fileID: 1409388101}
   - component: {fileID: 1409388100}
+  - component: {fileID: 1409388106}
+  - component: {fileID: 1409388105}
   m_Layer: 5
   m_Name: Slot_Static_FloorLamp
   m_TagString: Untagged
@@ -4767,26 +5057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: -3209833726738011397, guid: 37ee9148ec2b6487b849d1b427389f17, type: 3}
-  defaultAnimationState: FloorLamp_On
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 957120920}
-        m_TargetAssemblyTypeName: CozyHome.Environment.TimeOfDayController, Assembly-CSharp
-        m_MethodName: SetFloorLampState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &1409388101
 Animator:
   serializedVersion: 7
@@ -4891,6 +5161,128 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1409388098}
   m_CullTransparentMesh: 1
+--- !u!114 &1409388105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409388098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 1
+  timeOfDayController: {fileID: 957120920}
+  canPlaySound: 0
+  isGuaranteedSound: 0
+  soundVariations: []
+  audioSource: {fileID: 0}
+  loopSound: 0
+  hasAnimation: 1
+  offSprite: {fileID: -3209833726738011397, guid: 37ee9148ec2b6487b849d1b427389f17, type: 3}
+  defaultAnimationState: FloorLamp_On
+  secretAnimationState: 
+  doubleClickThreshold: 0.3
+  startActive: 0
+--- !u!82 &1409388106
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1409388098}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1444499119
 GameObject:
   m_ObjectHideFlags: 0
@@ -5056,12 +5448,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 1
-  isAlwaysActive: 0
-  soundVariations:
-  - {fileID: 8300000, guid: 76d874bd71b094098b4f3f8d34973554, type: 3}
-  - {fileID: 8300000, guid: 53bc695e2f7d74e13a91877acdec2f2f, type: 3}
-  loopSound: 0
 --- !u!82 &1450343347
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5269,26 +5655,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 0}
-  defaultAnimationState: Suncatcher_Loop
-  secretAnimationState: 
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1470331008}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &1470331004
 Animator:
   serializedVersion: 7
@@ -5405,14 +5771,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: 64e1815fe6ddf4902958900b274c8175, type: 3}
-  - {fileID: 8300000, guid: 3b43bacfe7b0543d6974f15d32e6ad6a, type: 3}
-  - {fileID: 8300000, guid: c2b5eef9ae2b64a73ad202eb1922c894, type: 3}
-  - {fileID: 8300000, guid: 4088036d1bb7f470f9a8bc58cce2b040, type: 3}
-  loopSound: 0
 --- !u!82 &1470331009
 AudioSource:
   m_ObjectHideFlags: 0
@@ -5520,7 +5878,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1496399561}
   m_Layer: 5
-  m_Name: FIXED PROPS
+  m_Name: PROPS
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5850,26 +6208,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 1365539031471768751, guid: 50727e51b592545e5b892e38623a4afe, type: 3}
-  defaultAnimationState: Candle_Loop
-  secretAnimationState: Candle_Secret
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1566899048}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &1566899044
 Animator:
   serializedVersion: 7
@@ -5986,13 +6324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: b5f57b9ac674e4e4c9ba82d6a8e15120, type: 3}
-  - {fileID: 8300000, guid: 18f2bc6eb1acc4a0b87ea7df954d1cfd, type: 3}
-  - {fileID: 0}
-  loopSound: 0
 --- !u!82 &1566899049
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6006,13 +6337,13 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.349
+  m_Volume: 0.236
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 122
+  Priority: 163
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -6135,7 +6466,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1678171362}
   m_Layer: 5
-  m_Name: SmallSlots
+  m_Name: FIXEDlSlots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6287,26 +6618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 5146498710602774206, guid: 3deb49a58f8d24214b0c9c8d7fdbbb60, type: 3}
-  defaultAnimationState: Cat_Loop
-  secretAnimationState: Cat_Secret
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1717788433}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1717788432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6363,13 +6674,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: 9224a57577cc4497f9cc28d2f4daf5b5, type: 3}
-  - {fileID: 8300000, guid: 2ea05a0e9c9104ee6b74778762d36c04, type: 3}
-  - {fileID: 8300000, guid: 042a1af83344d4eeaa8c00aa088faa3a, type: 3}
-  loopSound: 1
 --- !u!82 &1717788434
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6596,26 +6900,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: -5532452742030622350, guid: 5cd784457a9424705b5a1d209402a45b, type: 3}
-  defaultAnimationState: Dreamcatcher_Loop
-  secretAnimationState: Dreamcatcher_Secret
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1778119173}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!95 &1778119169
 Animator:
   serializedVersion: 7
@@ -6732,12 +7016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: eb38db78372794cf8b2837e08344ccae, type: 3}
-  - {fileID: 8300000, guid: 9b75d11d4c44b4005a51c77e22f4d7ac, type: 3}
-  loopSound: 0
 --- !u!82 &1778119174
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6851,6 +7129,7 @@ GameObject:
   - component: {fileID: 1877816281}
   - component: {fileID: 1877816282}
   - component: {fileID: 1877816283}
+  - component: {fileID: 1877816284}
   m_Layer: 5
   m_Name: Slot_Static_Fireplace
   m_TagString: Untagged
@@ -7005,26 +7284,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40ad336f103984406b7797e6dbad2602, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.InteractiveAnimatedToggle
-  offSprite: {fileID: 5698017828174702254, guid: a169244d459db4b128fb969137c8a5ec, type: 3}
-  defaultAnimationState: Fireplace_Burn
-  secretAnimationState: Fireplace_Secret
-  doubleClickThreshold: 0.3
-  startActive: 0
-  onStateChanged:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1877816282}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1877816282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7037,13 +7296,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 0
-  isAlwaysActive: 1
-  soundVariations:
-  - {fileID: 8300000, guid: 80a6fbf3783784b8bbc1ec7d86bbb8e5, type: 3}
-  - {fileID: 8300000, guid: 08724ef8862824aa6a6362d23ec09d62, type: 3}
-  - {fileID: 8300000, guid: 8663e452d48f241eab30530488424990, type: 3}
-  loopSound: 1
 --- !u!82 &1877816283
 AudioSource:
   m_ObjectHideFlags: 0
@@ -7057,9 +7309,9 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
-  m_Volume: 0.934
+  m_Volume: 0.61
   m_Pitch: 1
-  Loop: 1
+  Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
@@ -7141,6 +7393,34 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1877816284
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1877816275}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 0
+  timeOfDayController: {fileID: 0}
+  canPlaySound: 1
+  isGuaranteedSound: 1
+  soundVariations:
+  - {fileID: 8300000, guid: 80a6fbf3783784b8bbc1ec7d86bbb8e5, type: 3}
+  - {fileID: 8300000, guid: 08724ef8862824aa6a6362d23ec09d62, type: 3}
+  - {fileID: 8300000, guid: 8663e452d48f241eab30530488424990, type: 3}
+  audioSource: {fileID: 0}
+  loopSound: 1
+  hasAnimation: 1
+  offSprite: {fileID: 5698017828174702254, guid: a169244d459db4b128fb969137c8a5ec, type: 3}
+  defaultAnimationState: Fireplace_Burn
+  secretAnimationState: Fireplace_Secret
+  doubleClickThreshold: 0.3
+  startActive: 0
 --- !u!1 &1932442424
 GameObject:
   m_ObjectHideFlags: 0
@@ -7152,9 +7432,11 @@ GameObject:
   - component: {fileID: 1932442425}
   - component: {fileID: 1932442427}
   - component: {fileID: 1932442426}
-  - component: {fileID: 1932442430}
   - component: {fileID: 1932442429}
-  - component: {fileID: 1932442428}
+  - component: {fileID: 1932442433}
+  - component: {fileID: 1932442432}
+  - component: {fileID: 1932442431}
+  - component: {fileID: 1932442430}
   m_Layer: 5
   m_Name: Slot_Seasonal_Plaid
   m_TagString: Untagged
@@ -7219,62 +7501,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1932442424}
   m_CullTransparentMesh: 1
---- !u!114 &1932442428
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1932442424}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 0
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 1932442426}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1932442429}
-        m_TargetAssemblyTypeName: CozyHome.Audio.MusicInteractableSlot, Assembly-CSharp
-        m_MethodName: HandleToggleState
-        m_Mode: 6
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 1
-        m_CallState: 2
 --- !u!114 &1932442429
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7287,12 +7513,55 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 1
-  isAlwaysActive: 0
+--- !u!114 &1932442430
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932442424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 512e73b6f1db6447c9e515c6092c7c0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Interaction.RoomItem
+  lampType: 0
+  timeOfDayController: {fileID: 0}
+  canPlaySound: 1
+  isGuaranteedSound: 0
   soundVariations:
   - {fileID: 8300000, guid: 5dd93bf58f1cd437d9b36d7332f6fec4, type: 3}
+  audioSource: {fileID: 0}
   loopSound: 0
---- !u!82 &1932442430
+  hasAnimation: 0
+  offSprite: {fileID: 0}
+  defaultAnimationState: 
+  secretAnimationState: 
+  doubleClickThreshold: 0.3
+  startActive: 0
+--- !u!95 &1932442431
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932442424}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &1932442432
 AudioSource:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -7304,14 +7573,14 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 0}
-  m_PlayOnAwake: 0
-  m_Volume: 0.5
+  m_PlayOnAwake: 1
+  m_Volume: 0.327
   m_Pitch: 1
   Loop: 0
   Mute: 0
   Spatialize: 0
   SpatializePostEffects: 0
-  Priority: 113
+  Priority: 128
   DopplerLevel: 1
   MinDistance: 1
   MaxDistance: 500
@@ -7389,6 +7658,50 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1932442433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932442424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
+  m_Navigation:
+    m_Mode: 3
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 1
+  m_TargetGraphic: {fileID: 1932442426}
+  m_OnClick:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1 &1947158663
 GameObject:
   m_ObjectHideFlags: 0
@@ -7680,13 +7993,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4003e3c3b2bb4b10af30dcfe47b503c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Audio.MusicInteractableSlot
-  isStaticSlot: 1
-  isAlwaysActive: 0
-  soundVariations:
-  - {fileID: 8300000, guid: ce8df0199667746a6bb2f5ae7b4e9d12, type: 3}
-  - {fileID: 8300000, guid: be441599750de4d8eb2afedcdca2d68a, type: 3}
-  - {fileID: 8300000, guid: 8037744a313b542888ff5f3734a1b5ec, type: 3}
-  loopSound: 0
 --- !u!82 &2095275627
 AudioSource:
   m_ObjectHideFlags: 0

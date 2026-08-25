@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
+using CozyHome.Interaction;
 
 namespace CozyHome.Audio
 {
@@ -11,8 +12,7 @@ namespace CozyHome.Audio
         [SerializeField] private AudioClip[] recordPlayerTracks;
         [SerializeField] private AudioClip[] propSoundClips;
 
-        private readonly List<MusicInteractableSlot> interactiveSlots = new();
-        private readonly List<MusicInteractableSlot> staticSlots = new();
+        private readonly List<RoomItem> roomItems = new();
 
         private void Awake()
         {
@@ -23,63 +23,90 @@ namespace CozyHome.Audio
             }
 
             Instance = this;
+            DiscoverRoomItems();
         }
 
         private void Start()
         {
+            DiscoverRoomItems();
             InitializeRound();
         }
 
-        public void RegisterSlot(MusicInteractableSlot slot, bool isStatic)
+        public void RegisterRoomItem(RoomItem item)
         {
-            if (slot == null)
+            if (item == null || roomItems.Contains(item))
             {
                 return;
             }
 
-            List<MusicInteractableSlot> targetList = isStatic ? staticSlots : interactiveSlots;
-
-            if (!targetList.Contains(slot))
-            {
-                targetList.Add(slot);
-            }
+            roomItems.Add(item);
         }
 
-        public void UnregisterSlot(MusicInteractableSlot slot, bool isStatic)
+        private void DiscoverRoomItems()
         {
-            if (slot == null)
+            RoomItem[] discoveredItems = FindObjectsByType<RoomItem>(FindObjectsSortMode.None);
+            if (discoveredItems == null || discoveredItems.Length == 0)
             {
                 return;
             }
 
-            List<MusicInteractableSlot> targetList = isStatic ? staticSlots : interactiveSlots;
-            targetList.Remove(slot);
+            foreach (RoomItem item in discoveredItems)
+            {
+                RegisterRoomItem(item);
+            }
         }
 
-        public void InitializeRound(int interactiveActiveTarget = 3, int staticActiveTarget = 4)
+        public void UnregisterRoomItem(RoomItem item)
         {
-            foreach (MusicInteractableSlot slot in interactiveSlots)
+            if (item == null)
             {
-                if (slot != null)
+                return;
+            }
+
+            roomItems.Remove(item);
+        }
+
+        public void InitializeRound(int staticActiveTarget = 4)
+        {
+            if (roomItems.Count == 0)
+            {
+                return;
+            }
+
+            List<RoomItem> candidatesForRound = roomItems
+                .Where(item => item != null && item.CanPlaySound && !item.IsGuaranteedSound)
+                .ToList();
+
+            foreach (RoomItem item in roomItems)
+            {
+                if (item == null)
                 {
-                    slot.IsActive = true;
+                    continue;
+                }
+
+                if (item.IsGuaranteedSound)
+                {
+                    item.SetActiveForAudio(true);
+                }
+                else
+                {
+                    item.SetActiveForAudio(false);
                 }
             }
 
-            foreach (MusicInteractableSlot slot in staticSlots)
+            int validTarget = Mathf.Clamp(staticActiveTarget, 0, candidatesForRound.Count);
+            var shuffledItems = candidatesForRound.OrderBy(_ => Random.value).ToList();
+
+            for (int i = 0; i < validTarget; i++)
             {
-                if (slot != null && !slot.IsAlwaysActive)
+                if (i < shuffledItems.Count)
                 {
-                    slot.IsActive = false;
+                    shuffledItems[i].SetActiveForAudio(true);
                 }
             }
 
-            ActivateRandomSlots(staticSlots, staticActiveTarget);
-
-            int activeCount = interactiveSlots.Count(slot => slot != null && slot.IsActive)
-                + staticSlots.Count(slot => slot != null && slot.IsActive);
-
-            Debug.Log($"MusicPuzzleManager: Active slots in this round: {activeCount}");
+            int activeCount = roomItems.Count(item => item != null && item.CanPlaySound && item.IsActiveForAudio);
+            Debug.Log($"MusicPuzzleManager: Active sound items in this round: {activeCount}");
         }
 
         public AudioClip GetRandomRecordPlayerTrack()
@@ -102,75 +129,24 @@ namespace CozyHome.Audio
             return propSoundClips[Random.Range(0, propSoundClips.Length)];
         }
 
-        public bool IsObjectActiveInCurrentRound(Component target)
+        public bool IsItemActive(RoomItem item)
         {
-            if (target == null)
+            if (item == null)
             {
                 return false;
             }
 
-            if (target.TryGetComponent(out MusicInteractableSlot slot))
-            {
-                return slot.IsActive || slot.IsAlwaysActive || !slot.IsStaticSlot;
-            }
-
-            return false;
+            return item.CanPlaySound && item.IsActiveForAudio;
         }
 
-        public bool PlayInteractionSound(Component target)
+        public bool PlayInteractionSound(RoomItem item)
         {
-            if (target == null)
+            if (item == null)
             {
                 return false;
             }
 
-            if (target.TryGetComponent(out MusicInteractableSlot slot))
-            {
-                return slot.TryPlayAssignedSound();
-            }
-
-            AudioSource audioSource = target.GetComponent<AudioSource>();
-            if (audioSource == null)
-            {
-                return false;
-            }
-
-            if (audioSource.clip == null)
-            {
-                return false;
-            }
-
-            audioSource.Stop();
-            audioSource.Play();
-            return true;
-        }
-
-        private void ActivateRandomSlots(List<MusicInteractableSlot> slots, int targetCount)
-        {
-            if (slots == null || slots.Count == 0)
-            {
-                return;
-            }
-
-            List<MusicInteractableSlot> availableSlots = slots
-                .Where(slot => slot != null && !slot.IsAlwaysActive)
-                .ToList();
-
-            if (availableSlots.Count == 0)
-            {
-                return;
-            }
-
-            int validTarget = Mathf.Clamp(targetCount, 0, availableSlots.Count);
-            var shuffledSlots = availableSlots.OrderBy(_ => Random.value).ToList();
-
-            for (int i = 0; i < validTarget; i++)
-            {
-                if (i < shuffledSlots.Count)
-                {
-                    shuffledSlots[i].IsActive = true;
-                }
-            }
+            return item.TryPlayAssignedSound();
         }
     }
 }
