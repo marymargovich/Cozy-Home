@@ -1,0 +1,560 @@
+fileFormatVersion: 2
+guid: 183b3d65421d843d1b452841a990661f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8304245233570557715
+    second: weather3 (1)_0
+  - first:
+      213: -345486250592894587
+    second: weather3 (1)_1
+  - first:
+      213: 2228355592419652263
+    second: weather3 (1)_2
+  - first:
+      213: -436979794725176981
+    second: weather3 (1)_3
+  - first:
+      213: 4981932990698440635
+    second: weather3 (1)_4
+  - first:
+      213: 113564278335001611
+    second: weather3 (1)_5
+  - first:
+      213: -6914052474657122252
+    second: weather3 (1)_6
+  - first:
+      213: -5610466669748010939
+    second: weather3 (1)_7
+  - first:
+      213: -8655628784269711096
+    second: weather3 (1)_8
+  - first:
+      213: -6679882345261436889
+    second: weather3 (1)_9
+  - first:
+      213: -6753103358236430228
+    second: weather3 (1)_10
+  - first:
+      213: 398799438743983406
+    second: weather3 (1)_11
+  - first:
+      213: 5304552186533765892
+    second: weather3 (1)_12
+  - first:
+      213: -3256162047837728494
+    second: weather3 (1)_13
+  - first:
+      213: 4372908495594275670
+    second: weather3 (1)_14
+  - first:
+      213: 1303020279652376797
+    second: weather3 (1)_15
+  - first:
+      213: -7366269063509037447
+    second: weather3 (1)_16
+  - first:
+      213: -8211814932557767691
+    second: weather3 (1)_17
+  - first:
+      213: 131885969822036662
+    second: weather3 (1)_18
+  - first:
+      213: -8292056575683860901
+    second: weather3 (1)_19
+  - first:
+      213: -5123018316522424167
+    second: weather3 (1)_20
+  - first:
+      213: -4326095811949827769
+    second: weather3 (1)_21
+  - first:
+      213: 3920692532266394674
+    second: weather3 (1)_22
+  - first:
+      213: -3792928703129099601
+    second: weather3 (1)_23
+  - first:
+      213: 1825619159378463480
+    second: weather3 (1)_24
+  - first:
+      213: 1179798660900499375
+    second: weather3 (1)_25
+  - first:
+      213: 1162773765335571073
+    second: weather3 (1)_26
+  - first:
+      213: 7247356499555190207
+    second: weather3 (1)_27
+  - first:
+      213: -6677346335461949381
+    second: weather3 (1)_28
+  - first:
+      213: 2994503500704899870
+    second: weather3 (1)_29
+  - first:
+      213: -854197636764517286
+    second: weather3 (1)_30
+  - first:
+      213: 7231673543150207112
+    second: weather3 (1)_31
+  - first:
+      213: 4375412839965709635
+    second: weather3 (1)_32
+  - first:
+      213: 7354544598332611464
+    second: weather3 (1)_33
+  - first:
+      213: 8954401646183131473
+    second: weather3 (1)_34
+  - first:
+      213: 2484887889915372376
+    second: weather3 (1)_35
+  - first:
+      213: 4798569258356850321
+    second: weather3 (1)_36
+  - first:
+      213: -3998357398164616656
+    second: weather3 (1)_37
+  - first:
+      213: 5433442545906413559
+    second: weather3 (1)_38
+  - first:
+      213: 8273998219208909364
+    second: weather3 (1)_39
+  - first:
+      213: 23283903385511782
+    second: weather3 (1)_40
+  - first:
+      213: -5264077974582056442
+    second: weather3 (1)_41
+  - first:
+      213: 1458809494889542829
+    second: weather3 (1)_42
+  - first:
+      213: 1470867272575866538
+    second: weather3 (1)_43
+  - first:
+      213: -2810499521721876559
+    second: weather3 (1)_44
+  - first:
+      213: -2697860821820398582
+    second: weather3 (1)_45
+  - first:
+      213: -3235072646674446159
+    second: weather3 (1)_46
+  - first:
+      213: -5958420749665071779
+    second: weather3 (1)_47
+  - first:
+      213: -8085810258497444191
+    second: weather3 (1)_48
+  - first:
+      213: -8241756977520661755
+    second: weather3 (1)_49
+  - first:
+      213: 2976749021868916685
+    second: weather3 (1)_50
+  - first:
+      213: -2569973650390387102
+    second: weather3 (1)_51
+  - first:
+      213: 2824963025308073332
+    second: weather3 (1)_52
+  - first:
+      213: -8290344663779901774
+    second: weather3 (1)_53
+  - first:
+      213: -5883631154713716301
+    second: weather3 (1)_54
+  - first:
+      213: -7811823736755815194
+    second: weather3 (1)_55
+  - first:
+      213: 8944732102707097451
+    second: weather3 (1)_56
+  - first:
+      213: -5618982502815829572
+    second: weather3 (1)_57
+  - first:
+      213: 4157213518096846934
+    second: weather3 (1)_58
+  - first:
+      213: 1175579341731379089
+    second: weather3 (1)_59
+  - first:
+      213: 5885681552597267955
+    second: weather3 (1)_60
+  - first:
+      213: -7962818283438038490
+    second: weather3 (1)_61
+  - first:
+      213: 4900720820138301280
+    second: weather3 (1)_62
+  - first:
+      213: 6498127823583556680
+    second: weather3 (1)_63
+  - first:
+      213: -7724961186360301074
+    second: weather3 (1)_64
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: weather3 (1)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f24baca0b9e3370800000000000000
+      internalID: 8304245233570557715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_1
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 624
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58101a6e516943bf0800000000000000
+      internalID: -345486250592894587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_2
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 624
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2bd6fda95bcee10800000000000000
+      internalID: 2228355592419652263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69f16121398fe9f0800000000000000
+      internalID: -436979794725176981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_4
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 337
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb7416dd8a1632540800000000000000
+      internalID: 4981932990698440635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_5
+      rect:
+        serializedVersion: 2
+        x: 1122
+        y: 337
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04d4550c16739100800000000000000
+      internalID: 113564278335001611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 47
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 438d6a118e95c00a0800000000000000
+      internalID: -6914052474657122252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_7
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 47
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54040851a4e9322b0800000000000000
+      internalID: -5610466669748010939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: weather3 (1)_8
+      rect:
+        serializedVersion: 2
+        x: 1119
+        y: 46
+        width: 561
+        height: 284
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80925fdea7701e780800000000000000
+      internalID: -8655628784269711096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 3739a57f1c2c44753bf7b6da28bf0f29
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":3.0,"y":3.0},"gridSpriteSize":{"x":561.0,"y":311.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      weather3 (1)_0: 8304245233570557715
+      weather3 (1)_1: -345486250592894587
+      weather3 (1)_2: 2228355592419652263
+      weather3 (1)_3: -436979794725176981
+      weather3 (1)_4: 4981932990698440635
+      weather3 (1)_5: 113564278335001611
+      weather3 (1)_6: -6914052474657122252
+      weather3 (1)_7: -5610466669748010939
+      weather3 (1)_8: -8655628784269711096
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
