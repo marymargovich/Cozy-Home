@@ -1685,7 +1685,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.UI.ControlBarController
   panelSettingsBar: {fileID: 1732650338}
   btnToggleSettings: {fileID: 220572189}
-  btnVolume: {fileID: 900528617}
   btnRec: {fileID: 1380526993}
   btnScreenshot: {fileID: 618256906}
   btnClearAll: {fileID: 560884435}
@@ -4577,6 +4576,7 @@ GameObject:
   - component: {fileID: 900528619}
   - component: {fileID: 900528618}
   - component: {fileID: 900528617}
+  - component: {fileID: 900528620}
   m_Layer: 5
   m_Name: Btn_Volume
   m_TagString: Untagged
@@ -4686,6 +4686,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 900528615}
   m_CullTransparentMesh: 1
+--- !u!114 &900528620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900528615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0298a2bc7ef34e4c8ea22d61a068d95, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.UI.VolumeControl
+  volumeButton: {fileID: 900528617}
+  sliderContainerCanvasGroup: {fileID: 1463014944}
+  volumeSlider: {fileID: 1066641540}
 --- !u!1 &921235484
 GameObject:
   m_ObjectHideFlags: 0
@@ -6972,9 +6987,9 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1463014942}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
-  m_BlocksRaycasts: 1
+  m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
 --- !u!114 &1463014945
 MonoBehaviour:
