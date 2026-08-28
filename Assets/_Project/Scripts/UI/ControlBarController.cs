@@ -13,7 +13,6 @@ namespace CozyHome.UI
         [Header("References")]
         [SerializeField] private RectTransform panelSettingsBar;
         [SerializeField] private Button btnToggleSettings;
-        [SerializeField] private Button btnVolume;
         [SerializeField] private Button btnRec;
         [SerializeField] private Button btnScreenshot;
         [SerializeField] private Button btnClearAll;
@@ -50,11 +49,6 @@ namespace CozyHome.UI
             if (btnToggleSettings != null)
             {
                 btnToggleSettings.onClick.AddListener(ToggleSettingsPanel);
-            }
-
-            if (btnVolume != null)
-            {
-                btnVolume.onClick.AddListener(OnVolumeClicked);
             }
 
             if (btnRec != null)
@@ -100,15 +94,6 @@ namespace CozyHome.UI
             MovePanelTo(isPanelOpen ? openOffset : hiddenOffset);
         }
 
-        public void OnVolumeClicked()
-        {
-            bool isMuted = AudioListener.pause || Mathf.Approximately(AudioListener.volume, 0f);
-            AudioListener.pause = !isMuted;
-            AudioListener.volume = isMuted ? 1f : 0f;
-
-            Debug.Log(isMuted ? "ControlBarController: Master audio enabled." : "ControlBarController: Master audio muted.");
-        }
-
         public void OnRecClicked()
         {
             Debug.Log("ControlBarController: Rec button clicked. Recording feature is not implemented yet.");
@@ -136,13 +121,7 @@ namespace CozyHome.UI
                     continue;
                 }
 
-                roomItem.SetActiveForAudio(false);
-
-                AudioSource audioSource = roomItem.GetComponent<AudioSource>();
-                if (audioSource != null)
-                {
-                    audioSource.Stop();
-                }
+                roomItem.ClearCurrentState();
             }
 
             Debug.Log("ControlBarController: All active room sounds were stopped.");

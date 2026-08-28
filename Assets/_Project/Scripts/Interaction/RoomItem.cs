@@ -45,6 +45,7 @@ namespace CozyHome.Interaction
         public bool IsGuaranteedSound => isGuaranteedSound;
         public bool HasAnimation => hasAnimation;
         public bool IsActiveForAudio { get; private set; }
+        public AudioClip AssignedAudioClip => assignedAudioClip;
 
         private Animator animator;
         private Image image;
@@ -52,6 +53,7 @@ namespace CozyHome.Interaction
         private Coroutine singleTapCoroutine;
         private Coroutine secretAnimationCoroutine;
         private bool isRegistered;
+        private AudioClip assignedAudioClip;
 
         private void Awake()
         {
@@ -64,9 +66,13 @@ namespace CozyHome.Interaction
                 audioSource.loop = loopSound;
             }
 
-            if (soundVariations != null && soundVariations.Length > 0 && audioSource != null && audioSource.clip == null)
+            if (soundVariations != null && soundVariations.Length > 0)
             {
-                audioSource.clip = soundVariations[Random.Range(0, soundVariations.Length)];
+                AssignRandomSoundVariation();
+            }
+            else if (audioSource != null && audioSource.clip != null)
+            {
+                assignedAudioClip = audioSource.clip;
             }
 
             if (hasAnimation)
@@ -123,6 +129,48 @@ namespace CozyHome.Interaction
             IsActiveForAudio = active;
         }
 
+        public void AssignRandomSoundVariation()
+        {
+            if (soundVariations == null || soundVariations.Length == 0)
+            {
+                if (audioSource != null)
+                {
+                    assignedAudioClip = audioSource.clip;
+                }
+                return;
+            }
+
+            assignedAudioClip = soundVariations[Random.Range(0, soundVariations.Length)];
+            if (audioSource != null)
+            {
+                audioSource.clip = assignedAudioClip;
+            }
+        }
+
+        public void RerollAssignedClip()
+        {
+            AssignRandomSoundVariation();
+        }
+
+        public void ClearCurrentState()
+        {
+            CancelSingleTapCoroutine();
+            CancelSecretAnimationCoroutine();
+
+            if (audioSource != null)
+            {
+                audioSource.Stop();
+            }
+
+            isAnimationOn = false;
+            if (hasAnimation)
+            {
+                SetInactiveAnimation();
+            }
+
+            SyncLampStateToController(false);
+        }
+
         public bool TryPlayAssignedSound()
         {
             if (audioSource == null)
@@ -130,13 +178,13 @@ namespace CozyHome.Interaction
                 return false;
             }
 
-            AudioClip clipToPlay = null;
-            if (soundVariations != null && soundVariations.Length > 0)
+            AudioClip clipToPlay = assignedAudioClip;
+            if (clipToPlay == null && soundVariations != null && soundVariations.Length > 0)
             {
-                clipToPlay = soundVariations[Random.Range(0, soundVariations.Length)];
-                audioSource.clip = clipToPlay;
+                AssignRandomSoundVariation();
+                clipToPlay = assignedAudioClip;
             }
-            else if (audioSource.clip != null)
+            else if (clipToPlay == null && audioSource.clip != null)
             {
                 clipToPlay = audioSource.clip;
             }
@@ -144,6 +192,11 @@ namespace CozyHome.Interaction
             if (clipToPlay == null)
             {
                 return false;
+            }
+
+            if (audioSource.clip != clipToPlay)
+            {
+                audioSource.clip = clipToPlay;
             }
 
             audioSource.Stop();

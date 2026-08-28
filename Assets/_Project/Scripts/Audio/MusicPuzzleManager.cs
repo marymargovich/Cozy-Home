@@ -44,7 +44,7 @@ namespace CozyHome.Audio
 
         private void DiscoverRoomItems()
         {
-            RoomItem[] discoveredItems = FindObjectsByType<RoomItem>(FindObjectsSortMode.None);
+            RoomItem[] discoveredItems = FindObjectsByType<RoomItem>(FindObjectsInactive.Exclude);
             if (discoveredItems == null || discoveredItems.Length == 0)
             {
                 return;
