@@ -1,5 +1,7 @@
 using System.Collections;
 using UnityEngine;
+using UnityEngine.EventSystems;
+using UnityEngine.Events;
 using UnityEngine.UI;
 
 namespace CozyHome.UI
@@ -21,6 +23,9 @@ namespace CozyHome.UI
         private bool isMuted;
         private float lastVolumeBeforeMute = DefaultVolume;
         private Coroutine sliderFadeCoroutine;
+        private bool suppressParentButtonClick;
+        private EventTrigger sliderEventTrigger;
+        private bool sliderPointerGuardRegistered;
 
         private void Start()
         {
@@ -53,6 +58,12 @@ namespace CozyHome.UI
         /// </summary>
         public void OnVolumeButtonClicked()
         {
+            if (suppressParentButtonClick)
+            {
+                suppressParentButtonClick = false;
+                return;
+            }
+
             if (isMuted)
             {
                 float restoredVolume = lastVolumeBeforeMute > 0.001f ? lastVolumeBeforeMute : DefaultVolume;
@@ -96,7 +107,76 @@ namespace CozyHome.UI
                 volumeSlider.maxValue = 1f;
                 volumeSlider.onValueChanged.RemoveListener(OnSliderValueChanged);
                 volumeSlider.onValueChanged.AddListener(OnSliderValueChanged);
+                RegisterSliderPointerGuard();
             }
+        }
+
+        private void RegisterSliderPointerGuard()
+        {
+            if (volumeSlider == null || sliderPointerGuardRegistered)
+            {
+                return;
+            }
+
+            sliderEventTrigger = volumeSlider.GetComponent<EventTrigger>();
+            if (sliderEventTrigger == null)
+            {
+                sliderEventTrigger = volumeSlider.gameObject.AddComponent<EventTrigger>();
+            }
+
+            AddSliderTriggerListener(EventTriggerType.PointerDown, OnSliderPointerDown);
+            AddSliderTriggerListener(EventTriggerType.Drag, OnSliderPointerDrag);
+            AddSliderTriggerListener(EventTriggerType.PointerUp, OnSliderPointerUp);
+            AddSliderTriggerListener(EventTriggerType.PointerExit, OnSliderPointerExit);
+            sliderPointerGuardRegistered = true;
+        }
+
+        private void AddSliderTriggerListener(EventTriggerType triggerType, UnityAction<BaseEventData> callback)
+        {
+            if (sliderEventTrigger == null)
+            {
+                return;
+            }
+
+            EventTrigger.Entry entry = new EventTrigger.Entry
+            {
+                eventID = triggerType,
+            };
+
+            entry.callback.AddListener(callback);
+            sliderEventTrigger.triggers.Add(entry);
+        }
+
+        private void OnSliderPointerDown(BaseEventData eventData)
+        {
+            suppressParentButtonClick = true;
+        }
+
+        private void OnSliderPointerDrag(BaseEventData eventData)
+        {
+            suppressParentButtonClick = true;
+        }
+
+        private void OnSliderPointerUp(BaseEventData eventData)
+        {
+            if (suppressParentButtonClick)
+            {
+                StartCoroutine(ClearParentButtonClickSuppression());
+            }
+        }
+
+        private void OnSliderPointerExit(BaseEventData eventData)
+        {
+            if (suppressParentButtonClick)
+            {
+                StartCoroutine(ClearParentButtonClickSuppression());
+            }
+        }
+
+        private IEnumerator ClearParentButtonClickSuppression()
+        {
+            yield return null;
+            suppressParentButtonClick = false;
         }
 
         private void LoadAndApplySavedVolume()

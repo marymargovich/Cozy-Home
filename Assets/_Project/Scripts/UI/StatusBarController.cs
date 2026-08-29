@@ -43,13 +43,6 @@ namespace CozyHome.UI
             Thunderstorm = 8
         }
 
-        public enum AppLanguage
-        {
-            RU,
-            EN,
-            HE
-        }
-
         [Header("Target Icons")]
         [SerializeField] private Image iconTimeOfDay;
         [SerializeField] private Image iconSeason;
@@ -75,7 +68,6 @@ namespace CozyHome.UI
         [SerializeField] private TimeOfDay debugTimeOfDay = TimeOfDay.Day;
         [SerializeField] private SeasonType debugSeason = SeasonType.Spring;
         [SerializeField] private WeatherType debugWeather = WeatherType.Clear;
-        [SerializeField] private AppLanguage currentLanguage = AppLanguage.RU;
 
         private TimeOfDay activeTimeOfDay;
         private SeasonType activeSeason;
@@ -89,7 +81,26 @@ namespace CozyHome.UI
             ResolveTooltipReferences();
             InitializeTooltip();
             RefreshAll();
+            RefreshLanguageFromManager();
             UpdateTooltipText();
+        }
+
+        private void OnEnable()
+        {
+            if (LanguageManager.Instance != null)
+            {
+                LanguageManager.Instance.OnLanguageChanged += HandleLanguageChanged;
+            }
+
+            RefreshLanguageFromManager();
+        }
+
+        private void OnDisable()
+        {
+            if (LanguageManager.Instance != null)
+            {
+                LanguageManager.Instance.OnLanguageChanged -= HandleLanguageChanged;
+            }
         }
 
         private void OnValidate()
@@ -169,7 +180,7 @@ namespace CozyHome.UI
             {
                 tooltipText.text = string.Empty;
                 tooltipText.raycastTarget = false;
-                ApplyTextDirection();
+                ApplyTextDirection(GetCurrentLanguage());
             }
         }
 
@@ -192,8 +203,8 @@ namespace CozyHome.UI
             }
 
             tooltipCanvasGroup.alpha = targetAlpha;
-            tooltipCanvasGroup.interactable = targetAlpha > 0.01f;
-            tooltipCanvasGroup.blocksRaycasts = targetAlpha > 0.01f;
+            tooltipCanvasGroup.interactable = false;
+            tooltipCanvasGroup.blocksRaycasts = false;
         }
 
         private IEnumerator ShowTooltipAfterDelay()
@@ -239,30 +250,35 @@ namespace CozyHome.UI
             StartTooltipFade(0f);
         }
 
-        public void SetLanguage(AppLanguage language)
+        private void HandleLanguageChanged(AppLanguage newLanguage)
         {
-            currentLanguage = language;
-            ApplyTextDirection();
-            UpdateTooltipText();
+            ApplyTextDirection(newLanguage);
+
+            if (tooltipCanvasGroup != null && tooltipCanvasGroup.alpha > 0.01f)
+            {
+                UpdateTooltipText();
+            }
         }
 
-        private void ApplyTextDirection()
+        private AppLanguage GetCurrentLanguage()
+        {
+            return LanguageManager.Instance != null ? LanguageManager.Instance.CurrentLanguage : AppLanguage.RU;
+        }
+
+        private void RefreshLanguageFromManager()
+        {
+            ApplyTextDirection(GetCurrentLanguage());
+        }
+
+        private void ApplyTextDirection(AppLanguage language)
         {
             if (tooltipText == null)
             {
                 return;
             }
 
-            if (currentLanguage == AppLanguage.HE)
-            {
-                tooltipText.isRightToLeftText = true;
-                tooltipText.alignment = TextAlignmentOptions.Right;
-            }
-            else
-            {
-                tooltipText.isRightToLeftText = false;
-                tooltipText.alignment = TextAlignmentOptions.Left;
-            }
+            tooltipText.alignment = TextAlignmentOptions.Center;
+            tooltipText.isRightToLeftText = language == AppLanguage.HE;
         }
 
         private void UpdateTooltipText()
@@ -272,16 +288,25 @@ namespace CozyHome.UI
                 return;
             }
 
-            ApplyTextDirection();
-            string tooltipTextValue = $"{GetLocalizedTimeOfDay()} · {GetLocalizedSeason()} · {GetLocalizedWeather()}";
+            AppLanguage language = GetCurrentLanguage();
+            ApplyTextDirection(language);
+
+            string timeText = GetLocalizedTimeOfDay();
+            string seasonText = GetLocalizedSeason();
+            string weatherText = GetLocalizedWeather();
+
+            string separator = language == AppLanguage.HE ? " • " : " · ";
+            string tooltipTextValue = string.Join(separator, new[] { timeText, seasonText, weatherText });
             tooltipText.text = tooltipTextValue;
         }
 
         private string GetLocalizedTimeOfDay()
         {
+            AppLanguage language = GetCurrentLanguage();
+
             if (activeTimeOfDay == TimeOfDay.Morning)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Утро",
                     AppLanguage.EN => "Morning",
@@ -292,7 +317,7 @@ namespace CozyHome.UI
 
             if (activeTimeOfDay == TimeOfDay.Day)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "День",
                     AppLanguage.EN => "Day",
@@ -303,7 +328,7 @@ namespace CozyHome.UI
 
             if (activeTimeOfDay == TimeOfDay.Evening)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Вечер",
                     AppLanguage.EN => "Evening",
@@ -312,7 +337,7 @@ namespace CozyHome.UI
                 };
             }
 
-            return currentLanguage switch
+            return language switch
             {
                 AppLanguage.RU => "Ночь",
                 AppLanguage.EN => "Night",
@@ -323,9 +348,11 @@ namespace CozyHome.UI
 
         private string GetLocalizedSeason()
         {
+            AppLanguage language = GetCurrentLanguage();
+
             if (activeSeason == SeasonType.Spring)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Весна",
                     AppLanguage.EN => "Spring",
@@ -336,7 +363,7 @@ namespace CozyHome.UI
 
             if (activeSeason == SeasonType.Summer)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Лето",
                     AppLanguage.EN => "Summer",
@@ -347,7 +374,7 @@ namespace CozyHome.UI
 
             if (activeSeason == SeasonType.Autumn)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Осень",
                     AppLanguage.EN => "Autumn",
@@ -356,7 +383,7 @@ namespace CozyHome.UI
                 };
             }
 
-            return currentLanguage switch
+            return language switch
             {
                 AppLanguage.RU => "Зима",
                 AppLanguage.EN => "Winter",
@@ -367,9 +394,11 @@ namespace CozyHome.UI
 
         private string GetLocalizedWeather()
         {
+            AppLanguage language = GetCurrentLanguage();
+
             if (activeWeather == WeatherType.Clear)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Ясно",
                     AppLanguage.EN => "Clear",
@@ -380,7 +409,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.Fog)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Туман",
                     AppLanguage.EN => "Fog",
@@ -391,7 +420,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.Wind)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Ветер",
                     AppLanguage.EN => "Wind",
@@ -402,7 +431,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.LightRain)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Лёгкий дождь",
                     AppLanguage.EN => "Light Rain",
@@ -413,7 +442,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.HeavyRain)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Сильный дождь",
                     AppLanguage.EN => "Heavy Rain",
@@ -424,7 +453,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.LightSnow)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Небольшой снег",
                     AppLanguage.EN => "Light Snow",
@@ -435,7 +464,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.Snowstorm)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Метель",
                     AppLanguage.EN => "Snowstorm",
@@ -446,7 +475,7 @@ namespace CozyHome.UI
 
             if (activeWeather == WeatherType.Hail)
             {
-                return currentLanguage switch
+                return language switch
                 {
                     AppLanguage.RU => "Град",
                     AppLanguage.EN => "Hail",
@@ -455,7 +484,7 @@ namespace CozyHome.UI
                 };
             }
 
-            return currentLanguage switch
+            return language switch
             {
                 AppLanguage.RU => "Гроза",
                 AppLanguage.EN => "Thunderstorm",
