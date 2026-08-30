@@ -1,0 +1,3666 @@
+fileFormatVersion: 2
+guid: e0747288a6ae44547b6f1bf22af2503c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4746207906015575853
+    second: lightRain3_0
+  - first:
+      213: -8097467371080039291
+    second: lightRain3_1
+  - first:
+      213: -4564617446915667576
+    second: lightRain3_2
+  - first:
+      213: 3775521616138132407
+    second: lightRain3_3
+  - first:
+      213: 8390541609624437598
+    second: lightRain3_4
+  - first:
+      213: 6795041880607819062
+    second: lightRain3_5
+  - first:
+      213: 2382782110897606853
+    second: lightRain3_6
+  - first:
+      213: -5851342916339402564
+    second: lightRain3_7
+  - first:
+      213: 4861392311287944046
+    second: lightRain3_8
+  - first:
+      213: -8601427997481144137
+    second: lightRain3_9
+  - first:
+      213: -7288241922169968323
+    second: lightRain3_10
+  - first:
+      213: 7018698283018064730
+    second: lightRain3_11
+  - first:
+      213: -1536428191669305010
+    second: lightRain3_12
+  - first:
+      213: -2806607595357844101
+    second: lightRain3_13
+  - first:
+      213: 3731857643527307882
+    second: lightRain3_14
+  - first:
+      213: 8962248259224892389
+    second: lightRain3_15
+  - first:
+      213: 8796544316273726251
+    second: lightRain3_16
+  - first:
+      213: 5747497042794258795
+    second: lightRain3_17
+  - first:
+      213: 2782319030051193652
+    second: lightRain3_18
+  - first:
+      213: 5993291117873567558
+    second: lightRain3_19
+  - first:
+      213: 8101812672337835578
+    second: lightRain3_20
+  - first:
+      213: 8799299203972293328
+    second: lightRain3_21
+  - first:
+      213: -5322878541144251338
+    second: lightRain3_22
+  - first:
+      213: -3407649881077539014
+    second: lightRain3_23
+  - first:
+      213: 4330966144849432026
+    second: lightRain3_24
+  - first:
+      213: 7722908221476724393
+    second: lightRain3_25
+  - first:
+      213: 4247720582969006123
+    second: lightRain3_26
+  - first:
+      213: -4503048151441944371
+    second: lightRain3_27
+  - first:
+      213: -7911109959491989240
+    second: lightRain3_28
+  - first:
+      213: -8088953021943310244
+    second: lightRain3_29
+  - first:
+      213: 1846870696069756386
+    second: lightRain3_30
+  - first:
+      213: 4637770516877435519
+    second: lightRain3_31
+  - first:
+      213: 6455450919868016402
+    second: lightRain3_32
+  - first:
+      213: -6080795656073938857
+    second: lightRain3_33
+  - first:
+      213: -8715689165915649137
+    second: lightRain3_34
+  - first:
+      213: -3742181494177977209
+    second: lightRain3_35
+  - first:
+      213: 1927749572585261392
+    second: lightRain3_36
+  - first:
+      213: -2083700221540805472
+    second: lightRain3_37
+  - first:
+      213: 6680463559314556730
+    second: lightRain3_38
+  - first:
+      213: -5698605545996423479
+    second: lightRain3_39
+  - first:
+      213: 4260832657149315988
+    second: lightRain3_40
+  - first:
+      213: -121689676452334649
+    second: lightRain3_41
+  - first:
+      213: 5871001877975910879
+    second: lightRain3_42
+  - first:
+      213: -9181526262736944820
+    second: lightRain3_43
+  - first:
+      213: 2725731514151435391
+    second: lightRain3_44
+  - first:
+      213: -4333892864273443844
+    second: lightRain3_45
+  - first:
+      213: 4138653796095614720
+    second: lightRain3_46
+  - first:
+      213: 7481901407901029194
+    second: lightRain3_47
+  - first:
+      213: -7279883181041453786
+    second: lightRain3_48
+  - first:
+      213: 2680416880989670903
+    second: lightRain3_49
+  - first:
+      213: -7613320924817734819
+    second: lightRain3_50
+  - first:
+      213: 7461347187255017334
+    second: lightRain3_51
+  - first:
+      213: -1955326512119841747
+    second: lightRain3_52
+  - first:
+      213: 3191379988094522036
+    second: lightRain3_53
+  - first:
+      213: 7185763848237240646
+    second: lightRain3_54
+  - first:
+      213: 8168105536918749049
+    second: lightRain3_55
+  - first:
+      213: -4352935330445839358
+    second: lightRain3_56
+  - first:
+      213: -1639785139439242377
+    second: lightRain3_57
+  - first:
+      213: 1395413027573146181
+    second: lightRain3_58
+  - first:
+      213: 3460924789060882934
+    second: lightRain3_59
+  - first:
+      213: -4920600639553611012
+    second: lightRain3_60
+  - first:
+      213: -3850339801821863938
+    second: lightRain3_61
+  - first:
+      213: -208557496532160951
+    second: lightRain3_62
+  - first:
+      213: 1680279901826177201
+    second: lightRain3_63
+  - first:
+      213: 248340217035408174
+    second: lightRain3_64
+  - first:
+      213: -5083730924475404361
+    second: lightRain3_65
+  - first:
+      213: -7340257917470886519
+    second: lightRain3_66
+  - first:
+      213: 8342333320512728946
+    second: lightRain3_67
+  - first:
+      213: -2447900246609823880
+    second: lightRain3_68
+  - first:
+      213: 6189340422093915052
+    second: lightRain3_69
+  - first:
+      213: -8487849202667597803
+    second: lightRain3_70
+  - first:
+      213: -693914838028459430
+    second: lightRain3_71
+  - first:
+      213: -8490496681717873049
+    second: lightRain3_72
+  - first:
+      213: -9048978059256706506
+    second: lightRain3_73
+  - first:
+      213: -5715086219085240412
+    second: lightRain3_74
+  - first:
+      213: 3330653268880848067
+    second: lightRain3_75
+  - first:
+      213: 7240241946575425219
+    second: lightRain3_76
+  - first:
+      213: 3136738712496327958
+    second: lightRain3_77
+  - first:
+      213: 5503101016396276274
+    second: lightRain3_78
+  - first:
+      213: -4465719716949408171
+    second: lightRain3_79
+  - first:
+      213: -1034095721556058772
+    second: lightRain3_80
+  - first:
+      213: 7743744364502216924
+    second: lightRain3_81
+  - first:
+      213: 3532891375514140658
+    second: lightRain3_82
+  - first:
+      213: -6184700377092443215
+    second: lightRain3_83
+  - first:
+      213: 8920718892727239912
+    second: lightRain3_84
+  - first:
+      213: -342106268594437576
+    second: lightRain3_85
+  - first:
+      213: 6232095635193054011
+    second: lightRain3_86
+  - first:
+      213: -6870614038387835202
+    second: lightRain3_87
+  - first:
+      213: 520390728914632959
+    second: lightRain3_88
+  - first:
+      213: -734748454961271623
+    second: lightRain3_89
+  - first:
+      213: 2187361948030431433
+    second: lightRain3_90
+  - first:
+      213: -4410425181148215003
+    second: lightRain3_91
+  - first:
+      213: 2191803190687082852
+    second: lightRain3_92
+  - first:
+      213: -8209646387274647212
+    second: lightRain3_93
+  - first:
+      213: 3927544298730543839
+    second: lightRain3_94
+  - first:
+      213: 4193942768995120597
+    second: lightRain3_95
+  - first:
+      213: -7618948986168390085
+    second: lightRain3_96
+  - first:
+      213: -5115517608852560317
+    second: lightRain3_97
+  - first:
+      213: 4147128462572944682
+    second: lightRain3_98
+  - first:
+      213: -6815753941817710999
+    second: lightRain3_99
+  - first:
+      213: -5703158814031155382
+    second: lightRain3_100
+  - first:
+      213: -750801940585176739
+    second: lightRain3_101
+  - first:
+      213: 2851421833117789118
+    second: lightRain3_102
+  - first:
+      213: -831328812779339198
+    second: lightRain3_103
+  - first:
+      213: 313574795509361525
+    second: lightRain3_104
+  - first:
+      213: -4133564707157508361
+    second: lightRain3_105
+  - first:
+      213: -2472261959241831661
+    second: lightRain3_106
+  - first:
+      213: 6057699047422092214
+    second: lightRain3_107
+  - first:
+      213: 4109635061756703294
+    second: lightRain3_108
+  - first:
+      213: 7111546054309623160
+    second: lightRain3_109
+  - first:
+      213: -2631685036652769188
+    second: lightRain3_110
+  - first:
+      213: 3272604884371591958
+    second: lightRain3_111
+  - first:
+      213: 4754682455507517564
+    second: lightRain3_112
+  - first:
+      213: -9176604503728908996
+    second: lightRain3_113
+  - first:
+      213: 1809823022871399684
+    second: lightRain3_114
+  - first:
+      213: -8232675033050221727
+    second: lightRain3_115
+  - first:
+      213: 9167518552198355515
+    second: lightRain3_116
+  - first:
+      213: 3125004429532368312
+    second: lightRain3_117
+  - first:
+      213: -4436544261477404136
+    second: lightRain3_118
+  - first:
+      213: 1713427635199140408
+    second: lightRain3_119
+  - first:
+      213: 6933163446014695117
+    second: lightRain3_120
+  - first:
+      213: -8713849226939666704
+    second: lightRain3_121
+  - first:
+      213: 8959071924526899300
+    second: lightRain3_122
+  - first:
+      213: 804856188571669342
+    second: lightRain3_123
+  - first:
+      213: 7270958464217386823
+    second: lightRain3_124
+  - first:
+      213: -5236683462008276378
+    second: lightRain3_125
+  - first:
+      213: 7054162127837527757
+    second: lightRain3_126
+  - first:
+      213: 1332586709075163319
+    second: lightRain3_127
+  - first:
+      213: 941110612794962369
+    second: lightRain3_128
+  - first:
+      213: -434413457383462907
+    second: lightRain3_129
+  - first:
+      213: 4274116029699855706
+    second: lightRain3_130
+  - first:
+      213: -7095597264052565166
+    second: lightRain3_131
+  - first:
+      213: 2674943945283901312
+    second: lightRain3_132
+  - first:
+      213: 5537243948247248716
+    second: lightRain3_133
+  - first:
+      213: -7443613134049452072
+    second: lightRain3_134
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: lightRain3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 218
+        height: 437
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f753ca1faedd140800000000000000
+      internalID: 4746207906015575853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 721
+        width: 11
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5844576045400af80800000000000000
+      internalID: -8097467371080039291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_2
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 697
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8898a0dcd9837a0c0800000000000000
+      internalID: -4564617446915667576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_3
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 834
+        width: 12
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bbd8b308e8556430800000000000000
+      internalID: 3775521616138132407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_4
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 748
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e538cc29321317470800000000000000
+      internalID: 8390541609624437598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_5
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 735
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6350887b696dc4e50800000000000000
+      internalID: 6795041880607819062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_6
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 761
+        width: 100
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0153194b7511120800000000000000
+      internalID: 2382782110897606853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_7
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 632
+        width: 75
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8779c8e9adbcea0800000000000000
+      internalID: -5851342916339402564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_8
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 591
+        width: 67
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e631224ec82277340800000000000000
+      internalID: 4861392311287944046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_9
+      rect:
+        serializedVersion: 2
+        x: 440
+        y: 753
+        width: 102
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b079010fc691a880800000000000000
+      internalID: -8601427997481144137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_10
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 23
+        width: 411
+        height: 903
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d39e2f72696fada90800000000000000
+      internalID: -7288241922169968323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_11
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 860
+        width: 55
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a539fe8d6ec676160800000000000000
+      internalID: 7018698283018064730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_12
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 703
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41c7a433b28daae0800000000000000
+      internalID: -1536428191669305010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_13
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 859
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7d48c6134dec09d0800000000000000
+      internalID: -2806607595357844101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_14
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 705
+        width: 168
+        height: 236
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6285ca21c83ac330800000000000000
+      internalID: 3731857643527307882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_15
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 810
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e376f7ce4d406c70800000000000000
+      internalID: 8962248259224892389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_16
+      rect:
+        serializedVersion: 2
+        x: 874
+        y: 841
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b231a76137a931a70800000000000000
+      internalID: 8796544316273726251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_17
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 826
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b612c5fdb1633cf40800000000000000
+      internalID: 5747497042794258795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_18
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 735
+        width: 24
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 433c20e9a68cc9620800000000000000
+      internalID: 2782319030051193652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_19
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 772
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6479b5494827c2350800000000000000
+      internalID: 5993291117873567558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_20
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 275
+        width: 277
+        height: 666
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a36747343bb6f6070800000000000000
+      internalID: 8101812672337835578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_21
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 801
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d2652d51046d1a70800000000000000
+      internalID: 8799299203972293328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_22
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 761
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6342c8c2b265126b0800000000000000
+      internalID: -5322878541144251338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_23
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 752
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f9877dc7895b0d0800000000000000
+      internalID: -3407649881077539014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_24
+      rect:
+        serializedVersion: 2
+        x: 981
+        y: 729
+        width: 21
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: add4ef523ceaa1c30800000000000000
+      internalID: 4330966144849432026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_25
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 726
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ae50161c184d2b60800000000000000
+      internalID: 7722908221476724393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_26
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 794
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b289bf46d5fe2fa30800000000000000
+      internalID: 4247720582969006123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_27
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 763
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0d2de7095f181c0800000000000000
+      internalID: -4503048151441944371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_28
+      rect:
+        serializedVersion: 2
+        x: 1180
+        y: 761
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 801dc6d1867163290800000000000000
+      internalID: -7911109959491989240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_29
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 770
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c581f3a65144ebf80800000000000000
+      internalID: -8088953021943310244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_30
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 737
+        width: 15
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e5f059ec1761a910800000000000000
+      internalID: 1846870696069756386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_31
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 686
+        width: 110
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72624096bbac5040800000000000000
+      internalID: 4637770516877435519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_32
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 795
+        width: 19
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 217a3bfb86e569950800000000000000
+      internalID: 6455450919868016402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_33
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 863
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75879f7719cac9ba0800000000000000
+      internalID: -6080795656073938857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_34
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 721
+        width: 18
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8b80ec91e6ab0780800000000000000
+      internalID: -8715689165915649137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_35
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 764
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c2b7a02c9111cc0800000000000000
+      internalID: -3742181494177977209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_36
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 851
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0590bd9c50eb0ca10800000000000000
+      internalID: 1927749572585261392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_37
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 380
+        width: 291
+        height: 561
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a458ac30b53513e0800000000000000
+      internalID: -2083700221540805472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_38
+      rect:
+        serializedVersion: 2
+        x: 1662
+        y: 729
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a37c2eb6636c5bc50800000000000000
+      internalID: 6680463559314556730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_39
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 656
+        width: 19
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ceefcbc27c7ae0b0800000000000000
+      internalID: -5698605545996423479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_40
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 689
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49bc4c01ab4812b30800000000000000
+      internalID: 4260832657149315988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_41
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 688
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c3f93e42ebaf4ef0800000000000000
+      internalID: -121689676452334649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_42
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 679
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd9c7642a1df97150800000000000000
+      internalID: 5871001877975910879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_43
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 429
+        width: 158
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4105a5828aa49080800000000000000
+      internalID: -9181526262736944820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_44
+      rect:
+        serializedVersion: 2
+        x: 806
+        y: 640
+        width: 23
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7c751ede5eb3d520800000000000000
+      internalID: 2725731514151435391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_45
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 655
+        width: 20
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf39162e66bead3c0800000000000000
+      internalID: -4333892864273443844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_46
+      rect:
+        serializedVersion: 2
+        x: 1174
+        y: 664
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00fd99433b37f6930800000000000000
+      internalID: 4138653796095614720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_47
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 668
+        width: 7
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a439f6e80bd05d760800000000000000
+      internalID: 7481901407901029194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_48
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 648
+        width: 45
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 625feab31d8a8fa90800000000000000
+      internalID: -7279883181041453786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_49
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 646
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fd8959a3f0c23520800000000000000
+      internalID: 2680416880989670903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_50
+      rect:
+        serializedVersion: 2
+        x: 952
+        y: 648
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d53c03bb4fc085690800000000000000
+      internalID: -7613320924817734819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_51
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 632
+        width: 29
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67ff1322cb70c8760800000000000000
+      internalID: 7461347187255017334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_52
+      rect:
+        serializedVersion: 2
+        x: 1429
+        y: 646
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2c7131a5e84dd4e0800000000000000
+      internalID: -1955326512119841747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_53
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 617
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b21aa5c03f0a4c20800000000000000
+      internalID: 3191379988094522036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_54
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 617
+        width: 11
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641560ee526f8b360800000000000000
+      internalID: 7185763848237240646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_55
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 601
+        width: 27
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f71f795b0fa5170800000000000000
+      internalID: 8168105536918749049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_56
+      rect:
+        serializedVersion: 2
+        x: 560
+        y: 605
+        width: 10
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 204378a31644793c0800000000000000
+      internalID: -4352935330445839358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_57
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 615
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77372c78a105e39e0800000000000000
+      internalID: -1639785139439242377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_58
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 581
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 542237f51c08d5310800000000000000
+      internalID: 1395413027573146181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_59
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 281
+        width: 136
+        height: 330
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f1515642cca70030800000000000000
+      internalID: 3460924789060882934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_60
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 0
+        width: 346
+        height: 611
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfad8dde9c386bbb0800000000000000
+      internalID: -4920600639553611012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_61
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 570
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff1cd7a958d09ac0800000000000000
+      internalID: -3850339801821863938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_62
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 559
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94ea4f7df0e0b1df0800000000000000
+      internalID: -208557496532160951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_63
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 567
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b8d39f0bad815710800000000000000
+      internalID: 1680279901826177201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_64
+      rect:
+        serializedVersion: 2
+        x: 1583
+        y: 569
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e23c6d39c18427300800000000000000
+      internalID: 248340217035408174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_65
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 534
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bfa9f0b8a5f279b0800000000000000
+      internalID: -5083730924475404361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_66
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 538
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985366d705a222a90800000000000000
+      internalID: -7340257917470886519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_67
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 536
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27fe01794fbe5c370800000000000000
+      internalID: 8342333320512728946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_68
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 480
+        width: 26
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 877fa3bf1bf470ed0800000000000000
+      internalID: -2447900246609823880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_69
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 388
+        width: 51
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3cfd44254f4e550800000000000000
+      internalID: 6189340422093915052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_70
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 482
+        width: 43
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5105ae7ee1a153a80800000000000000
+      internalID: -8487849202667597803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_71
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 485
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a52e0fe9128be56f0800000000000000
+      internalID: -693914838028459430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_72
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 472
+        width: 26
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 766c297a042bb2a80800000000000000
+      internalID: -8490496681717873049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_73
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 488
+        width: 12
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63a43bd06629b6280800000000000000
+      internalID: -9048978059256706506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_74
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 321
+        width: 124
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7a1b21d5fefa0b0800000000000000
+      internalID: -5715086219085240412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_75
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 455
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c4f2a1608bd83e20800000000000000
+      internalID: 3330653268880848067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_76
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 461
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cec281a0b18a7460800000000000000
+      internalID: 7240241946575425219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_77
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 421
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61d4f876d3fe78b20800000000000000
+      internalID: 3136738712496327958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_78
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 293
+        width: 84
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 232246db731fe5c40800000000000000
+      internalID: 5503101016396276274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_79
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 282
+        height: 416
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556c5cce3939602c0800000000000000
+      internalID: -4465719716949408171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_80
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 402
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d56ec8b6726a1f0800000000000000
+      internalID: -1034095721556058772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_81
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 405
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0769da87e477b60800000000000000
+      internalID: 7743744364502216924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_82
+      rect:
+        serializedVersion: 2
+        x: 510
+        y: 400
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ffbf8becf9570130800000000000000
+      internalID: 3532891375514140658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_83
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 396
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b33e2566c78b2aa0800000000000000
+      internalID: -6184700377092443215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_84
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 399
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e48f16a192cccb70800000000000000
+      internalID: 8920718892727239912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_85
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 405
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8328ef84928904bf0800000000000000
+      internalID: -342106268594437576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_86
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 390
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b33c1fd06f9dc7650800000000000000
+      internalID: 6232095635193054011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_87
+      rect:
+        serializedVersion: 2
+        x: 1228
+        y: 376
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebeb4152feca6a0a0800000000000000
+      internalID: -6870614038387835202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_88
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 388
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff00d5d5c9cc83700800000000000000
+      internalID: 520390728914632959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_89
+      rect:
+        serializedVersion: 2
+        x: 1011
+        y: 0
+        width: 198
+        height: 367
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc24ce4c26adc5f0800000000000000
+      internalID: -734748454961271623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_90
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 362
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c07f834a121b5e10800000000000000
+      internalID: 2187361948030431433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_91
+      rect:
+        serializedVersion: 2
+        x: 1489
+        y: 366
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52909394aa50bc2c0800000000000000
+      internalID: -4410425181148215003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_92
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 325
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 469a876a369da6e10800000000000000
+      internalID: 2191803190687082852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_93
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 194
+        width: 114
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 459fcea7b1a711e80800000000000000
+      internalID: -8209646387274647212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_94
+      rect:
+        serializedVersion: 2
+        x: 1206
+        y: 308
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdad17d0bb0718630800000000000000
+      internalID: 3927544298730543839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_95
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 299
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d5b54a5ab0e33a30800000000000000
+      internalID: 4193942768995120597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_96
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 29
+        width: 142
+        height: 267
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3e4c95934e044690800000000000000
+      internalID: -7618948986168390085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_97
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 274
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 346661286d70209b0800000000000000
+      internalID: -5115517608852560317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_98
+      rect:
+        serializedVersion: 2
+        x: 1515
+        y: 13
+        width: 132
+        height: 263
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d72914d5f8d8930800000000000000
+      internalID: 4147128462572944682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_99
+      rect:
+        serializedVersion: 2
+        x: 500
+        y: 238
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 966ac7db6e39961a0800000000000000
+      internalID: -6815753941817710999
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_100
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 226
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fe808764f4ad0b0800000000000000
+      internalID: -5703158814031155382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_101
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 250
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d512fbaec9d9495f0800000000000000
+      internalID: -750801940585176739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_102
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 250
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb67cbbc09429720800000000000000
+      internalID: 2851421833117789118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_103
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 242
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2428dbe69d68674f0800000000000000
+      internalID: -831328812779339198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_104
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 241
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57be9d87d9a0a5400800000000000000
+      internalID: 313574795509361525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_105
+      rect:
+        serializedVersion: 2
+        x: 498
+        y: 204
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fef8c5acc0a2a6c0800000000000000
+      internalID: -4133564707157508361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_106
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 224
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31bedafb8d2c0bdd0800000000000000
+      internalID: -2472261959241831661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_107
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 214
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3e0d54035411450800000000000000
+      internalID: 6057699047422092214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_108
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 144
+        width: 136
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e32bf7c905b580930800000000000000
+      internalID: 4109635061756703294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_109
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 225
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 875b4f2357941b260800000000000000
+      internalID: 7111546054309623160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_110
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 210
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c50d99507606a7bd0800000000000000
+      internalID: -2631685036652769188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_111
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 177
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6135d27adc0aa6d20800000000000000
+      internalID: 3272604884371591958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_112
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 194
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c70ce4c70860cf140800000000000000
+      internalID: 4754682455507517564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_113
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 153
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c351df6d2d626a080800000000000000
+      internalID: -9176604503728908996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_114
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 161
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40dc2905378cd1910800000000000000
+      internalID: 1809823022871399684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_115
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 153
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16370df0da9afbd80800000000000000
+      internalID: -8232675033050221727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_116
+      rect:
+        serializedVersion: 2
+        x: 1487
+        y: 177
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a16973d81993f70800000000000000
+      internalID: 9167518552198355515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_117
+      rect:
+        serializedVersion: 2
+        x: 1503
+        y: 177
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bd8ccfb8fe3e5b20800000000000000
+      internalID: 3125004429532368312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_118
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 144
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8127750008a3e62c0800000000000000
+      internalID: -4436544261477404136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_119
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 150
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832e1682b5157c710800000000000000
+      internalID: 1713427635199140408
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_120
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 151
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc6dd61bb6b873060800000000000000
+      internalID: 6933163446014695117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_121
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 46
+        width: 64
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fee2f9cb40321780800000000000000
+      internalID: -8713849226939666704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_122
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 113
+        width: 26
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 460e99ab274055c70800000000000000
+      internalID: 8959071924526899300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_123
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 129
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e53d61f607c6b2b00800000000000000
+      internalID: 804856188571669342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_124
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 125
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74f0c443332a7e460800000000000000
+      internalID: 7270958464217386823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_125
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 104
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a75dde2209357b0800000000000000
+      internalID: -5236683462008276378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_126
+      rect:
+        serializedVersion: 2
+        x: 1194
+        y: 129
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcef4c9a41b65e160800000000000000
+      internalID: 7054162127837527757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_127
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 7
+        width: 108
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b8f4d23d8c4e7210800000000000000
+      internalID: 1332586709075163319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_128
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 107
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c17ef9bd1f7f0d00800000000000000
+      internalID: 941110612794962369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_129
+      rect:
+        serializedVersion: 2
+        x: 1485
+        y: 105
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 508620b1347a8f9f0800000000000000
+      internalID: -434413457383462907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_130
+      rect:
+        serializedVersion: 2
+        x: 198
+        y: 78
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55101f32e5b05b30800000000000000
+      internalID: 4274116029699855706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_131
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 40
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25bc9e6e1ef578d90800000000000000
+      internalID: -7095597264052565166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_132
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 33
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0879ab4885f4f1520800000000000000
+      internalID: 2674943945283901312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_133
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 0
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f65f9880e38dc40800000000000000
+      internalID: 5537243948247248716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: lightRain3_134
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 2
+        width: 13
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dfdc83ea49f2b890800000000000000
+      internalID: -7443613134049452072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      lightRain3_0: 4746207906015575853
+      lightRain3_1: -8097467371080039291
+      lightRain3_10: -7288241922169968323
+      lightRain3_100: -5703158814031155382
+      lightRain3_101: -750801940585176739
+      lightRain3_102: 2851421833117789118
+      lightRain3_103: -831328812779339198
+      lightRain3_104: 313574795509361525
+      lightRain3_105: -4133564707157508361
+      lightRain3_106: -2472261959241831661
+      lightRain3_107: 6057699047422092214
+      lightRain3_108: 4109635061756703294
+      lightRain3_109: 7111546054309623160
+      lightRain3_11: 7018698283018064730
+      lightRain3_110: -2631685036652769188
+      lightRain3_111: 3272604884371591958
+      lightRain3_112: 4754682455507517564
+      lightRain3_113: -9176604503728908996
+      lightRain3_114: 1809823022871399684
+      lightRain3_115: -8232675033050221727
+      lightRain3_116: 9167518552198355515
+      lightRain3_117: 3125004429532368312
+      lightRain3_118: -4436544261477404136
+      lightRain3_119: 1713427635199140408
+      lightRain3_12: -1536428191669305010
+      lightRain3_120: 6933163446014695117
+      lightRain3_121: -8713849226939666704
+      lightRain3_122: 8959071924526899300
+      lightRain3_123: 804856188571669342
+      lightRain3_124: 7270958464217386823
+      lightRain3_125: -5236683462008276378
+      lightRain3_126: 7054162127837527757
+      lightRain3_127: 1332586709075163319
+      lightRain3_128: 941110612794962369
+      lightRain3_129: -434413457383462907
+      lightRain3_13: -2806607595357844101
+      lightRain3_130: 4274116029699855706
+      lightRain3_131: -7095597264052565166
+      lightRain3_132: 2674943945283901312
+      lightRain3_133: 5537243948247248716
+      lightRain3_134: -7443613134049452072
+      lightRain3_14: 3731857643527307882
+      lightRain3_15: 8962248259224892389
+      lightRain3_16: 8796544316273726251
+      lightRain3_17: 5747497042794258795
+      lightRain3_18: 2782319030051193652
+      lightRain3_19: 5993291117873567558
+      lightRain3_2: -4564617446915667576
+      lightRain3_20: 8101812672337835578
+      lightRain3_21: 8799299203972293328
+      lightRain3_22: -5322878541144251338
+      lightRain3_23: -3407649881077539014
+      lightRain3_24: 4330966144849432026
+      lightRain3_25: 7722908221476724393
+      lightRain3_26: 4247720582969006123
+      lightRain3_27: -4503048151441944371
+      lightRain3_28: -7911109959491989240
+      lightRain3_29: -8088953021943310244
+      lightRain3_3: 3775521616138132407
+      lightRain3_30: 1846870696069756386
+      lightRain3_31: 4637770516877435519
+      lightRain3_32: 6455450919868016402
+      lightRain3_33: -6080795656073938857
+      lightRain3_34: -8715689165915649137
+      lightRain3_35: -3742181494177977209
+      lightRain3_36: 1927749572585261392
+      lightRain3_37: -2083700221540805472
+      lightRain3_38: 6680463559314556730
+      lightRain3_39: -5698605545996423479
+      lightRain3_4: 8390541609624437598
+      lightRain3_40: 4260832657149315988
+      lightRain3_41: -121689676452334649
+      lightRain3_42: 5871001877975910879
+      lightRain3_43: -9181526262736944820
+      lightRain3_44: 2725731514151435391
+      lightRain3_45: -4333892864273443844
+      lightRain3_46: 4138653796095614720
+      lightRain3_47: 7481901407901029194
+      lightRain3_48: -7279883181041453786
+      lightRain3_49: 2680416880989670903
+      lightRain3_5: 6795041880607819062
+      lightRain3_50: -7613320924817734819
+      lightRain3_51: 7461347187255017334
+      lightRain3_52: -1955326512119841747
+      lightRain3_53: 3191379988094522036
+      lightRain3_54: 7185763848237240646
+      lightRain3_55: 8168105536918749049
+      lightRain3_56: -4352935330445839358
+      lightRain3_57: -1639785139439242377
+      lightRain3_58: 1395413027573146181
+      lightRain3_59: 3460924789060882934
+      lightRain3_6: 2382782110897606853
+      lightRain3_60: -4920600639553611012
+      lightRain3_61: -3850339801821863938
+      lightRain3_62: -208557496532160951
+      lightRain3_63: 1680279901826177201
+      lightRain3_64: 248340217035408174
+      lightRain3_65: -5083730924475404361
+      lightRain3_66: -7340257917470886519
+      lightRain3_67: 8342333320512728946
+      lightRain3_68: -2447900246609823880
+      lightRain3_69: 6189340422093915052
+      lightRain3_7: -5851342916339402564
+      lightRain3_70: -8487849202667597803
+      lightRain3_71: -693914838028459430
+      lightRain3_72: -8490496681717873049
+      lightRain3_73: -9048978059256706506
+      lightRain3_74: -5715086219085240412
+      lightRain3_75: 3330653268880848067
+      lightRain3_76: 7240241946575425219
+      lightRain3_77: 3136738712496327958
+      lightRain3_78: 5503101016396276274
+      lightRain3_79: -4465719716949408171
+      lightRain3_8: 4861392311287944046
+      lightRain3_80: -1034095721556058772
+      lightRain3_81: 7743744364502216924
+      lightRain3_82: 3532891375514140658
+      lightRain3_83: -6184700377092443215
+      lightRain3_84: 8920718892727239912
+      lightRain3_85: -342106268594437576
+      lightRain3_86: 6232095635193054011
+      lightRain3_87: -6870614038387835202
+      lightRain3_88: 520390728914632959
+      lightRain3_89: -734748454961271623
+      lightRain3_9: -8601427997481144137
+      lightRain3_90: 2187361948030431433
+      lightRain3_91: -4410425181148215003
+      lightRain3_92: 2191803190687082852
+      lightRain3_93: -8209646387274647212
+      lightRain3_94: 3927544298730543839
+      lightRain3_95: 4193942768995120597
+      lightRain3_96: -7618948986168390085
+      lightRain3_97: -5115517608852560317
+      lightRain3_98: 4147128462572944682
+      lightRain3_99: -6815753941817710999
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
