@@ -1,0 +1,3432 @@
+fileFormatVersion: 2
+guid: befb224adfe7d4a9794c8b6cfee19e44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6151912091297324376
+    second: LightSnow_Far_0
+  - first:
+      213: 5252482614916722541
+    second: LightSnow_Far_1
+  - first:
+      213: 6999799403469234306
+    second: LightSnow_Far_2
+  - first:
+      213: -7338964919846677215
+    second: LightSnow_Far_3
+  - first:
+      213: 1675256959872736499
+    second: LightSnow_Far_4
+  - first:
+      213: -7311462479342628280
+    second: LightSnow_Far_5
+  - first:
+      213: -2333509017667420586
+    second: LightSnow_Far_6
+  - first:
+      213: -489413813599202293
+    second: LightSnow_Far_7
+  - first:
+      213: 5884297572283170319
+    second: LightSnow_Far_8
+  - first:
+      213: 5539164745182606467
+    second: LightSnow_Far_9
+  - first:
+      213: 6732924222802791103
+    second: LightSnow_Far_10
+  - first:
+      213: 5378835296399027095
+    second: LightSnow_Far_11
+  - first:
+      213: -7986986996635483747
+    second: LightSnow_Far_12
+  - first:
+      213: -4208744357011401565
+    second: LightSnow_Far_13
+  - first:
+      213: -2033330776004177932
+    second: LightSnow_Far_14
+  - first:
+      213: 459989539922135772
+    second: LightSnow_Far_15
+  - first:
+      213: -3667664700809418323
+    second: LightSnow_Far_16
+  - first:
+      213: 7708886466657384131
+    second: LightSnow_Far_17
+  - first:
+      213: 4678812202644325668
+    second: LightSnow_Far_18
+  - first:
+      213: 626121262995494582
+    second: LightSnow_Far_19
+  - first:
+      213: 4166559904169880676
+    second: LightSnow_Far_20
+  - first:
+      213: -1306992553159777912
+    second: LightSnow_Far_21
+  - first:
+      213: 5110964169098852010
+    second: LightSnow_Far_22
+  - first:
+      213: -9190212662029804905
+    second: LightSnow_Far_23
+  - first:
+      213: -8464628001484616243
+    second: LightSnow_Far_24
+  - first:
+      213: -7680009587144354679
+    second: LightSnow_Far_25
+  - first:
+      213: -7094069487077759014
+    second: LightSnow_Far_26
+  - first:
+      213: -3189157333010872977
+    second: LightSnow_Far_27
+  - first:
+      213: 5186121375488839314
+    second: LightSnow_Far_28
+  - first:
+      213: 5693130193842937278
+    second: LightSnow_Far_29
+  - first:
+      213: -4674858644647256120
+    second: LightSnow_Far_30
+  - first:
+      213: 1992882668144477438
+    second: LightSnow_Far_31
+  - first:
+      213: -3016349927772540702
+    second: LightSnow_Far_32
+  - first:
+      213: -8986989720570074118
+    second: LightSnow_Far_33
+  - first:
+      213: 6998550501901422187
+    second: LightSnow_Far_34
+  - first:
+      213: -6072661731132113144
+    second: LightSnow_Far_35
+  - first:
+      213: -8759061466045027190
+    second: LightSnow_Far_36
+  - first:
+      213: 5324071373554496033
+    second: LightSnow_Far_37
+  - first:
+      213: 2156176889804275826
+    second: LightSnow_Far_38
+  - first:
+      213: 5236455000669583090
+    second: LightSnow_Far_39
+  - first:
+      213: 5548845988811628563
+    second: LightSnow_Far_40
+  - first:
+      213: 5970570777967413787
+    second: LightSnow_Far_41
+  - first:
+      213: -4184478240648927742
+    second: LightSnow_Far_42
+  - first:
+      213: 6793942673881534747
+    second: LightSnow_Far_43
+  - first:
+      213: -2379870457084469354
+    second: LightSnow_Far_44
+  - first:
+      213: -500221075559712359
+    second: LightSnow_Far_45
+  - first:
+      213: -3493051431494096614
+    second: LightSnow_Far_46
+  - first:
+      213: -1123699209329581037
+    second: LightSnow_Far_47
+  - first:
+      213: 1266795357961682210
+    second: LightSnow_Far_48
+  - first:
+      213: 3227135399176924656
+    second: LightSnow_Far_49
+  - first:
+      213: 4281362342483370331
+    second: LightSnow_Far_50
+  - first:
+      213: 6482838887865720245
+    second: LightSnow_Far_51
+  - first:
+      213: 3400953568648975454
+    second: LightSnow_Far_52
+  - first:
+      213: -998548136663679315
+    second: LightSnow_Far_53
+  - first:
+      213: -1467050122597326595
+    second: LightSnow_Far_54
+  - first:
+      213: -6031710203156756004
+    second: LightSnow_Far_55
+  - first:
+      213: -5839257275585356060
+    second: LightSnow_Far_56
+  - first:
+      213: -6854990492247257366
+    second: LightSnow_Far_57
+  - first:
+      213: 643374676775320
+    second: LightSnow_Far_58
+  - first:
+      213: 2804161250294137036
+    second: LightSnow_Far_59
+  - first:
+      213: 822782944445875565
+    second: LightSnow_Far_60
+  - first:
+      213: -6222563466106769940
+    second: LightSnow_Far_61
+  - first:
+      213: 6984087472342172724
+    second: LightSnow_Far_62
+  - first:
+      213: 7369070353584084240
+    second: LightSnow_Far_63
+  - first:
+      213: -6824081273616933429
+    second: LightSnow_Far_64
+  - first:
+      213: 363299330573201435
+    second: LightSnow_Far_65
+  - first:
+      213: -3889057177308499219
+    second: LightSnow_Far_66
+  - first:
+      213: -5029711035731339302
+    second: LightSnow_Far_67
+  - first:
+      213: 8300974798293087258
+    second: LightSnow_Far_68
+  - first:
+      213: 3270281382316761756
+    second: LightSnow_Far_69
+  - first:
+      213: 7659080011754117062
+    second: LightSnow_Far_70
+  - first:
+      213: 6355563684961398093
+    second: LightSnow_Far_71
+  - first:
+      213: 7906788922101939463
+    second: LightSnow_Far_72
+  - first:
+      213: 1899852543088894193
+    second: LightSnow_Far_73
+  - first:
+      213: 7511076324427211677
+    second: LightSnow_Far_74
+  - first:
+      213: 7454586439085862702
+    second: LightSnow_Far_75
+  - first:
+      213: -5669908400944480340
+    second: LightSnow_Far_76
+  - first:
+      213: 6101662240197907000
+    second: LightSnow_Far_77
+  - first:
+      213: 928270899346965329
+    second: LightSnow_Far_78
+  - first:
+      213: -4129055760995455173
+    second: LightSnow_Far_79
+  - first:
+      213: 297361576717316259
+    second: LightSnow_Far_80
+  - first:
+      213: -3489809478094002536
+    second: LightSnow_Far_81
+  - first:
+      213: -5795363874230662400
+    second: LightSnow_Far_82
+  - first:
+      213: -1583698358858317995
+    second: LightSnow_Far_83
+  - first:
+      213: 865776090919975144
+    second: LightSnow_Far_84
+  - first:
+      213: -7312911320267174097
+    second: LightSnow_Far_85
+  - first:
+      213: -501177174242392498
+    second: LightSnow_Far_86
+  - first:
+      213: -1175420346092793705
+    second: LightSnow_Far_87
+  - first:
+      213: 5975474531451110748
+    second: LightSnow_Far_88
+  - first:
+      213: 1319700750171938416
+    second: LightSnow_Far_89
+  - first:
+      213: 2949636697324642984
+    second: LightSnow_Far_90
+  - first:
+      213: 8855643989221243094
+    second: LightSnow_Far_91
+  - first:
+      213: 7538348136062762310
+    second: LightSnow_Far_92
+  - first:
+      213: 8791814054738847346
+    second: LightSnow_Far_93
+  - first:
+      213: -8609800659239593188
+    second: LightSnow_Far_94
+  - first:
+      213: -8483439434773960890
+    second: LightSnow_Far_95
+  - first:
+      213: -2054462232730140139
+    second: LightSnow_Far_96
+  - first:
+      213: -1960992934713101653
+    second: LightSnow_Far_97
+  - first:
+      213: -2900441399126365480
+    second: LightSnow_Far_98
+  - first:
+      213: 5057015502973999315
+    second: LightSnow_Far_99
+  - first:
+      213: 6992676762437235177
+    second: LightSnow_Far_100
+  - first:
+      213: 1833382773508836729
+    second: LightSnow_Far_101
+  - first:
+      213: 884124892461858776
+    second: LightSnow_Far_102
+  - first:
+      213: -1802348051561985535
+    second: LightSnow_Far_103
+  - first:
+      213: 5318434334595765619
+    second: LightSnow_Far_104
+  - first:
+      213: 1969948757056705387
+    second: LightSnow_Far_105
+  - first:
+      213: -5623055696546174782
+    second: LightSnow_Far_106
+  - first:
+      213: 4655149907240289889
+    second: LightSnow_Far_107
+  - first:
+      213: 4616059700900337845
+    second: LightSnow_Far_108
+  - first:
+      213: -7894893109823600774
+    second: LightSnow_Far_109
+  - first:
+      213: -9130587496952246964
+    second: LightSnow_Far_110
+  - first:
+      213: -208378839073777866
+    second: LightSnow_Far_111
+  - first:
+      213: -5664847510781108760
+    second: LightSnow_Far_112
+  - first:
+      213: -6059335675077573073
+    second: LightSnow_Far_113
+  - first:
+      213: -3037045539024939270
+    second: LightSnow_Far_114
+  - first:
+      213: -7118322884238897925
+    second: LightSnow_Far_115
+  - first:
+      213: -2781125001803232788
+    second: LightSnow_Far_116
+  - first:
+      213: 7108440699384501743
+    second: LightSnow_Far_117
+  - first:
+      213: 1764431054444357532
+    second: LightSnow_Far_118
+  - first:
+      213: -8415680379612103986
+    second: LightSnow_Far_119
+  - first:
+      213: -2468282720871703948
+    second: LightSnow_Far_120
+  - first:
+      213: 7220110164924327301
+    second: LightSnow_Far_121
+  - first:
+      213: 930005742034763639
+    second: LightSnow_Far_122
+  - first:
+      213: -495675615277237958
+    second: LightSnow_Far_123
+  - first:
+      213: -7049953961138298551
+    second: LightSnow_Far_124
+  - first:
+      213: 5946232054465351137
+    second: LightSnow_Far_125
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightSnow_Far_0
+      rect:
+        serializedVersion: 2
+        x: 28
+        y: 767
+        width: 190
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d153be37bff5550800000000000000
+      internalID: 6151912091297324376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 842
+        width: 55
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6fa6030c1194e840800000000000000
+      internalID: 5252482614916722541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_2
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 880
+        width: 54
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28066ce8878442160800000000000000
+      internalID: 6999799403469234306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_3
+      rect:
+        serializedVersion: 2
+        x: 442
+        y: 825
+        width: 146
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1255c75f942c62a90800000000000000
+      internalID: -7338964919846677215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_4
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 761
+        width: 214
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fc17b04455bf3710800000000000000
+      internalID: 1675256959872736499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_5
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 842
+        width: 142
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8429f22ec97788a90800000000000000
+      internalID: -7311462479342628280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_6
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 773
+        width: 176
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65e33c179e5bd9fd0800000000000000
+      internalID: -2333509017667420586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_7
+      rect:
+        serializedVersion: 2
+        x: 1549
+        y: 909
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b041044cab04539f0800000000000000
+      internalID: -489413813599202293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_8
+      rect:
+        serializedVersion: 2
+        x: 1557
+        y: 914
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0eb1a4377939a150800000000000000
+      internalID: 5884297572283170319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_9
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 906
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384f9fcecf01fdc40800000000000000
+      internalID: 5539164745182606467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_10
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 858
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fba88c778e6207d50800000000000000
+      internalID: 6732924222802791103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_11
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 830
+        width: 46
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79b623b243675aa40800000000000000
+      internalID: 5378835296399027095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_12
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 886
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d91c0e7b4a5882190800000000000000
+      internalID: -7986986996635483747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_13
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 850
+        width: 15
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a4d7e16e498795c0800000000000000
+      internalID: -4208744357011401565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_14
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 878
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffc669ae6828c3e0800000000000000
+      internalID: -2033330776004177932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_15
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 866
+        width: 19
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda4477ac06326600800000000000000
+      internalID: 459989539922135772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_16
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 787
+        width: 61
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9e3010366d91dc0800000000000000
+      internalID: -3667664700809418323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_17
+      rect:
+        serializedVersion: 2
+        x: 844
+        y: 842
+        width: 98
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c6fde2e5677bfa60800000000000000
+      internalID: 7708886466657384131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_18
+      rect:
+        serializedVersion: 2
+        x: 936
+        y: 809
+        width: 66
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425c06da8ea7ee040800000000000000
+      internalID: 4678812202644325668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_19
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 825
+        width: 85
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b65a2ba8fd60b800800000000000000
+      internalID: 626121262995494582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_20
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 866
+        width: 59
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46c6e6f482892d930800000000000000
+      internalID: 4166559904169880676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_21
+      rect:
+        serializedVersion: 2
+        x: 1103
+        y: 866
+        width: 17
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 881a4d89231acdde0800000000000000
+      internalID: -1306992553159777912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_22
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 860
+        width: 26
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa6f2ee25dacde640800000000000000
+      internalID: 5110964169098852010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_23
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 880
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a9a65964ec57080800000000000000
+      internalID: -9190212662029804905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_24
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 775
+        width: 152
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcd4faf1ea9978a80800000000000000
+      internalID: -8464628001484616243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_25
+      rect:
+        serializedVersion: 2
+        x: 1270
+        y: 856
+        width: 45
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9849aae88ff1b6590800000000000000
+      internalID: -7680009587144354679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_26
+      rect:
+        serializedVersion: 2
+        x: 1499
+        y: 873
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad7eac2336dcc8d90800000000000000
+      internalID: -7094069487077759014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_27
+      rect:
+        serializedVersion: 2
+        x: 1596
+        y: 864
+        width: 15
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f650e017d46ddb3d0800000000000000
+      internalID: -3189157333010872977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_28
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 850
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e821ce9edc8f740800000000000000
+      internalID: 5186121375488839314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 852
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebd1f007fbf020f40800000000000000
+      internalID: 5693130193842937278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_30
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 777
+        width: 50
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cfd2a6c4d09f1fb0800000000000000
+      internalID: -4674858644647256120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 832
+        width: 22
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4c8c95a3428ab10800000000000000
+      internalID: 1992882668144477438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_32
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 844
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e0b7d4d8b5c326d0800000000000000
+      internalID: -3016349927772540702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_33
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 817
+        width: 35
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afb6559d67cc74380800000000000000
+      internalID: -8986989720570074118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_34
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 817
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6e47700a98df1160800000000000000
+      internalID: 6998550501901422187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_35
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 777
+        width: 45
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ff2c2745299bba0800000000000000
+      internalID: -6072661731132113144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_36
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 760
+        width: 84
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ce29e0100917680800000000000000
+      internalID: -8759061466045027190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_37
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 0
+        width: 910
+        height: 846
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 122ba83c4b6e2e940800000000000000
+      internalID: 5324071373554496033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_38
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 834
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270c0b515774ced10800000000000000
+      internalID: 2156176889804275826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_39
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 815
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f67a354410aba840800000000000000
+      internalID: 5236455000669583090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_40
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 761
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 310e77c1706710d40800000000000000
+      internalID: 5548845988811628563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_41
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 763
+        width: 41
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a43173d7abbd250800000000000000
+      internalID: 5970570777967413787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 739
+        width: 122
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 206e4cfd53fbde5c0800000000000000
+      internalID: -4184478240648927742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_43
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 747
+        width: 61
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b119315bddee84e50800000000000000
+      internalID: 6793942673881534747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_44
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 795
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f980aad6009fed0800000000000000
+      internalID: -2379870457084469354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_45
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 736
+        width: 27
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9997912059bde09f0800000000000000
+      internalID: -500221075559712359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_46
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 708
+        width: 83
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a19ef93ea30368fc0800000000000000
+      internalID: -3493051431494096614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_47
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 637
+        width: 78
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 314e581d581d760f0800000000000000
+      internalID: -1123699209329581037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_48
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 769
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d7b629aaf849110800000000000000
+      internalID: 1266795357961682210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_49
+      rect:
+        serializedVersion: 2
+        x: 728
+        y: 771
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fd67062c8619cc20800000000000000
+      internalID: 3227135399176924656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_50
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 744
+        width: 67
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51a47aed547a6b30800000000000000
+      internalID: 4281362342483370331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_51
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 685
+        width: 50
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd1357fe9ba7f950800000000000000
+      internalID: 6482838887865720245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_52
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 150
+        width: 682
+        height: 614
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e545bec604d923f20800000000000000
+      internalID: 3400953568648975454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_53
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 761
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae780f92c17422f0800000000000000
+      internalID: -998548136663679315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_54
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 751
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df0a4eeafadf3abe0800000000000000
+      internalID: -1467050122597326595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_55
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 696
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd90eb0178f0b4ca0800000000000000
+      internalID: -6031710203156756004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_56
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 748
+        width: 21
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ee9e90127ac6fea0800000000000000
+      internalID: -5839257275585356060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_57
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 615
+        width: 132
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aee0ce2777e2ed0a0800000000000000
+      internalID: -6854990492247257366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_58
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 693
+        width: 43
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89111175529420000800000000000000
+      internalID: 643374676775320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_59
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 696
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc082b0dcc16ae620800000000000000
+      internalID: 2804161250294137036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_60
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 702
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6542fa8abc1b6b00800000000000000
+      internalID: 822782944445875565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_61
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 669
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cede1620f7305a9a0800000000000000
+      internalID: -6222563466106769940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_62
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 645
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43406358d867ce060800000000000000
+      internalID: 6984087472342172724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_63
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 617
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015dd3e8172344660800000000000000
+      internalID: 7369070353584084240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_64
+      rect:
+        serializedVersion: 2
+        x: 681
+        y: 533
+        width: 106
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcddaa7bc3efb41a0800000000000000
+      internalID: -6824081273616933429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_65
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 623
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b10f3f9f0d2ba0500800000000000000
+      internalID: 363299330573201435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 591
+        width: 15
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2f7533a1b470ac0800000000000000
+      internalID: -3889057177308499219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_67
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 598
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad71f582670e23ab0800000000000000
+      internalID: -5029711035731339302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_68
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 565
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a14babd399cf23370800000000000000
+      internalID: 8300974798293087258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_69
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 566
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92609c279f526d20800000000000000
+      internalID: 3270281382316761756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_70
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 503
+        width: 44
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c716eee0b48a4a60800000000000000
+      internalID: 7659080011754117062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_71
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 355
+        width: 128
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4d2f7d8f7f733850800000000000000
+      internalID: 6355563684961398093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_72
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 522
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d31e7f1ae8abd60800000000000000
+      internalID: 7906788922101939463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_73
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 446
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f0af6472d1ad5a10800000000000000
+      internalID: 1899852543088894193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_74
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 354
+        width: 161
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d93a4562f14bc3860800000000000000
+      internalID: 7511076324427211677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_75
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 364
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f2829ced2047760800000000000000
+      internalID: 7454586439085862702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_76
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 353
+        width: 19
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: caf73bc89507051b0800000000000000
+      internalID: -5669908400944480340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_77
+      rect:
+        serializedVersion: 2
+        x: 669
+        y: 351
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 832196eba757da450800000000000000
+      internalID: 6101662240197907000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_78
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 301
+        width: 69
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15388eaf671e1ec00800000000000000
+      internalID: 928270899346965329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_79
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 120
+        width: 228
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3fe51c79a5a2b6c0800000000000000
+      internalID: -4129055760995455173
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_80
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 323
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a0f51e47c0702400800000000000000
+      internalID: 297361576717316259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_81
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 312
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8966a6cf4c4b19fc0800000000000000
+      internalID: -3489809478094002536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_82
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 0
+        width: 321
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00b8954f24bb29fa0800000000000000
+      internalID: -5795363874230662400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_83
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 153
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f71e0cbb2950ae0800000000000000
+      internalID: -1583698358858317995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_84
+      rect:
+        serializedVersion: 2
+        x: 340
+        y: 149
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8bf4284cad30c00800000000000000
+      internalID: 865776090919975144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 145
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2fca8156e1538a90800000000000000
+      internalID: -7312911320267174097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_86
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 0
+        width: 194
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e468fbfe3067b09f0800000000000000
+      internalID: -501177174242392498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_87
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 0
+        width: 102
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7905f514c6110bfe0800000000000000
+      internalID: -1175420346092793705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_88
+      rect:
+        serializedVersion: 2
+        x: 834
+        y: 13
+        width: 150
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c55898b4d662de250800000000000000
+      internalID: 5975474531451110748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_89
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 13
+        width: 140
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07e90d717d4805210800000000000000
+      internalID: 1319700750171938416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_90
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 0
+        width: 176
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a2ed78c2f63fe820800000000000000
+      internalID: 2949636697324642984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_91
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 23
+        width: 115
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8fadaf94195ea70800000000000000
+      internalID: 8855643989221243094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_92
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 114
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64dbf3b90b79d9860800000000000000
+      internalID: 7538348136062762310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_93
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 112
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 276eeff3d4cc20a70800000000000000
+      internalID: 8791814054738847346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_94
+      rect:
+        serializedVersion: 2
+        x: 732
+        y: 71
+        width: 43
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1b9917cae7d38880800000000000000
+      internalID: -8609800659239593188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_95
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 50
+        width: 57
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 647e1c008c4c44a80800000000000000
+      internalID: -8483439434773960890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_96
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 80
+        width: 48
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5120aadfb751d73e0800000000000000
+      internalID: -2054462232730140139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_97
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 26
+        width: 62
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba2ff5fc05729c4e0800000000000000
+      internalID: -1960992934713101653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_98
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 98
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8da6c392aef8fb7d0800000000000000
+      internalID: -2900441399126365480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_99
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 80
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d898668ec02e2640800000000000000
+      internalID: 5057015502973999315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_100
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 29
+        width: 101
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e13336777afa0160800000000000000
+      internalID: 6992676762437235177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_101
+      rect:
+        serializedVersion: 2
+        x: 1290
+        y: 92
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97d80583beb717910800000000000000
+      internalID: 1833382773508836729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_102
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 74
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dff448c7ea054c00800000000000000
+      internalID: 884124892461858776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_103
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 76
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10ac7011ff5ccf6e0800000000000000
+      internalID: -1802348051561985535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_104
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 54
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37552da59dfdec940800000000000000
+      internalID: 5318434334595765619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_105
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 72
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63561215f9a65b10800000000000000
+      internalID: 1969948757056705387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_106
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 65
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c8e02fd2a4e6f1b0800000000000000
+      internalID: -5623055696546174782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_107
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 23
+        width: 29
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16600453d2a6a9040800000000000000
+      internalID: 4655149907240289889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_108
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 55
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8192e47d98f0040800000000000000
+      internalID: 4616059700900337845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_109
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 56
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a770949ab84bf6290800000000000000
+      internalID: -7894893109823600774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_110
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 6
+        width: 39
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4dc9852c03a94180800000000000000
+      internalID: -9130587496952246964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_111
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 65
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6379c46cc80bb1df0800000000000000
+      internalID: -208378839073777866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_112
+      rect:
+        serializedVersion: 2
+        x: 1282
+        y: 54
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8edd22dd33b6261b0800000000000000
+      internalID: -5664847510781108760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_113
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 48
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f264628ae4ae8eba0800000000000000
+      internalID: -6059335675077573073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_114
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 48
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af6dbb75c2f3ad5d0800000000000000
+      internalID: -3037045539024939270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_115
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 25
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc08602d03a63d90800000000000000
+      internalID: -7118322884238897925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_116
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 39
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce98f8fbb857769d0800000000000000
+      internalID: -2781125001803232788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_117
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 29
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe51eb9672146a260800000000000000
+      internalID: 7108440699384501743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_118
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 35
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c97e2d612b48c7810800000000000000
+      internalID: 1764431054444357532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_119
+      rect:
+        serializedVersion: 2
+        x: 605
+        y: 31
+        width: 21
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecafefd684f753b80800000000000000
+      internalID: -8415680379612103986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_120
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 31
+        width: 13
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47a153161f5eebdd0800000000000000
+      internalID: -2468282720871703948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_121
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 7
+        width: 41
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5856083f0fbf23460800000000000000
+      internalID: 7220110164924327301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_122
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 15
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77f3e058b4b08ec00800000000000000
+      internalID: 930005742034763639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_123
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 21
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a39b39377a10f19f0800000000000000
+      internalID: -495675615277237958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_124
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 15
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9416e7f7938892e90800000000000000
+      internalID: -7049953961138298551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Far_125
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 0
+        width: 38
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1edc27e8c82458250800000000000000
+      internalID: 5946232054465351137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightSnow_Far_0: 6151912091297324376
+      LightSnow_Far_1: 5252482614916722541
+      LightSnow_Far_10: 6732924222802791103
+      LightSnow_Far_100: 6992676762437235177
+      LightSnow_Far_101: 1833382773508836729
+      LightSnow_Far_102: 884124892461858776
+      LightSnow_Far_103: -1802348051561985535
+      LightSnow_Far_104: 5318434334595765619
+      LightSnow_Far_105: 1969948757056705387
+      LightSnow_Far_106: -5623055696546174782
+      LightSnow_Far_107: 4655149907240289889
+      LightSnow_Far_108: 4616059700900337845
+      LightSnow_Far_109: -7894893109823600774
+      LightSnow_Far_11: 5378835296399027095
+      LightSnow_Far_110: -9130587496952246964
+      LightSnow_Far_111: -208378839073777866
+      LightSnow_Far_112: -5664847510781108760
+      LightSnow_Far_113: -6059335675077573073
+      LightSnow_Far_114: -3037045539024939270
+      LightSnow_Far_115: -7118322884238897925
+      LightSnow_Far_116: -2781125001803232788
+      LightSnow_Far_117: 7108440699384501743
+      LightSnow_Far_118: 1764431054444357532
+      LightSnow_Far_119: -8415680379612103986
+      LightSnow_Far_12: -7986986996635483747
+      LightSnow_Far_120: -2468282720871703948
+      LightSnow_Far_121: 7220110164924327301
+      LightSnow_Far_122: 930005742034763639
+      LightSnow_Far_123: -495675615277237958
+      LightSnow_Far_124: -7049953961138298551
+      LightSnow_Far_125: 5946232054465351137
+      LightSnow_Far_13: -4208744357011401565
+      LightSnow_Far_14: -2033330776004177932
+      LightSnow_Far_15: 459989539922135772
+      LightSnow_Far_16: -3667664700809418323
+      LightSnow_Far_17: 7708886466657384131
+      LightSnow_Far_18: 4678812202644325668
+      LightSnow_Far_19: 626121262995494582
+      LightSnow_Far_2: 6999799403469234306
+      LightSnow_Far_20: 4166559904169880676
+      LightSnow_Far_21: -1306992553159777912
+      LightSnow_Far_22: 5110964169098852010
+      LightSnow_Far_23: -9190212662029804905
+      LightSnow_Far_24: -8464628001484616243
+      LightSnow_Far_25: -7680009587144354679
+      LightSnow_Far_26: -7094069487077759014
+      LightSnow_Far_27: -3189157333010872977
+      LightSnow_Far_28: 5186121375488839314
+      LightSnow_Far_29: 5693130193842937278
+      LightSnow_Far_3: -7338964919846677215
+      LightSnow_Far_30: -4674858644647256120
+      LightSnow_Far_31: 1992882668144477438
+      LightSnow_Far_32: -3016349927772540702
+      LightSnow_Far_33: -8986989720570074118
+      LightSnow_Far_34: 6998550501901422187
+      LightSnow_Far_35: -6072661731132113144
+      LightSnow_Far_36: -8759061466045027190
+      LightSnow_Far_37: 5324071373554496033
+      LightSnow_Far_38: 2156176889804275826
+      LightSnow_Far_39: 5236455000669583090
+      LightSnow_Far_4: 1675256959872736499
+      LightSnow_Far_40: 5548845988811628563
+      LightSnow_Far_41: 5970570777967413787
+      LightSnow_Far_42: -4184478240648927742
+      LightSnow_Far_43: 6793942673881534747
+      LightSnow_Far_44: -2379870457084469354
+      LightSnow_Far_45: -500221075559712359
+      LightSnow_Far_46: -3493051431494096614
+      LightSnow_Far_47: -1123699209329581037
+      LightSnow_Far_48: 1266795357961682210
+      LightSnow_Far_49: 3227135399176924656
+      LightSnow_Far_5: -7311462479342628280
+      LightSnow_Far_50: 4281362342483370331
+      LightSnow_Far_51: 6482838887865720245
+      LightSnow_Far_52: 3400953568648975454
+      LightSnow_Far_53: -998548136663679315
+      LightSnow_Far_54: -1467050122597326595
+      LightSnow_Far_55: -6031710203156756004
+      LightSnow_Far_56: -5839257275585356060
+      LightSnow_Far_57: -6854990492247257366
+      LightSnow_Far_58: 643374676775320
+      LightSnow_Far_59: 2804161250294137036
+      LightSnow_Far_6: -2333509017667420586
+      LightSnow_Far_60: 822782944445875565
+      LightSnow_Far_61: -6222563466106769940
+      LightSnow_Far_62: 6984087472342172724
+      LightSnow_Far_63: 7369070353584084240
+      LightSnow_Far_64: -6824081273616933429
+      LightSnow_Far_65: 363299330573201435
+      LightSnow_Far_66: -3889057177308499219
+      LightSnow_Far_67: -5029711035731339302
+      LightSnow_Far_68: 8300974798293087258
+      LightSnow_Far_69: 3270281382316761756
+      LightSnow_Far_7: -489413813599202293
+      LightSnow_Far_70: 7659080011754117062
+      LightSnow_Far_71: 6355563684961398093
+      LightSnow_Far_72: 7906788922101939463
+      LightSnow_Far_73: 1899852543088894193
+      LightSnow_Far_74: 7511076324427211677
+      LightSnow_Far_75: 7454586439085862702
+      LightSnow_Far_76: -5669908400944480340
+      LightSnow_Far_77: 6101662240197907000
+      LightSnow_Far_78: 928270899346965329
+      LightSnow_Far_79: -4129055760995455173
+      LightSnow_Far_8: 5884297572283170319
+      LightSnow_Far_80: 297361576717316259
+      LightSnow_Far_81: -3489809478094002536
+      LightSnow_Far_82: -5795363874230662400
+      LightSnow_Far_83: -1583698358858317995
+      LightSnow_Far_84: 865776090919975144
+      LightSnow_Far_85: -7312911320267174097
+      LightSnow_Far_86: -501177174242392498
+      LightSnow_Far_87: -1175420346092793705
+      LightSnow_Far_88: 5975474531451110748
+      LightSnow_Far_89: 1319700750171938416
+      LightSnow_Far_9: 5539164745182606467
+      LightSnow_Far_90: 2949636697324642984
+      LightSnow_Far_91: 8855643989221243094
+      LightSnow_Far_92: 7538348136062762310
+      LightSnow_Far_93: 8791814054738847346
+      LightSnow_Far_94: -8609800659239593188
+      LightSnow_Far_95: -8483439434773960890
+      LightSnow_Far_96: -2054462232730140139
+      LightSnow_Far_97: -1960992934713101653
+      LightSnow_Far_98: -2900441399126365480
+      LightSnow_Far_99: 5057015502973999315
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

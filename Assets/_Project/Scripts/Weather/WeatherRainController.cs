@@ -2,9 +2,8 @@ using UnityEngine;
 
 namespace CozyHome.Weather
 {
-    /// <summary>
-    /// Controls the three layered rain scrollers for a light-rain visual state.
-    /// </summary>
+    // Legacy compatibility wrapper: older code can still call the public methods, but the active weather flow is WeatherController -> WeatherVisualGroup -> WeatherLayerScroller.
+    [System.Obsolete("Use WeatherController + WeatherVisualGroup instead.")]
     [DisallowMultipleComponent]
     public class WeatherRainController : MonoBehaviour
     {
@@ -28,12 +27,6 @@ namespace CozyHome.Weather
         private void Awake()
         {
             CacheLayers();
-        }
-
-        private void Start()
-        {
-            CacheLayers();
-            PlayLightRain();
         }
 
         private void OnEnable()

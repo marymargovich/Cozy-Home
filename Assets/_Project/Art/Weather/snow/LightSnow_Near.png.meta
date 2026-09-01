@@ -1,0 +1,1664 @@
+fileFormatVersion: 2
+guid: 080342a8c809f4ff39b6c2ffadacf137
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2785539640099705273
+    second: LightSnow_Near_0
+  - first:
+      213: -1651070040708124104
+    second: LightSnow_Near_1
+  - first:
+      213: -1115411409873109458
+    second: LightSnow_Near_2
+  - first:
+      213: 6370282398756777832
+    second: LightSnow_Near_3
+  - first:
+      213: -6995514853579522100
+    second: LightSnow_Near_4
+  - first:
+      213: 4434033491701279301
+    second: LightSnow_Near_5
+  - first:
+      213: 1649419420045230237
+    second: LightSnow_Near_6
+  - first:
+      213: -7013078959308449629
+    second: LightSnow_Near_7
+  - first:
+      213: 6306809191521311818
+    second: LightSnow_Near_8
+  - first:
+      213: -1579232410098013605
+    second: LightSnow_Near_9
+  - first:
+      213: 6879905580603744775
+    second: LightSnow_Near_10
+  - first:
+      213: 6300672476431170887
+    second: LightSnow_Near_11
+  - first:
+      213: -2314947056111650162
+    second: LightSnow_Near_12
+  - first:
+      213: -7150819010656887367
+    second: LightSnow_Near_13
+  - first:
+      213: 5230341276080282948
+    second: LightSnow_Near_14
+  - first:
+      213: -3259128092603405402
+    second: LightSnow_Near_15
+  - first:
+      213: -453525664267844103
+    second: LightSnow_Near_16
+  - first:
+      213: -3236534290089723657
+    second: LightSnow_Near_17
+  - first:
+      213: -1108265565653058234
+    second: LightSnow_Near_18
+  - first:
+      213: -7507152148086848562
+    second: LightSnow_Near_19
+  - first:
+      213: 8347026873546460417
+    second: LightSnow_Near_20
+  - first:
+      213: 653983479664304811
+    second: LightSnow_Near_21
+  - first:
+      213: 622598721684785900
+    second: LightSnow_Near_22
+  - first:
+      213: -4238834653169068385
+    second: LightSnow_Near_23
+  - first:
+      213: -1198276782679684909
+    second: LightSnow_Near_24
+  - first:
+      213: 3986155034025909282
+    second: LightSnow_Near_25
+  - first:
+      213: -2892131317576026920
+    second: LightSnow_Near_26
+  - first:
+      213: 3970681029027703119
+    second: LightSnow_Near_27
+  - first:
+      213: -346589189418661936
+    second: LightSnow_Near_28
+  - first:
+      213: 799431416346818013
+    second: LightSnow_Near_29
+  - first:
+      213: 2865840723113054421
+    second: LightSnow_Near_30
+  - first:
+      213: 6145872604321449214
+    second: LightSnow_Near_31
+  - first:
+      213: -4865072186560806319
+    second: LightSnow_Near_32
+  - first:
+      213: -6594778229358648565
+    second: LightSnow_Near_33
+  - first:
+      213: -1035223061794305172
+    second: LightSnow_Near_34
+  - first:
+      213: -7500808404203246556
+    second: LightSnow_Near_35
+  - first:
+      213: -5268837368917934480
+    second: LightSnow_Near_36
+  - first:
+      213: 618899698335467045
+    second: LightSnow_Near_37
+  - first:
+      213: -3691163231513507675
+    second: LightSnow_Near_38
+  - first:
+      213: -909765089535651453
+    second: LightSnow_Near_39
+  - first:
+      213: 3185264166848158212
+    second: LightSnow_Near_40
+  - first:
+      213: -887412933270658744
+    second: LightSnow_Near_41
+  - first:
+      213: 5089457118868307653
+    second: LightSnow_Near_42
+  - first:
+      213: -4534516103702567619
+    second: LightSnow_Near_43
+  - first:
+      213: -6231014786268169625
+    second: LightSnow_Near_44
+  - first:
+      213: -4670586480986060048
+    second: LightSnow_Near_45
+  - first:
+      213: -8163963316179306246
+    second: LightSnow_Near_46
+  - first:
+      213: -7504578521186058806
+    second: LightSnow_Near_47
+  - first:
+      213: 8605461047472824050
+    second: LightSnow_Near_48
+  - first:
+      213: -2087048914774164043
+    second: LightSnow_Near_49
+  - first:
+      213: 6592839943026293486
+    second: LightSnow_Near_50
+  - first:
+      213: -6457395224861235718
+    second: LightSnow_Near_51
+  - first:
+      213: -4558924664316956549
+    second: LightSnow_Near_52
+  - first:
+      213: -85941921621377251
+    second: LightSnow_Near_53
+  - first:
+      213: -7368458815119377605
+    second: LightSnow_Near_54
+  - first:
+      213: 6394676280899554652
+    second: LightSnow_Near_55
+  - first:
+      213: -6586057828209350116
+    second: LightSnow_Near_56
+  - first:
+      213: 6550720519026063827
+    second: LightSnow_Near_57
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LightSnow_Near_0
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 828
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74e661ca476c759d0800000000000000
+      internalID: -2785539640099705273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_1
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 753
+        width: 205
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8327d44bb883619e0800000000000000
+      internalID: -1651070040708124104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 721
+        width: 8
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e78108b334580f0800000000000000
+      internalID: -1115411409873109458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_3
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 747
+        width: 148
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86f22d8271ac76850800000000000000
+      internalID: 6370282398756777832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_4
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 826
+        width: 42
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccf7c63fd40faee90800000000000000
+      internalID: -6995514853579522100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_5
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 786
+        width: 62
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a2a0bd7f9d88d30800000000000000
+      internalID: 4434033491701279301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_6
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 624
+        width: 182
+        height: 282
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d904d69393ae3e610800000000000000
+      internalID: 1649419420045230237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_7
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 518
+        width: 210
+        height: 383
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a857a8e7d98cae90800000000000000
+      internalID: -7013078959308449629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 713
+        width: 59
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4cdbc67b89468750800000000000000
+      internalID: 6306809191521311818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 648
+        width: 64
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5ae25a7d70751ae0800000000000000
+      internalID: -1579232410098013605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_10
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 362
+        width: 236
+        height: 321
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7022d1c9ca55a7f50800000000000000
+      internalID: 6879905580603744775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_11
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 567
+        width: 158
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74db2c32c3c707750800000000000000
+      internalID: 6300672476431170887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_12
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 573
+        width: 78
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8af0a6eae7afdfd0800000000000000
+      internalID: -2314947056111650162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_13
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 575
+        width: 44
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bd9fa81fff23cc90800000000000000
+      internalID: -7150819010656887367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_14
+      rect:
+        serializedVersion: 2
+        x: 719
+        y: 668
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44d14d6dda7e59840800000000000000
+      internalID: 5230341276080282948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_15
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 688
+        width: 52
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6aba0e2744045c2d0800000000000000
+      internalID: -3259128092603405402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_16
+      rect:
+        serializedVersion: 2
+        x: 772
+        y: 705
+        width: 46
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f5caccafc0c4b9f0800000000000000
+      internalID: -453525664267844103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_17
+      rect:
+        serializedVersion: 2
+        x: 858
+        y: 650
+        width: 142
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f8b4d706358513d0800000000000000
+      internalID: -3236534290089723657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_18
+      rect:
+        serializedVersion: 2
+        x: 868
+        y: 634
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64db3720756ae90f0800000000000000
+      internalID: -1108265565653058234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_19
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 640
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec3097a55ec31d790800000000000000
+      internalID: -7507152148086848562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_20
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 697
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d406097b896d370800000000000000
+      internalID: 8347026873546460417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_21
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 607
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba26d52828a631900800000000000000
+      internalID: 653983479664304811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_22
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 713
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea42ab1d3ae3a800800000000000000
+      internalID: 622598721684785900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_23
+      rect:
+        serializedVersion: 2
+        x: 1141
+        y: 743
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f96dd3c5752ac25c0800000000000000
+      internalID: -4238834653169068385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_24
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 759
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d887c96d9dde5fe0800000000000000
+      internalID: -1198276782679684909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_25
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 752
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cdfb642eaa15730800000000000000
+      internalID: 3986155034025909282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_26
+      rect:
+        serializedVersion: 2
+        x: 1246
+        y: 599
+        width: 59
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4391cc3e51dd7d0800000000000000
+      internalID: -2892131317576026920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_27
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 591
+        width: 74
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f49249bbb51ba1730800000000000000
+      internalID: 3970681029027703119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_28
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 583
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d7c5b1f7faa03bf0800000000000000
+      internalID: -346589189418661936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_29
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 569
+        width: 184
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5b3a933a6281b00800000000000000
+      internalID: 799431416346818013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_30
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 566
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d0900c24f285c720800000000000000
+      internalID: 2865840723113054421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_31
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 234
+        width: 235
+        height: 336
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef4826742968a4550800000000000000
+      internalID: 6145872604321449214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_32
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 527
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15209616f9acb7cb0800000000000000
+      internalID: -4865072186560806319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_33
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 518
+        width: 13
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b03299a1424aa74a0800000000000000
+      internalID: -6594778229358648565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_34
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 524
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6b45723c1622a1f0800000000000000
+      internalID: -1035223061794305172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_35
+      rect:
+        serializedVersion: 2
+        x: 1363
+        y: 510
+        width: 45
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42c63335f76c7e790800000000000000
+      internalID: -7500808404203246556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_36
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 323
+        width: 129
+        height: 229
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07eb756145451e6b0800000000000000
+      internalID: -5268837368917934480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_37
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 439
+        width: 105
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 526c1ee1ff5c69800800000000000000
+      internalID: 618899698335467045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_38
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 437
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a887a9f89a56ccc0800000000000000
+      internalID: -3691163231513507675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_39
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 277
+        width: 107
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3811d21a87ddf53f0800000000000000
+      internalID: -909765089535651453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_40
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 376
+        width: 29
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40ad3cc22e4543c20800000000000000
+      internalID: 3185264166848158212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_41
+      rect:
+        serializedVersion: 2
+        x: 1407
+        y: 371
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841a05f83a64fa3f0800000000000000
+      internalID: -887412933270658744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_42
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 185
+        width: 123
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce7ab5d84261a640800000000000000
+      internalID: 5089457118868307653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_43
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 0
+        width: 212
+        height: 221
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35258ae0a92211c0800000000000000
+      internalID: -4534516103702567619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_44
+      rect:
+        serializedVersion: 2
+        x: 426
+        y: 177
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a7742b01df689a0800000000000000
+      internalID: -6231014786268169625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_45
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 263
+        width: 31
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fa8514675ebe2fb0800000000000000
+      internalID: -4670586480986060048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_46
+      rect:
+        serializedVersion: 2
+        x: 563
+        y: 299
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af8ffc35e96c3be80800000000000000
+      internalID: -8163963316179306246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_47
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 137
+        width: 146
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acdbdaf88916ad790800000000000000
+      internalID: -7504578521186058806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_48
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 291
+        width: 27
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fe141f9a3dbc6770800000000000000
+      internalID: 8605461047472824050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_49
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 0
+        width: 320
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bd7506d1105903e0800000000000000
+      internalID: -2087048914774164043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_50
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 238
+        width: 142
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeab6117ff87e7b50800000000000000
+      internalID: 6592839943026293486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_51
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 56
+        width: 186
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af5a7d77149b266a0800000000000000
+      internalID: -6457395224861235718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_52
+      rect:
+        serializedVersion: 2
+        x: 1431
+        y: 137
+        width: 130
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70fe990c227bb0c0800000000000000
+      internalID: -4558924664316956549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_53
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 205
+        width: 44
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1f7172174caecef0800000000000000
+      internalID: -85941921621377251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_54
+      rect:
+        serializedVersion: 2
+        x: 1598
+        y: 90
+        width: 57
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3bb6b65fb9fdb990800000000000000
+      internalID: -7368458815119377605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_55
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 122
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5d42a072347eb850800000000000000
+      internalID: 6394676280899554652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_56
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 85
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1aa667bc4f9994a0800000000000000
+      internalID: -6586057828209350116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LightSnow_Near_57
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 56
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d93967da95d8ea50800000000000000
+      internalID: 6550720519026063827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LightSnow_Near_0: -2785539640099705273
+      LightSnow_Near_1: -1651070040708124104
+      LightSnow_Near_10: 6879905580603744775
+      LightSnow_Near_11: 6300672476431170887
+      LightSnow_Near_12: -2314947056111650162
+      LightSnow_Near_13: -7150819010656887367
+      LightSnow_Near_14: 5230341276080282948
+      LightSnow_Near_15: -3259128092603405402
+      LightSnow_Near_16: -453525664267844103
+      LightSnow_Near_17: -3236534290089723657
+      LightSnow_Near_18: -1108265565653058234
+      LightSnow_Near_19: -7507152148086848562
+      LightSnow_Near_2: -1115411409873109458
+      LightSnow_Near_20: 8347026873546460417
+      LightSnow_Near_21: 653983479664304811
+      LightSnow_Near_22: 622598721684785900
+      LightSnow_Near_23: -4238834653169068385
+      LightSnow_Near_24: -1198276782679684909
+      LightSnow_Near_25: 3986155034025909282
+      LightSnow_Near_26: -2892131317576026920
+      LightSnow_Near_27: 3970681029027703119
+      LightSnow_Near_28: -346589189418661936
+      LightSnow_Near_29: 799431416346818013
+      LightSnow_Near_3: 6370282398756777832
+      LightSnow_Near_30: 2865840723113054421
+      LightSnow_Near_31: 6145872604321449214
+      LightSnow_Near_32: -4865072186560806319
+      LightSnow_Near_33: -6594778229358648565
+      LightSnow_Near_34: -1035223061794305172
+      LightSnow_Near_35: -7500808404203246556
+      LightSnow_Near_36: -5268837368917934480
+      LightSnow_Near_37: 618899698335467045
+      LightSnow_Near_38: -3691163231513507675
+      LightSnow_Near_39: -909765089535651453
+      LightSnow_Near_4: -6995514853579522100
+      LightSnow_Near_40: 3185264166848158212
+      LightSnow_Near_41: -887412933270658744
+      LightSnow_Near_42: 5089457118868307653
+      LightSnow_Near_43: -4534516103702567619
+      LightSnow_Near_44: -6231014786268169625
+      LightSnow_Near_45: -4670586480986060048
+      LightSnow_Near_46: -8163963316179306246
+      LightSnow_Near_47: -7504578521186058806
+      LightSnow_Near_48: 8605461047472824050
+      LightSnow_Near_49: -2087048914774164043
+      LightSnow_Near_5: 4434033491701279301
+      LightSnow_Near_50: 6592839943026293486
+      LightSnow_Near_51: -6457395224861235718
+      LightSnow_Near_52: -4558924664316956549
+      LightSnow_Near_53: -85941921621377251
+      LightSnow_Near_54: -7368458815119377605
+      LightSnow_Near_55: 6394676280899554652
+      LightSnow_Near_56: -6586057828209350116
+      LightSnow_Near_57: 6550720519026063827
+      LightSnow_Near_6: 1649419420045230237
+      LightSnow_Near_7: -7013078959308449629
+      LightSnow_Near_8: 6306809191521311818
+      LightSnow_Near_9: -1579232410098013605
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

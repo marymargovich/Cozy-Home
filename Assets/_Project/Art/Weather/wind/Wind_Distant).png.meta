@@ -1,0 +1,1066 @@
+fileFormatVersion: 2
+guid: 3a2a54ec636e74306967dc27f2535898
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2477993703311810698
+    second: Wind_Distant)_0
+  - first:
+      213: 6075617922970757685
+    second: Wind_Distant)_1
+  - first:
+      213: -2657029219865919028
+    second: Wind_Distant)_2
+  - first:
+      213: -4531068028173211936
+    second: Wind_Distant)_3
+  - first:
+      213: 4758070886285074240
+    second: Wind_Distant)_4
+  - first:
+      213: -2920231902318837785
+    second: Wind_Distant)_5
+  - first:
+      213: -1271128257545645779
+    second: Wind_Distant)_6
+  - first:
+      213: 1680504882449389
+    second: Wind_Distant)_7
+  - first:
+      213: 4934993097705513280
+    second: Wind_Distant)_8
+  - first:
+      213: -4981908225003348497
+    second: Wind_Distant)_9
+  - first:
+      213: 2149601533232520248
+    second: Wind_Distant)_10
+  - first:
+      213: -9152475842505730207
+    second: Wind_Distant)_11
+  - first:
+      213: -7781236480970505653
+    second: Wind_Distant)_12
+  - first:
+      213: 5885529476130957596
+    second: Wind_Distant)_13
+  - first:
+      213: 407028219288117300
+    second: Wind_Distant)_14
+  - first:
+      213: -2118543130049445416
+    second: Wind_Distant)_15
+  - first:
+      213: 1791201260186508442
+    second: Wind_Distant)_16
+  - first:
+      213: -2718085766220011742
+    second: Wind_Distant)_17
+  - first:
+      213: 8244115748106818523
+    second: Wind_Distant)_18
+  - first:
+      213: -8443851110066397887
+    second: Wind_Distant)_19
+  - first:
+      213: -2671975103712992949
+    second: Wind_Distant)_20
+  - first:
+      213: 5267931579514993675
+    second: Wind_Distant)_21
+  - first:
+      213: 7645082263203605017
+    second: Wind_Distant)_22
+  - first:
+      213: -5686898132024549586
+    second: Wind_Distant)_23
+  - first:
+      213: -6403415578291573550
+    second: Wind_Distant)_24
+  - first:
+      213: 4524545383395519035
+    second: Wind_Distant)_25
+  - first:
+      213: -848346515992206223
+    second: Wind_Distant)_26
+  - first:
+      213: -8920373709996185008
+    second: Wind_Distant)_27
+  - first:
+      213: 6945778097137504681
+    second: Wind_Distant)_28
+  - first:
+      213: 7028559464106086822
+    second: Wind_Distant)_29
+  - first:
+      213: -3754933069719780573
+    second: Wind_Distant)_30
+  - first:
+      213: 2843994080536165621
+    second: Wind_Distant)_31
+  - first:
+      213: -8364103103721906656
+    second: Wind_Distant)_32
+  - first:
+      213: 5247848838017590434
+    second: Wind_Distant)_33
+  - first:
+      213: 1156382288547791683
+    second: Wind_Distant)_34
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Wind_Distant)_0
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 615
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a802e89e42a936220800000000000000
+      internalID: 2477993703311810698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 619
+        width: 359
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a2ba99f4ee05450800000000000000
+      internalID: 6075617922970757685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_2
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 664
+        width: 25
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc10f088006502bd0800000000000000
+      internalID: -2657029219865919028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_3
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 615
+        width: 35
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e62b9f82a96e11c0800000000000000
+      internalID: -4531068028173211936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_4
+      rect:
+        serializedVersion: 2
+        x: 643
+        y: 626
+        width: 218
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04f56210340180240800000000000000
+      internalID: 4758070886285074240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_5
+      rect:
+        serializedVersion: 2
+        x: 940
+        y: 503
+        width: 152
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efb5809e804977d0800000000000000
+      internalID: -2920231902318837785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_6
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 595
+        width: 210
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d21d701a59b0c5ee0800000000000000
+      internalID: -1271128257545645779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_7
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 617
+        width: 60
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: debcf880968f50000800000000000000
+      internalID: 1680504882449389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_8
+      rect:
+        serializedVersion: 2
+        x: 1445
+        y: 534
+        width: 192
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 041edbd531e9c7440800000000000000
+      internalID: 4934993097705513280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_9
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 485
+        width: 31
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed14195dd4bcdab0800000000000000
+      internalID: -4981908225003348497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_10
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 569
+        width: 62
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83c95f4943be4dd10800000000000000
+      internalID: 2149601533232520248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_11
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 526
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1671a1096bfdbf080800000000000000
+      internalID: -9152475842505730207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_12
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 72
+        width: 355
+        height: 514
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b424176b5ae730490800000000000000
+      internalID: -7781236480970505653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_13
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 478
+        width: 126
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1960eb20e99da150800000000000000
+      internalID: 5885529476130957596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_14
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 499
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306a38420e06a500800000000000000
+      internalID: 407028219288117300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_15
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 506
+        width: 52
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d10f0c6f3c6992e0800000000000000
+      internalID: -2118543130049445416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_16
+      rect:
+        serializedVersion: 2
+        x: 1346
+        y: 578
+        width: 22
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9c16a25e00abd810800000000000000
+      internalID: 1791201260186508442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_17
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 478
+        width: 28
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227296b856b674ad0800000000000000
+      internalID: -2718085766220011742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_18
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 131
+        width: 301
+        height: 284
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd35c1df79bf86270800000000000000
+      internalID: 8244115748106818523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_19
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 392
+        width: 25
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d5430272a61da80800000000000000
+      internalID: -8443851110066397887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_20
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 372
+        width: 80
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b41ef76cccc3bead0800000000000000
+      internalID: -2671975103712992949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_21
+      rect:
+        serializedVersion: 2
+        x: 796
+        y: 323
+        width: 170
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0cbd026cd37b1940800000000000000
+      internalID: 5267931579514993675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_22
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 400
+        width: 63
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91ae3e020d9c81a60800000000000000
+      internalID: 7645082263203605017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_23
+      rect:
+        serializedVersion: 2
+        x: 1614
+        y: 377
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2f18d687441411b0800000000000000
+      internalID: -5686898132024549586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_24
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 338
+        width: 50
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc6ab2557f7227a0800000000000000
+      internalID: -6403415578291573550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_25
+      rect:
+        serializedVersion: 2
+        x: 1532
+        y: 226
+        width: 109
+        height: 116
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a6c6bdd0a6ace30800000000000000
+      internalID: 4524545383395519035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_26
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 285
+        width: 82
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17428d3a6511a34f0800000000000000
+      internalID: -848346515992206223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_27
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 56
+        width: 275
+        height: 279
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05aa1f77f57743480800000000000000
+      internalID: -8920373709996185008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_28
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 259
+        width: 26
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a1d198016c546060800000000000000
+      internalID: 6945778097137504681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_29
+      rect:
+        serializedVersion: 2
+        x: 430
+        y: 177
+        width: 20
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a1d0ccf7957a8160800000000000000
+      internalID: 7028559464106086822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_30
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 121
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3234cff744cc3ebc0800000000000000
+      internalID: -3754933069719780573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_31
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 120
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fcfba15c85e77720800000000000000
+      internalID: 2843994080536165621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_32
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 193
+        width: 27
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02ed9e5ca8cbceb80800000000000000
+      internalID: -8364103103721906656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_33
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 106
+        width: 76
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a42cf0c6ba14d840800000000000000
+      internalID: 5247848838017590434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Wind_Distant)_34
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 48
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 343c17d809b4c0010800000000000000
+      internalID: 1156382288547791683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Wind_Distant)_0: 2477993703311810698
+      Wind_Distant)_1: 6075617922970757685
+      Wind_Distant)_10: 2149601533232520248
+      Wind_Distant)_11: -9152475842505730207
+      Wind_Distant)_12: -7781236480970505653
+      Wind_Distant)_13: 5885529476130957596
+      Wind_Distant)_14: 407028219288117300
+      Wind_Distant)_15: -2118543130049445416
+      Wind_Distant)_16: 1791201260186508442
+      Wind_Distant)_17: -2718085766220011742
+      Wind_Distant)_18: 8244115748106818523
+      Wind_Distant)_19: -8443851110066397887
+      Wind_Distant)_2: -2657029219865919028
+      Wind_Distant)_20: -2671975103712992949
+      Wind_Distant)_21: 5267931579514993675
+      Wind_Distant)_22: 7645082263203605017
+      Wind_Distant)_23: -5686898132024549586
+      Wind_Distant)_24: -6403415578291573550
+      Wind_Distant)_25: 4524545383395519035
+      Wind_Distant)_26: -848346515992206223
+      Wind_Distant)_27: -8920373709996185008
+      Wind_Distant)_28: 6945778097137504681
+      Wind_Distant)_29: 7028559464106086822
+      Wind_Distant)_3: -4531068028173211936
+      Wind_Distant)_30: -3754933069719780573
+      Wind_Distant)_31: 2843994080536165621
+      Wind_Distant)_32: -8364103103721906656
+      Wind_Distant)_33: 5247848838017590434
+      Wind_Distant)_34: 1156382288547791683
+      Wind_Distant)_4: 4758070886285074240
+      Wind_Distant)_5: -2920231902318837785
+      Wind_Distant)_6: -1271128257545645779
+      Wind_Distant)_7: 1680504882449389
+      Wind_Distant)_8: 4934993097705513280
+      Wind_Distant)_9: -4981908225003348497
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

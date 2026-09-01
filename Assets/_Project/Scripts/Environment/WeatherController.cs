@@ -1,43 +1,118 @@
-using System.Collections;
 using UnityEngine;
-using UnityEngine.UI;
 
-namespace CozyHome.Environment
+namespace CozyHome.Weather
 {
     /// <summary>
-    /// Planned weather system for the window scene.
+    /// Controls the active visual weather state.
+    /// The existing random-weather logic can later call SetWeather(...) instead of using this test toggle.
     /// </summary>
-    [ExecuteAlways]
     public class WeatherController : MonoBehaviour
     {
-        public enum WeatherState
-        {
-            Clear,
-            LightRain,
-            HeavyDownpour,
-            Thunderstorm,
-            Snowfall,
-            Blizzard,
-            Hail
-        }
+        [Header("Weather groups")]
+        [SerializeField] private WeatherVisualGroup lightRain;
+        [SerializeField] private WeatherVisualGroup heavyRain;
+        [SerializeField] private WeatherVisualGroup thunderstorm;
+        [SerializeField] private WeatherVisualGroup lightSnow;
+        [SerializeField] private WeatherVisualGroup snowstorm;
+        [SerializeField] private WeatherVisualGroup hail;
+        [SerializeField] private WeatherVisualGroup fog;
+        [SerializeField] private WeatherVisualGroup wind;
 
-        [Header("Planned weather effects")]
-        [SerializeField] private ParticleSystem rainParticles;
-        [SerializeField] private ParticleSystem heavyRainParticles;
-        [SerializeField] private ParticleSystem snowfallParticles;
-        [SerializeField] private ParticleSystem blizzardParticles;
-        [SerializeField] private ParticleSystem hailParticles;
-        [SerializeField] private Image lightningFlashOverlay;
-        [SerializeField] private Image windowDropletsOverlay;
+        [Header("Test mode")]
+        [SerializeField] private bool useTestWeatherOnStart = true;
+        [SerializeField] private WeatherType testWeather = WeatherType.LightRain;
+
+        public WeatherType CurrentWeather { get; private set; } = WeatherType.Clear;
+
+        private WeatherVisualGroup[] allWeatherGroups;
 
         private void Awake()
         {
-            ApplyWeather(WeatherState.Clear);
+            CacheGroups();
+            SetWeather(WeatherType.Clear);
         }
 
-        public void ApplyWeather(WeatherState state)
+        private void Start()
         {
-            // Planned future weather system.
+            CacheGroups();
+
+            if (useTestWeatherOnStart)
+            {
+                SetWeather(testWeather);
+            }
+        }
+
+        public void SetWeather(WeatherType type)
+        {
+            CacheGroups();
+
+            for (int i = 0; i < allWeatherGroups.Length; i++)
+            {
+                WeatherVisualGroup group = allWeatherGroups[i];
+                if (group != null)
+                {
+                    group.Stop();
+                }
+            }
+
+            CurrentWeather = type;
+
+            if (type == WeatherType.Clear)
+            {
+                return;
+            }
+
+            WeatherVisualGroup targetGroup = GetGroupForType(type);
+            if (targetGroup != null)
+            {
+                targetGroup.Play();
+            }
+        }
+
+        public void StopAllWeather()
+        {
+            SetWeather(WeatherType.Clear);
+        }
+
+        private void CacheGroups()
+        {
+            allWeatherGroups = new[]
+            {
+                lightRain,
+                heavyRain,
+                thunderstorm,
+                lightSnow,
+                snowstorm,
+                hail,
+                fog,
+                wind,
+            };
+        }
+
+        private WeatherVisualGroup GetGroupForType(WeatherType type)
+        {
+            switch (type)
+            {
+                case WeatherType.LightRain:
+                    return lightRain;
+                case WeatherType.HeavyRain:
+                    return heavyRain;
+                case WeatherType.Thunderstorm:
+                    return thunderstorm;
+                case WeatherType.LightSnow:
+                    return lightSnow;
+                case WeatherType.Snowstorm:
+                    return snowstorm;
+                case WeatherType.Hail:
+                    return hail;
+                case WeatherType.Fog:
+                    return fog;
+                case WeatherType.Wind:
+                    return wind;
+                case WeatherType.Clear:
+                default:
+                    return null;
+            }
         }
     }
 }

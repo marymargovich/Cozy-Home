@@ -5,6 +5,7 @@ using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 using CozyHome.Environment;
+using CozyHome.Weather;
 
 namespace CozyHome.UI
 {
@@ -28,19 +29,6 @@ namespace CozyHome.UI
             Summer,
             Autumn,
             Winter
-        }
-
-        public enum WeatherType
-        {
-            Clear = 0,
-            Fog = 1,
-            Wind = 2,
-            LightRain = 3,
-            HeavyRain = 4,
-            LightSnow = 5,
-            Snowstorm = 6,
-            Hail = 7,
-            Thunderstorm = 8
         }
 
         [Header("Target Icons")]

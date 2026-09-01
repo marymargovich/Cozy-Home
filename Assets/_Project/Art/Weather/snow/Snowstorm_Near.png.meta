@@ -1,0 +1,3718 @@
+fileFormatVersion: 2
+guid: 0559b522b87cb406ba6293b5bf7dfe03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5534965544044569928
+    second: Snowstorm_Near_0
+  - first:
+      213: -8788032512042998552
+    second: Snowstorm_Near_1
+  - first:
+      213: -8261227116166283258
+    second: Snowstorm_Near_2
+  - first:
+      213: -2565947756676085776
+    second: Snowstorm_Near_3
+  - first:
+      213: -3373271292398904309
+    second: Snowstorm_Near_4
+  - first:
+      213: 6902090296638488000
+    second: Snowstorm_Near_5
+  - first:
+      213: -1604257466307677051
+    second: Snowstorm_Near_6
+  - first:
+      213: 9208748389400121496
+    second: Snowstorm_Near_7
+  - first:
+      213: -394881390834845728
+    second: Snowstorm_Near_8
+  - first:
+      213: 2446017434490760347
+    second: Snowstorm_Near_9
+  - first:
+      213: -8995881124344958853
+    second: Snowstorm_Near_10
+  - first:
+      213: 2558759031990370343
+    second: Snowstorm_Near_11
+  - first:
+      213: 7543358016543872899
+    second: Snowstorm_Near_12
+  - first:
+      213: -7218116932642978547
+    second: Snowstorm_Near_13
+  - first:
+      213: 2671296364386770574
+    second: Snowstorm_Near_14
+  - first:
+      213: -7599386957236351793
+    second: Snowstorm_Near_15
+  - first:
+      213: 8493703172909639425
+    second: Snowstorm_Near_16
+  - first:
+      213: 8620358897208783895
+    second: Snowstorm_Near_17
+  - first:
+      213: -9071585554824224463
+    second: Snowstorm_Near_18
+  - first:
+      213: 5178023666892020745
+    second: Snowstorm_Near_19
+  - first:
+      213: -6978649324427728397
+    second: Snowstorm_Near_20
+  - first:
+      213: 6361926225489081456
+    second: Snowstorm_Near_21
+  - first:
+      213: -5336547598067120574
+    second: Snowstorm_Near_22
+  - first:
+      213: -2150950970968086304
+    second: Snowstorm_Near_23
+  - first:
+      213: 6638348973538425374
+    second: Snowstorm_Near_24
+  - first:
+      213: -8872508830265132627
+    second: Snowstorm_Near_25
+  - first:
+      213: -8986662190034165524
+    second: Snowstorm_Near_26
+  - first:
+      213: -1094532525017667873
+    second: Snowstorm_Near_27
+  - first:
+      213: -1377881919228747957
+    second: Snowstorm_Near_28
+  - first:
+      213: 5578774144630617810
+    second: Snowstorm_Near_29
+  - first:
+      213: 199995042614207633
+    second: Snowstorm_Near_30
+  - first:
+      213: -5273112254828049698
+    second: Snowstorm_Near_31
+  - first:
+      213: -1970762896660760716
+    second: Snowstorm_Near_32
+  - first:
+      213: -381054067439812444
+    second: Snowstorm_Near_33
+  - first:
+      213: -7109024335025429595
+    second: Snowstorm_Near_34
+  - first:
+      213: -8164865540939169817
+    second: Snowstorm_Near_35
+  - first:
+      213: -4722174740671463441
+    second: Snowstorm_Near_36
+  - first:
+      213: 7418571642716286074
+    second: Snowstorm_Near_37
+  - first:
+      213: 3750949047762245631
+    second: Snowstorm_Near_38
+  - first:
+      213: -781398255828236563
+    second: Snowstorm_Near_39
+  - first:
+      213: -5083176682219382331
+    second: Snowstorm_Near_40
+  - first:
+      213: -8877918014701156403
+    second: Snowstorm_Near_41
+  - first:
+      213: 1932990054954926257
+    second: Snowstorm_Near_42
+  - first:
+      213: 7649347914573378804
+    second: Snowstorm_Near_43
+  - first:
+      213: -8807779188367625682
+    second: Snowstorm_Near_44
+  - first:
+      213: -8523541974746752561
+    second: Snowstorm_Near_45
+  - first:
+      213: 2136784873026366675
+    second: Snowstorm_Near_46
+  - first:
+      213: 4530130907390553183
+    second: Snowstorm_Near_47
+  - first:
+      213: 7995229850809694726
+    second: Snowstorm_Near_48
+  - first:
+      213: -4608245179705380828
+    second: Snowstorm_Near_49
+  - first:
+      213: 9077690548628434514
+    second: Snowstorm_Near_50
+  - first:
+      213: 8668435114646766171
+    second: Snowstorm_Near_51
+  - first:
+      213: 364664403689710289
+    second: Snowstorm_Near_52
+  - first:
+      213: 4971540369993964901
+    second: Snowstorm_Near_53
+  - first:
+      213: 5036240951680949711
+    second: Snowstorm_Near_54
+  - first:
+      213: -897859018445267484
+    second: Snowstorm_Near_55
+  - first:
+      213: 7743510760872725082
+    second: Snowstorm_Near_56
+  - first:
+      213: -2536190125634077459
+    second: Snowstorm_Near_57
+  - first:
+      213: -1197058185001827336
+    second: Snowstorm_Near_58
+  - first:
+      213: 3412288265388532730
+    second: Snowstorm_Near_59
+  - first:
+      213: 559986197332400081
+    second: Snowstorm_Near_60
+  - first:
+      213: -3746674171478270636
+    second: Snowstorm_Near_61
+  - first:
+      213: -6529811587847748005
+    second: Snowstorm_Near_62
+  - first:
+      213: -5944541818705248296
+    second: Snowstorm_Near_63
+  - first:
+      213: -8198756943325972802
+    second: Snowstorm_Near_64
+  - first:
+      213: 5425545541100490204
+    second: Snowstorm_Near_65
+  - first:
+      213: -4433573823685344911
+    second: Snowstorm_Near_66
+  - first:
+      213: 1862251035775556343
+    second: Snowstorm_Near_67
+  - first:
+      213: -2753609701359097328
+    second: Snowstorm_Near_68
+  - first:
+      213: -8730948923826063586
+    second: Snowstorm_Near_69
+  - first:
+      213: -8057062141297459503
+    second: Snowstorm_Near_70
+  - first:
+      213: 1629575634584171775
+    second: Snowstorm_Near_71
+  - first:
+      213: -1947639712181394382
+    second: Snowstorm_Near_72
+  - first:
+      213: 4900166309236013326
+    second: Snowstorm_Near_73
+  - first:
+      213: 3525922098736716911
+    second: Snowstorm_Near_74
+  - first:
+      213: 3911012177880854323
+    second: Snowstorm_Near_75
+  - first:
+      213: 8930995735129428885
+    second: Snowstorm_Near_76
+  - first:
+      213: 2336436517839718734
+    second: Snowstorm_Near_77
+  - first:
+      213: 8654823567032586280
+    second: Snowstorm_Near_78
+  - first:
+      213: -5823227074572267877
+    second: Snowstorm_Near_79
+  - first:
+      213: 518790606816535808
+    second: Snowstorm_Near_80
+  - first:
+      213: 1283590279346717765
+    second: Snowstorm_Near_81
+  - first:
+      213: -6635029602561228683
+    second: Snowstorm_Near_82
+  - first:
+      213: -8863333819068716983
+    second: Snowstorm_Near_83
+  - first:
+      213: 1512279425930235177
+    second: Snowstorm_Near_84
+  - first:
+      213: 1968577666510664700
+    second: Snowstorm_Near_85
+  - first:
+      213: 3886084884417419694
+    second: Snowstorm_Near_86
+  - first:
+      213: -8955515349971458335
+    second: Snowstorm_Near_87
+  - first:
+      213: 1708454239990987086
+    second: Snowstorm_Near_88
+  - first:
+      213: -7426797519883362523
+    second: Snowstorm_Near_89
+  - first:
+      213: -2899066861168748372
+    second: Snowstorm_Near_90
+  - first:
+      213: -6097847472141682156
+    second: Snowstorm_Near_91
+  - first:
+      213: 8240640095760827564
+    second: Snowstorm_Near_92
+  - first:
+      213: 2668057603237205588
+    second: Snowstorm_Near_93
+  - first:
+      213: -5103070351827428079
+    second: Snowstorm_Near_94
+  - first:
+      213: 3648975837321846579
+    second: Snowstorm_Near_95
+  - first:
+      213: -1680594910397884377
+    second: Snowstorm_Near_96
+  - first:
+      213: 471559364271202149
+    second: Snowstorm_Near_97
+  - first:
+      213: -3653160124120727793
+    second: Snowstorm_Near_98
+  - first:
+      213: 7423422310988686748
+    second: Snowstorm_Near_99
+  - first:
+      213: -4141591569828013361
+    second: Snowstorm_Near_100
+  - first:
+      213: 2036786399325086414
+    second: Snowstorm_Near_101
+  - first:
+      213: 1522344194216689244
+    second: Snowstorm_Near_102
+  - first:
+      213: 1423441453301274973
+    second: Snowstorm_Near_103
+  - first:
+      213: -7665595583037295586
+    second: Snowstorm_Near_104
+  - first:
+      213: -5629305849332618206
+    second: Snowstorm_Near_105
+  - first:
+      213: -5215876249040024004
+    second: Snowstorm_Near_106
+  - first:
+      213: 155043667630992515
+    second: Snowstorm_Near_107
+  - first:
+      213: 4543697688644209982
+    second: Snowstorm_Near_108
+  - first:
+      213: 1610036883160477762
+    second: Snowstorm_Near_109
+  - first:
+      213: -1890958728656844473
+    second: Snowstorm_Near_110
+  - first:
+      213: -4075230346221073979
+    second: Snowstorm_Near_111
+  - first:
+      213: -2678587423387618469
+    second: Snowstorm_Near_112
+  - first:
+      213: -1074421646901676254
+    second: Snowstorm_Near_113
+  - first:
+      213: 5259533691060488448
+    second: Snowstorm_Near_114
+  - first:
+      213: 2371433160858544189
+    second: Snowstorm_Near_115
+  - first:
+      213: -749601271198803789
+    second: Snowstorm_Near_116
+  - first:
+      213: 8647458161436769627
+    second: Snowstorm_Near_117
+  - first:
+      213: 6867636583067803339
+    second: Snowstorm_Near_118
+  - first:
+      213: -8695376313289966939
+    second: Snowstorm_Near_119
+  - first:
+      213: 649204404095835274
+    second: Snowstorm_Near_120
+  - first:
+      213: 152756513473377521
+    second: Snowstorm_Near_121
+  - first:
+      213: -2313531874633184328
+    second: Snowstorm_Near_122
+  - first:
+      213: -4665049793667211355
+    second: Snowstorm_Near_123
+  - first:
+      213: -5238961755919779158
+    second: Snowstorm_Near_124
+  - first:
+      213: -1111038853434557634
+    second: Snowstorm_Near_125
+  - first:
+      213: -3885103677855630593
+    second: Snowstorm_Near_126
+  - first:
+      213: -8213470254034792308
+    second: Snowstorm_Near_127
+  - first:
+      213: 7724881869620364605
+    second: Snowstorm_Near_128
+  - first:
+      213: 6845170026874528003
+    second: Snowstorm_Near_129
+  - first:
+      213: 8502618396957913064
+    second: Snowstorm_Near_130
+  - first:
+      213: -4745114182990626347
+    second: Snowstorm_Near_131
+  - first:
+      213: -803166710075068614
+    second: Snowstorm_Near_132
+  - first:
+      213: 7324991935470227800
+    second: Snowstorm_Near_133
+  - first:
+      213: 9003532854441518352
+    second: Snowstorm_Near_134
+  - first:
+      213: -5040523042083216750
+    second: Snowstorm_Near_135
+  - first:
+      213: -9131744575694975475
+    second: Snowstorm_Near_136
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Snowstorm_Near_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 359
+        width: 638
+        height: 582
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba5237c92adf23b0800000000000000
+      internalID: -5534965544044569928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_1
+      rect:
+        serializedVersion: 2
+        x: 631
+        y: 680
+        width: 383
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e4e715cdf2aa0680800000000000000
+      internalID: -8788032512042998552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_2
+      rect:
+        serializedVersion: 2
+        x: 1244
+        y: 670
+        width: 309
+        height: 235
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600851c25b93a5d80800000000000000
+      internalID: -8261227116166283258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_3
+      rect:
+        serializedVersion: 2
+        x: 1415
+        y: 849
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f78c1b3c1ce36cd0800000000000000
+      internalID: -2565947756676085776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_4
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 778
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0c5a85c1abbf21d0800000000000000
+      internalID: -3373271292398904309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_5
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 646
+        width: 315
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cdbec25e8629cf50800000000000000
+      internalID: 6902090296638488000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_6
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 777
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584767885588cb9e0800000000000000
+      internalID: -1604257466307677051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_7
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 776
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8901520cedb0ccf70800000000000000
+      internalID: 9208748389400121496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_8
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 778
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e770ea9779158af0800000000000000
+      internalID: -394881390834845728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_9
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 778
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ceb39a5eff1f120800000000000000
+      internalID: 2446017434490760347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_10
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 786
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b70f6c597c5382380800000000000000
+      internalID: -8995881124344958853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_11
+      rect:
+        serializedVersion: 2
+        x: 1093
+        y: 748
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 720cb9f58c9828320800000000000000
+      internalID: 2558759031990370343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_12
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 768
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38751bd46246fa860800000000000000
+      internalID: 7543358016543872899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_13
+      rect:
+        serializedVersion: 2
+        x: 1188
+        y: 769
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05459a94e814db90800000000000000
+      internalID: -7218116932642978547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_14
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 762
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ed019e3e9521520800000000000000
+      internalID: 2671296364386770574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_15
+      rect:
+        serializedVersion: 2
+        x: 1338
+        y: 745
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fccc03f53dd898690800000000000000
+      internalID: -7599386957236351793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_16
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 727
+        width: 23
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10723e0c802bfd570800000000000000
+      internalID: 8493703172909639425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 728
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 714f1809ebaa1a770800000000000000
+      internalID: 8620358897208783895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_18
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 725
+        width: 35
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 131232f40014b1280800000000000000
+      internalID: -9071585554824224463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_19
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 729
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c1aa737190cd740800000000000000
+      internalID: 5178023666892020745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_20
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 737
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f92775f96bd62f90800000000000000
+      internalID: -6978649324427728397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_21
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 735
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074b485f13a1a4850800000000000000
+      internalID: 6361926225489081456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_22
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 726
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 246ce3adb36c0f5b0800000000000000
+      internalID: -5336547598067120574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_23
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 737
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e86a26fc794622e0800000000000000
+      internalID: -2150950970968086304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_24
+      rect:
+        serializedVersion: 2
+        x: 1372
+        y: 735
+        width: 26
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1a36de4837202c50800000000000000
+      internalID: 6638348973538425374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_25
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 715
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da9b7893a348ed480800000000000000
+      internalID: -8872508830265132627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_26
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 715
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce0649ef956f84380800000000000000
+      internalID: -8986662190034165524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_27
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 713
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd6e533b7707fc0f0800000000000000
+      internalID: -1094532525017667873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_28
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 709
+        width: 21
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4fdfedd1b7c0ece0800000000000000
+      internalID: -1377881919228747957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_29
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 713
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d677d4e689cb6d40800000000000000
+      internalID: 5578774144630617810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_30
+      rect:
+        serializedVersion: 2
+        x: 739
+        y: 722
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 194ebdf7e6686c200800000000000000
+      internalID: 199995042614207633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_31
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 668
+        width: 82
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda0736a75422d6b0800000000000000
+      internalID: -5273112254828049698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_32
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 694
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 477f308469176a4e0800000000000000
+      internalID: -1970762896660760716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_33
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 705
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a04806385936baf0800000000000000
+      internalID: -381054067439812444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_34
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 630
+        width: 139
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a3a333580ca75d90800000000000000
+      internalID: -7109024335025429595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_35
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 686
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef3e71cc0290be80800000000000000
+      internalID: -8164865540939169817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_36
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 671
+        width: 15
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fef74fea717777eb0800000000000000
+      internalID: -4722174740671463441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_37
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 680
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7ce3e09a9f04f660800000000000000
+      internalID: 7418571642716286074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_38
+      rect:
+        serializedVersion: 2
+        x: 1447
+        y: 678
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff7557a194c0e0430800000000000000
+      internalID: 3750949047762245631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_39
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 401
+        width: 303
+        height: 274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de68f352d6ae725f0800000000000000
+      internalID: -781398255828236563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_40
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 672
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9d3c54dbde479b0800000000000000
+      internalID: -5083176682219382331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_41
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 323
+        width: 769
+        height: 343
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc742b45a9c4bc480800000000000000
+      internalID: -8877918014701156403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_42
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 646
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b083fba63c53da10800000000000000
+      internalID: 1932990054954926257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_43
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 648
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f4758b7661f72a60800000000000000
+      internalID: 7649347914573378804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_44
+      rect:
+        serializedVersion: 2
+        x: 1399
+        y: 637
+        width: 43
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e22f4496e7b74c580800000000000000
+      internalID: -8807779188367625682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_45
+      rect:
+        serializedVersion: 2
+        x: 313
+        y: 624
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc9961fcbbb46b980800000000000000
+      internalID: -8523541974746752561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_46
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 599
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc2a26558267ad10800000000000000
+      internalID: 2136784873026366675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_47
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 478
+        width: 206
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5c28010f024ede30800000000000000
+      internalID: 4530130907390553183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_48
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 520
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60a7c135033c4fe60800000000000000
+      internalID: 7995229850809694726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_49
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 486
+        width: 154
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42031c1bc693c00c0800000000000000
+      internalID: -4608245179705380828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_50
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 491
+        width: 17
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25e2be3557f6afd70800000000000000
+      internalID: 9077690548628434514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_51
+      rect:
+        serializedVersion: 2
+        x: 1043
+        y: 390
+        width: 105
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b520b073fc77c4870800000000000000
+      internalID: 8668435114646766171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_52
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 478
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d2a724d75c8f0500800000000000000
+      internalID: 364664403689710289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_53
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 421
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56d110c40a57ef440800000000000000
+      internalID: 4971540369993964901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_54
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 439
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcdd730667254e540800000000000000
+      internalID: 5036240951680949711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_55
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 455
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed5033daf92a83f0800000000000000
+      internalID: -897859018445267484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 153
+        width: 288
+        height: 293
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5acb38920a767b60800000000000000
+      internalID: 7743510760872725082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_57
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 429
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dec3abe9484adccd0800000000000000
+      internalID: -2536190125634077459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_58
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 397
+        width: 21
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f30e7b4ce1336fe0800000000000000
+      internalID: -1197058185001827336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_59
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 427
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af3a7b92912ea5f20800000000000000
+      internalID: 3412288265388532730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_60
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 366
+        width: 39
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d79e13ca7875c700800000000000000
+      internalID: 559986197332400081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_61
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 400
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45d18e711b3210cc0800000000000000
+      internalID: -3746674171478270636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_62
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 399
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b560b1015f27165a0800000000000000
+      internalID: -6529811587847748005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_63
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 417
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df7e9f16beb08da0800000000000000
+      internalID: -5944541818705248296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_64
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 293
+        width: 300
+        height: 131
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b949bff9283e80800000000000000
+      internalID: -8198756943325972802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_65
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 413
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cddcff18ce86b4b40800000000000000
+      internalID: 5425545541100490204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_66
+      rect:
+        serializedVersion: 2
+        x: 334
+        y: 54
+        width: 601
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 171c3c1f818c872c0800000000000000
+      internalID: -4433573823685344911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_67
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 387
+        width: 12
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fa510e437b08d910800000000000000
+      internalID: 1862251035775556343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_68
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 397
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01aeb6cd09639c9d0800000000000000
+      internalID: -2753609701359097328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_69
+      rect:
+        serializedVersion: 2
+        x: 743
+        y: 388
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e17b44b563075d680800000000000000
+      internalID: -8730948923826063586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_70
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 404
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1de77beaba09f2090800000000000000
+      internalID: -8057062141297459503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_71
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 402
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff47502e76a6d9610800000000000000
+      internalID: 1629575634584171775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_72
+      rect:
+        serializedVersion: 2
+        x: 850
+        y: 388
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 234ebf4300898f4e0800000000000000
+      internalID: -1947639712181394382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_73
+      rect:
+        serializedVersion: 2
+        x: 1182
+        y: 344
+        width: 43
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e09795acb43e00440800000000000000
+      internalID: 4900166309236013326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_74
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 384
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6cd6e8b7779ee030800000000000000
+      internalID: 3525922098736716911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_75
+      rect:
+        serializedVersion: 2
+        x: 1330
+        y: 387
+        width: 42
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fa0d6bad4b64630800000000000000
+      internalID: 3911012177880854323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_76
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 398
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5931bea7d4541fb70800000000000000
+      internalID: 8930995735129428885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_77
+      rect:
+        serializedVersion: 2
+        x: 1413
+        y: 388
+        width: 27
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e49461e42a0bc6020800000000000000
+      internalID: 2336436517839718734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_78
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 392
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82018a2dd2c1c1870800000000000000
+      internalID: 8654823567032586280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_79
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 392
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ecea514ddbf2fa0800000000000000
+      internalID: -5823227074572267877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_80
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 376
+        width: 11
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 005eb18ee4d133700800000000000000
+      internalID: 518790606816535808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_81
+      rect:
+        serializedVersion: 2
+        x: 1397
+        y: 386
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5440b9dee8a30d110800000000000000
+      internalID: 1283590279346717765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_82
+      rect:
+        serializedVersion: 2
+        x: 1561
+        y: 388
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5700329fab3abe3a0800000000000000
+      internalID: -6635029602561228683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_83
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 340
+        width: 19
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948e3bcf9dc1ff480800000000000000
+      internalID: -8863333819068716983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_84
+      rect:
+        serializedVersion: 2
+        x: 1238
+        y: 364
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d04bf1022bcf410800000000000000
+      internalID: 1512279425930235177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_85
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 356
+        width: 22
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf3b22d25fac15b10800000000000000
+      internalID: 1968577666510664700
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_86
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 358
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea917beec952ee530800000000000000
+      internalID: 3886084884417419694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_87
+      rect:
+        serializedVersion: 2
+        x: 1381
+        y: 356
+        width: 9
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e6a460dc3e97b380800000000000000
+      internalID: -8955515349971458335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_88
+      rect:
+        serializedVersion: 2
+        x: 1401
+        y: 315
+        width: 45
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e493ca95416a5b710800000000000000
+      internalID: 1708454239990987086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_89
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 301
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52f99982107bee890800000000000000
+      internalID: -7426797519883362523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_90
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 299
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca81ee7bc0274c7d0800000000000000
+      internalID: -2899066861168748372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_91
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 303
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41a3b782808106ba0800000000000000
+      internalID: -6097847472141682156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_92
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 257
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca44aad9182ac5270800000000000000
+      internalID: 8240640095760827564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_93
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 218
+        width: 49
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 456db311148d60520800000000000000
+      internalID: 2668057603237205588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_94
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 266
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11d9f7f5d804e29b0800000000000000
+      internalID: -5103070351827428079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_95
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 194
+        width: 25
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f5d81e034c3a230800000000000000
+      internalID: 3648975837321846579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_96
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 177
+        width: 157
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728976a45d35da8e0800000000000000
+      internalID: -1680594910397884377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_97
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 232
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56fd4ed4eb05b8600800000000000000
+      internalID: 471559364271202149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_98
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 281
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0f792ee83e5d4dc0800000000000000
+      internalID: -3653160124120727793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_99
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 299
+        width: 46
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c95a038c24b450760800000000000000
+      internalID: 7423422310988686748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_100
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 259
+        width: 35
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fca16ab096c1686c0800000000000000
+      internalID: -4141591569828013361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_101
+      rect:
+        serializedVersion: 2
+        x: 946
+        y: 250
+        width: 18
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec26e17507e144c10800000000000000
+      internalID: 2036786399325086414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_102
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 226
+        width: 67
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5ef92a9af3702510800000000000000
+      internalID: 1522344194216689244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_103
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 283
+        width: 30
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d599696c57411c310800000000000000
+      internalID: 1423441453301274973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_104
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 228
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1432496e655e9590800000000000000
+      internalID: -7665595583037295586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_105
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 210
+        width: 36
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c2086c720b0e1b0800000000000000
+      internalID: -5629305849332618206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_106
+      rect:
+        serializedVersion: 2
+        x: 1163
+        y: 291
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3e8297bf2c7d97b0800000000000000
+      internalID: -5215876249040024004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_107
+      rect:
+        serializedVersion: 2
+        x: 1172
+        y: 245
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ca1dde463d62200800000000000000
+      internalID: 155043667630992515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_108
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 218
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3dc66a69f47e0f30800000000000000
+      internalID: 4543697688644209982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_109
+      rect:
+        serializedVersion: 2
+        x: 1202
+        y: 220
+        width: 57
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 240be00d300085610800000000000000
+      internalID: 1610036883160477762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_110
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 218
+        width: 23
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7490c751e07f1c5e0800000000000000
+      internalID: -1890958728656844473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_111
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 262
+        width: 23
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c9c993779fd177c0800000000000000
+      internalID: -4075230346221073979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_112
+      rect:
+        serializedVersion: 2
+        x: 1284
+        y: 219
+        width: 38
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53f6212eeeb3dad0800000000000000
+      internalID: -2678587423387618469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_113
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 185
+        width: 269
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2277f656433e611f0800000000000000
+      internalID: -1074421646901676254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_114
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 207
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0090cdb960e9df840800000000000000
+      internalID: 5259533691060488448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_115
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 202
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d382e8935e509e020800000000000000
+      internalID: 2371433160858544189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_116
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 198
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b8930b8d91e895f0800000000000000
+      internalID: -749601271198803789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_117
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 0
+        width: 598
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5dbd72b161f10870800000000000000
+      internalID: 8647458161436769627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_118
+      rect:
+        serializedVersion: 2
+        x: 1252
+        y: 177
+        width: 21
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcedb34061fbe4f50800000000000000
+      internalID: 6867636583067803339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_119
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 188
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa710a2051d35780800000000000000
+      internalID: -8695376313289966939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_120
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 173
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8c50c447ff620900800000000000000
+      internalID: 649204404095835274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_121
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 177
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f435ba5d33be1200800000000000000
+      internalID: 152756513473377521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_122
+      rect:
+        serializedVersion: 2
+        x: 1387
+        y: 175
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8bb02f3840fa4efd0800000000000000
+      internalID: -2313531874633184328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_123
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 0
+        width: 301
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5afd4fcdde9624fb0800000000000000
+      internalID: -4665049793667211355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_124
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 112
+        width: 61
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa7b8a4a087b47b0800000000000000
+      internalID: -5238961755919779158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_125
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 94
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3b3061ac0cc490f0800000000000000
+      internalID: -1111038853434557634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_126
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 0
+        width: 281
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffaf9d50ac6551ac0800000000000000
+      internalID: -3885103677855630593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_127
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 55
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80d40f1254e30e80800000000000000
+      internalID: -8213470254034792308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_128
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 62
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d35c39ad12b443b60800000000000000
+      internalID: 7724881869620364605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_129
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 54
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 301e1074fddeefe50800000000000000
+      internalID: 6845170026874528003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_130
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 62
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8efa06b126e5ff570800000000000000
+      internalID: 8502618396957913064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_131
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 53
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d10d209ac7f52eb0800000000000000
+      internalID: -4745114182990626347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_132
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 37
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f6e8ee1249ad4f0800000000000000
+      internalID: -803166710075068614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_133
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 48
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851dd481b5997a560800000000000000
+      internalID: 7324991935470227800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_134
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 35
+        width: 9
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 015ab88ad69f2fc70800000000000000
+      internalID: 9003532854441518352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_135
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 38
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2926572cff67c0ab0800000000000000
+      internalID: -5040523042083216750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Snowstorm_Near_136
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 20
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0ec912c0b6854180800000000000000
+      internalID: -9131744575694975475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Snowstorm_Near_0: -5534965544044569928
+      Snowstorm_Near_1: -8788032512042998552
+      Snowstorm_Near_10: -8995881124344958853
+      Snowstorm_Near_100: -4141591569828013361
+      Snowstorm_Near_101: 2036786399325086414
+      Snowstorm_Near_102: 1522344194216689244
+      Snowstorm_Near_103: 1423441453301274973
+      Snowstorm_Near_104: -7665595583037295586
+      Snowstorm_Near_105: -5629305849332618206
+      Snowstorm_Near_106: -5215876249040024004
+      Snowstorm_Near_107: 155043667630992515
+      Snowstorm_Near_108: 4543697688644209982
+      Snowstorm_Near_109: 1610036883160477762
+      Snowstorm_Near_11: 2558759031990370343
+      Snowstorm_Near_110: -1890958728656844473
+      Snowstorm_Near_111: -4075230346221073979
+      Snowstorm_Near_112: -2678587423387618469
+      Snowstorm_Near_113: -1074421646901676254
+      Snowstorm_Near_114: 5259533691060488448
+      Snowstorm_Near_115: 2371433160858544189
+      Snowstorm_Near_116: -749601271198803789
+      Snowstorm_Near_117: 8647458161436769627
+      Snowstorm_Near_118: 6867636583067803339
+      Snowstorm_Near_119: -8695376313289966939
+      Snowstorm_Near_12: 7543358016543872899
+      Snowstorm_Near_120: 649204404095835274
+      Snowstorm_Near_121: 152756513473377521
+      Snowstorm_Near_122: -2313531874633184328
+      Snowstorm_Near_123: -4665049793667211355
+      Snowstorm_Near_124: -5238961755919779158
+      Snowstorm_Near_125: -1111038853434557634
+      Snowstorm_Near_126: -3885103677855630593
+      Snowstorm_Near_127: -8213470254034792308
+      Snowstorm_Near_128: 7724881869620364605
+      Snowstorm_Near_129: 6845170026874528003
+      Snowstorm_Near_13: -7218116932642978547
+      Snowstorm_Near_130: 8502618396957913064
+      Snowstorm_Near_131: -4745114182990626347
+      Snowstorm_Near_132: -803166710075068614
+      Snowstorm_Near_133: 7324991935470227800
+      Snowstorm_Near_134: 9003532854441518352
+      Snowstorm_Near_135: -5040523042083216750
+      Snowstorm_Near_136: -9131744575694975475
+      Snowstorm_Near_14: 2671296364386770574
+      Snowstorm_Near_15: -7599386957236351793
+      Snowstorm_Near_16: 8493703172909639425
+      Snowstorm_Near_17: 8620358897208783895
+      Snowstorm_Near_18: -9071585554824224463
+      Snowstorm_Near_19: 5178023666892020745
+      Snowstorm_Near_2: -8261227116166283258
+      Snowstorm_Near_20: -6978649324427728397
+      Snowstorm_Near_21: 6361926225489081456
+      Snowstorm_Near_22: -5336547598067120574
+      Snowstorm_Near_23: -2150950970968086304
+      Snowstorm_Near_24: 6638348973538425374
+      Snowstorm_Near_25: -8872508830265132627
+      Snowstorm_Near_26: -8986662190034165524
+      Snowstorm_Near_27: -1094532525017667873
+      Snowstorm_Near_28: -1377881919228747957
+      Snowstorm_Near_29: 5578774144630617810
+      Snowstorm_Near_3: -2565947756676085776
+      Snowstorm_Near_30: 199995042614207633
+      Snowstorm_Near_31: -5273112254828049698
+      Snowstorm_Near_32: -1970762896660760716
+      Snowstorm_Near_33: -381054067439812444
+      Snowstorm_Near_34: -7109024335025429595
+      Snowstorm_Near_35: -8164865540939169817
+      Snowstorm_Near_36: -4722174740671463441
+      Snowstorm_Near_37: 7418571642716286074
+      Snowstorm_Near_38: 3750949047762245631
+      Snowstorm_Near_39: -781398255828236563
+      Snowstorm_Near_4: -3373271292398904309
+      Snowstorm_Near_40: -5083176682219382331
+      Snowstorm_Near_41: -8877918014701156403
+      Snowstorm_Near_42: 1932990054954926257
+      Snowstorm_Near_43: 7649347914573378804
+      Snowstorm_Near_44: -8807779188367625682
+      Snowstorm_Near_45: -8523541974746752561
+      Snowstorm_Near_46: 2136784873026366675
+      Snowstorm_Near_47: 4530130907390553183
+      Snowstorm_Near_48: 7995229850809694726
+      Snowstorm_Near_49: -4608245179705380828
+      Snowstorm_Near_5: 6902090296638488000
+      Snowstorm_Near_50: 9077690548628434514
+      Snowstorm_Near_51: 8668435114646766171
+      Snowstorm_Near_52: 364664403689710289
+      Snowstorm_Near_53: 4971540369993964901
+      Snowstorm_Near_54: 5036240951680949711
+      Snowstorm_Near_55: -897859018445267484
+      Snowstorm_Near_56: 7743510760872725082
+      Snowstorm_Near_57: -2536190125634077459
+      Snowstorm_Near_58: -1197058185001827336
+      Snowstorm_Near_59: 3412288265388532730
+      Snowstorm_Near_6: -1604257466307677051
+      Snowstorm_Near_60: 559986197332400081
+      Snowstorm_Near_61: -3746674171478270636
+      Snowstorm_Near_62: -6529811587847748005
+      Snowstorm_Near_63: -5944541818705248296
+      Snowstorm_Near_64: -8198756943325972802
+      Snowstorm_Near_65: 5425545541100490204
+      Snowstorm_Near_66: -4433573823685344911
+      Snowstorm_Near_67: 1862251035775556343
+      Snowstorm_Near_68: -2753609701359097328
+      Snowstorm_Near_69: -8730948923826063586
+      Snowstorm_Near_7: 9208748389400121496
+      Snowstorm_Near_70: -8057062141297459503
+      Snowstorm_Near_71: 1629575634584171775
+      Snowstorm_Near_72: -1947639712181394382
+      Snowstorm_Near_73: 4900166309236013326
+      Snowstorm_Near_74: 3525922098736716911
+      Snowstorm_Near_75: 3911012177880854323
+      Snowstorm_Near_76: 8930995735129428885
+      Snowstorm_Near_77: 2336436517839718734
+      Snowstorm_Near_78: 8654823567032586280
+      Snowstorm_Near_79: -5823227074572267877
+      Snowstorm_Near_8: -394881390834845728
+      Snowstorm_Near_80: 518790606816535808
+      Snowstorm_Near_81: 1283590279346717765
+      Snowstorm_Near_82: -6635029602561228683
+      Snowstorm_Near_83: -8863333819068716983
+      Snowstorm_Near_84: 1512279425930235177
+      Snowstorm_Near_85: 1968577666510664700
+      Snowstorm_Near_86: 3886084884417419694
+      Snowstorm_Near_87: -8955515349971458335
+      Snowstorm_Near_88: 1708454239990987086
+      Snowstorm_Near_89: -7426797519883362523
+      Snowstorm_Near_9: 2446017434490760347
+      Snowstorm_Near_90: -2899066861168748372
+      Snowstorm_Near_91: -6097847472141682156
+      Snowstorm_Near_92: 8240640095760827564
+      Snowstorm_Near_93: 2668057603237205588
+      Snowstorm_Near_94: -5103070351827428079
+      Snowstorm_Near_95: 3648975837321846579
+      Snowstorm_Near_96: -1680594910397884377
+      Snowstorm_Near_97: 471559364271202149
+      Snowstorm_Near_98: -3653160124120727793
+      Snowstorm_Near_99: 7423422310988686748
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
