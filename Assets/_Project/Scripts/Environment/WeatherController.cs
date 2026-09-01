@@ -17,29 +17,41 @@ namespace CozyHome.Weather
         [SerializeField] private WeatherVisualGroup hail;
         [SerializeField] private WeatherVisualGroup fog;
         [SerializeField] private WeatherVisualGroup wind;
+        [SerializeField] private WeatherVisualGroup strongWind;
+
+        [Header("Audio")]
+        [SerializeField] private WeatherAudioManager weatherAudioManager;
 
         [Header("Test mode")]
         [SerializeField] private bool useTestWeatherOnStart = true;
         [SerializeField] private WeatherType testWeather = WeatherType.LightRain;
 
-        public WeatherType CurrentWeather { get; private set; } = WeatherType.Clear;
+        public WeatherType CurrentWeather { get; private set; } = WeatherType.None;
 
         private WeatherVisualGroup[] allWeatherGroups;
 
         private void Awake()
         {
             CacheGroups();
-            SetWeather(WeatherType.Clear);
+            EnsureAudioManager();
+            SetWeather(WeatherType.None);
         }
 
         private void Start()
         {
             CacheGroups();
+            EnsureAudioManager();
 
             if (useTestWeatherOnStart)
             {
                 SetWeather(testWeather);
             }
+        }
+
+        private void OnValidate()
+        {
+            CacheGroups();
+            ValidateWeatherSetup();
         }
 
         public void SetWeather(WeatherType type)
@@ -57,8 +69,15 @@ namespace CozyHome.Weather
 
             CurrentWeather = type;
 
-            if (type == WeatherType.Clear)
+            if (type == WeatherType.None || type == WeatherType.Clear)
             {
+                if (type == WeatherType.Clear)
+                {
+                    weatherAudioManager?.SetWeather(type);
+                    return;
+                }
+
+                weatherAudioManager?.StopWeather();
                 return;
             }
 
@@ -67,11 +86,50 @@ namespace CozyHome.Weather
             {
                 targetGroup.Play();
             }
+
+            weatherAudioManager?.SetWeather(type);
         }
 
         public void StopAllWeather()
         {
-            SetWeather(WeatherType.Clear);
+            SetWeather(WeatherType.None);
+        }
+
+        public void ValidateWeatherSetup()
+        {
+            CacheGroups();
+
+            for (int i = 0; i < allWeatherGroups.Length; i++)
+            {
+                WeatherVisualGroup group = allWeatherGroups[i];
+                if (group != null)
+                {
+                    continue;
+                }
+            }
+
+            if (strongWind == null)
+            {
+                Debug.LogWarning("WeatherController: StrongWind visual group is not assigned. The StrongWind state will not activate in the inspector.");
+            }
+
+            if (weatherAudioManager == null)
+            {
+                EnsureAudioManager();
+            }
+        }
+
+        private void EnsureAudioManager()
+        {
+            if (weatherAudioManager == null)
+            {
+                weatherAudioManager = GetComponent<WeatherAudioManager>();
+            }
+
+            if (weatherAudioManager == null)
+            {
+                weatherAudioManager = gameObject.AddComponent<WeatherAudioManager>();
+            }
         }
 
         private void CacheGroups()
@@ -86,6 +144,7 @@ namespace CozyHome.Weather
                 hail,
                 fog,
                 wind,
+                strongWind,
             };
         }
 
@@ -109,6 +168,9 @@ namespace CozyHome.Weather
                     return fog;
                 case WeatherType.Wind:
                     return wind;
+                case WeatherType.StrongWind:
+                    return strongWind;
+                case WeatherType.None:
                 case WeatherType.Clear:
                 default:
                     return null;

@@ -12,6 +12,7 @@ namespace CozyHome.Weather
         [SerializeField] private GameObject rootObject;
         [SerializeField] private List<WeatherLayerScroller> scrollingLayers = new List<WeatherLayerScroller>();
         [SerializeField] private List<GameObject> staticVisuals = new List<GameObject>();
+        [SerializeField] private LightningEffect lightningEffect;
 
         public WeatherType WeatherType => weatherType;
 
@@ -45,6 +46,11 @@ namespace CozyHome.Weather
                     }
                 }
             }
+
+            if (lightningEffect != null)
+            {
+                lightningEffect.Activate();
+            }
         }
 
         public void Stop()
@@ -71,6 +77,11 @@ namespace CozyHome.Weather
                         visual.SetActive(false);
                     }
                 }
+            }
+
+            if (lightningEffect != null)
+            {
+                lightningEffect.Deactivate();
             }
 
             if (rootObject != null)

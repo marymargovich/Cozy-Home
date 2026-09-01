@@ -417,6 +417,17 @@ namespace CozyHome.UI
                 };
             }
 
+            if (activeWeather == WeatherType.StrongWind)
+            {
+                return language switch
+                {
+                    AppLanguage.RU => "Сильный ветер",
+                    AppLanguage.EN => "Strong Wind",
+                    AppLanguage.HE => "רוח חזקה",
+                    _ => "Сильный ветер"
+                };
+            }
+
             if (activeWeather == WeatherType.LightRain)
             {
                 return language switch

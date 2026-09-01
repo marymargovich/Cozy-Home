@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b855627496dfe45eda9c2c4a851b6a2b
+guid: 97a9c3253b3d24bc796ec9a6f4db3056
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8893390406648489309
-    second: heavyRain2_0
+      213: -2225377913492245700
+    second: snow_mid_new_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -40,9 +40,9 @@ TextureImporter:
     filterMode: 1
     aniso: 1
     mipBias: 0
-    wrapU: 0
-    wrapV: 0
-    wrapW: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
@@ -139,7 +139,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: heavyRain2_0
+      name: snow_mid_new_0
       rect:
         serializedVersion: 2
         x: 0
@@ -154,8 +154,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d556625a47bab6b70800000000000000
-      internalID: 8893390406648489309
+      spriteID: c337b47049edd11e0800000000000000
+      internalID: -2225377913492245700
       vertices: []
       indices: 
       edges: []
@@ -174,7 +174,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      heavyRain2_0: 8893390406648489309
+      snow_mid_new_0: -2225377913492245700
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

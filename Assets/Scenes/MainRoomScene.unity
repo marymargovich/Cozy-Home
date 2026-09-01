@@ -177,7 +177,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5d8cb2842a3c94045a5c1a69c871c6e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24e21afb986c447cd89e0ad4261c889b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -246,7 +246,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -20, y: -189}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &16772764
@@ -261,11 +261,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 7
+  weatherType: 8
   rootObject: {fileID: 16772762}
   scrollingLayers:
   - {fileID: 1107920436}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &28281934
 GameObject:
   m_ObjectHideFlags: 0
@@ -785,7 +786,7 @@ RectTransform:
   m_GameObject: {fileID: 84654077}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 383284775}
@@ -815,8 +816,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 89aa36b2b2cd64b6cb435dd11a581665, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 84ef866b7204e4bc9bd6021726368ff8, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -824,7 +825,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &84654080
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1477,7 +1478,7 @@ RectTransform:
   m_GameObject: {fileID: 157943608}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 383284775}
@@ -1502,7 +1503,7 @@ MonoBehaviour:
   imageA: {fileID: 157943609}
   imageB: {fileID: 84654078}
   direction: {x: 0.35, y: -1}
-  speed: 60
+  speed: 80
 --- !u!114 &157943611
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1523,8 +1524,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 89aa36b2b2cd64b6cb435dd11a581665, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 84ef866b7204e4bc9bd6021726368ff8, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -1532,7 +1533,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &157943612
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2110,7 +2111,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0559b522b87cb406ba6293b5bf7dfe03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a920ee2cb1b4f427cb3062b7ea7dd626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2777,13 +2778,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 6
+  weatherType: 7
   rootObject: {fileID: 383284774}
   scrollingLayers:
   - {fileID: 157943610}
   - {fileID: 895616654}
   - {fileID: 1043200337}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &383429236
 GameObject:
   m_ObjectHideFlags: 0
@@ -3126,6 +3128,98 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383885199}
   m_CullTransparentMesh: 1
+--- !u!1 &389621826
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 389621827}
+  - component: {fileID: 389621830}
+  - component: {fileID: 389621829}
+  - component: {fileID: 389621828}
+  m_Layer: 5
+  m_Name: 'StrongWind_mid_A '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &389621827
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389621826}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1685804619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 14, y: -281}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &389621828
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389621826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478c9eeb794d144d2adae447e8eeb911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherLayerScroller
+  imageA: {fileID: 389621827}
+  imageB: {fileID: 762989780}
+  direction: {x: 1, y: -0.12}
+  speed: 100
+--- !u!114 &389621829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389621826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 36dbb9913325049aa8e470c1a914363f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &389621830
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 389621826}
+  m_CullTransparentMesh: 1
 --- !u!1 &390216877
 GameObject:
   m_ObjectHideFlags: 0
@@ -3200,7 +3294,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 080342a8c809f4ff39b6c2ffadacf137, type: 3}
+  m_Sprite: {fileID: 21300000, guid: aeec35b1f5c09494cab9fe47eaf15ba9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3626,6 +3720,98 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.RectMask2D
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
+--- !u!1 &454593838
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 454593839}
+  - component: {fileID: 454593842}
+  - component: {fileID: 454593841}
+  - component: {fileID: 454593840}
+  m_Layer: 5
+  m_Name: StrongWind_Near_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &454593839
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454593838}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1685804619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 14, y: -281}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &454593840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454593838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 478c9eeb794d144d2adae447e8eeb911, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherLayerScroller
+  imageA: {fileID: 454593839}
+  imageB: {fileID: 925019352}
+  direction: {x: 1, y: -0.18}
+  speed: 80
+--- !u!114 &454593841
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454593838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9add0a17acdea4c1dacc06c687a3fd3d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &454593842
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 454593838}
+  m_CullTransparentMesh: 1
 --- !u!1 &467285189
 GameObject:
   m_ObjectHideFlags: 0
@@ -3701,7 +3887,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: b855627496dfe45eda9c2c4a851b6a2b, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3709,7 +3895,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &467285193
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4116,7 +4302,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherLayerScroller
   imageA: {fileID: 499487175}
   imageB: {fileID: 1614323069}
-  direction: {x: 1, y: -0.15}
+  direction: {x: 1, y: -0.08}
   speed: 50
 --- !u!114 &499487177
 MonoBehaviour:
@@ -4138,7 +4324,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a2a54ec636e74306967dc27f2535898, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 980bff26647c44bb9bd1f3029b7b0bd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -4834,6 +5020,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 579742085}
   m_CullTransparentMesh: 1
+--- !u!1 &583479957
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 583479958}
+  - component: {fileID: 583479959}
+  m_Layer: 0
+  m_Name: WeatherAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &583479958
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583479957}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 824708601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &583479959
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 583479957}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &586203892
 GameObject:
   m_ObjectHideFlags: 0
@@ -5296,7 +5611,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: befb224adfe7d4a9794c8b6cfee19e44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 174dd0c2bad0146eebb0ef73beccb6d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6290,81 +6605,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 687942774}
   m_CullTransparentMesh: 1
---- !u!1 &688812595
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 688812596}
-  - component: {fileID: 688812598}
-  - component: {fileID: 688812597}
-  m_Layer: 5
-  m_Name: Wind_Near_B
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &688812596
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688812595}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1199634344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14, y: -150}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &688812597
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688812595}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 901678a58569b4b919d90cd3897f8af3, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &688812598
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 688812595}
-  m_CullTransparentMesh: 1
 --- !u!1 &706184090
 GameObject:
   m_ObjectHideFlags: 0
@@ -6439,7 +6679,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: befb224adfe7d4a9794c8b6cfee19e44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 174dd0c2bad0146eebb0ef73beccb6d4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6515,7 +6755,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e0747288a6ae44547b6f1bf22af2503c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: acef564608ba84b6daa1c470267cb7ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -6604,13 +6844,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 3
+  weatherType: 4
   rootObject: {fileID: 739901909}
   scrollingLayers:
   - {fileID: 1370110548}
   - {fileID: 1240197513}
   - {fileID: 1506312437}
   staticVisuals: []
+  lightningEffect: {fileID: 1960716569}
 --- !u!1 &745949923
 GameObject:
   m_ObjectHideFlags: 0
@@ -6646,6 +6887,81 @@ RectTransform:
   m_AnchoredPosition: {x: -840, y: 7}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &762989779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 762989780}
+  - component: {fileID: 762989782}
+  - component: {fileID: 762989781}
+  m_Layer: 5
+  m_Name: 'StrongWind_mid_B '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &762989780
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762989779}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1685804619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 14, y: -150}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &762989781
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762989779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 36dbb9913325049aa8e470c1a914363f, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &762989782
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762989779}
+  m_CullTransparentMesh: 1
 --- !u!1 &776351086
 GameObject:
   m_ObjectHideFlags: 0
@@ -6703,8 +7019,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9678c56d8031846b5b3b74ef66629c9a, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5360b739a7c55488c8ef4f8349760961, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -6712,7 +7028,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &776351089
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6834,6 +7150,135 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &797328477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 797328478}
+  - component: {fileID: 797328479}
+  m_Layer: 0
+  m_Name: WeatherAudio_A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &797328478
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797328477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 824708601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &797328479
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 797328477}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &810335407
 GameObject:
   m_ObjectHideFlags: 0
@@ -6888,13 +7333,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 2
+  weatherType: 3
   rootObject: {fileID: 810335407}
   scrollingLayers:
   - {fileID: 672100593}
   - {fileID: 687942776}
   - {fileID: 467285191}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &813958070
 GameObject:
   m_ObjectHideFlags: 0
@@ -7257,6 +7703,7 @@ GameObject:
   - component: {fileID: 824708601}
   - component: {fileID: 824708602}
   - component: {fileID: 824708603}
+  - component: {fileID: 824708604}
   m_Layer: 5
   m_Name: Weather_Container
   m_TagString: Untagged
@@ -7280,16 +7727,21 @@ RectTransform:
   - {fileID: 383284775}
   - {fileID: 16772763}
   - {fileID: 1199634344}
+  - {fileID: 1685804619}
   - {fileID: 810335408}
   - {fileID: 1006108228}
   - {fileID: 1278103096}
   - {fileID: 739901910}
+  - {fileID: 797328478}
+  - {fileID: 1870499550}
+  - {fileID: 583479958}
+  - {fileID: 1652049476}
   m_Father: {fileID: 784483375}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 500, y: 33}
-  m_SizeDelta: {x: 1200, y: 1400}
+  m_AnchoredPosition: {x: 590, y: 33}
+  m_SizeDelta: {x: 1380, y: 1400}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &824708602
 CanvasRenderer:
@@ -7319,8 +7771,99 @@ MonoBehaviour:
   hail: {fileID: 383284776}
   fog: {fileID: 16772764}
   wind: {fileID: 1199634345}
+  strongWind: {fileID: 1685804620}
+  weatherAudioManager: {fileID: 824708604}
   useTestWeatherOnStart: 1
-  testWeather: 8
+  testWeather: 1
+--- !u!114 &824708604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 824708600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 111dd9e9068714145b63b3abdc12c41b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherAudioManager
+  weatherSource: {fileID: 583479959}
+  outputGroup: {fileID: 0}
+  weatherPools:
+  - weatherType: 2
+    clips:
+    - {fileID: 8300000, guid: 2c5216de2b51844bf8a9f4a6df111fbb, type: 3}
+    - {fileID: 8300000, guid: 06c44493604784485984ef494f8d5078, type: 3}
+    - {fileID: 8300000, guid: 0a653c19d1981424aac379c591c54404, type: 3}
+    - {fileID: 8300000, guid: 7cf74d9fc629c4dfdb78d9a620fd4fd7, type: 3}
+    volume: 0.456
+    pitch: 1
+    loop: 1
+  - weatherType: 3
+    clips:
+    - {fileID: 8300000, guid: 2f042bd5b32ac4100b77f7c3d44c3df6, type: 3}
+    - {fileID: 8300000, guid: 20dfac74fb456450b9e40ffbc683827f, type: 3}
+    - {fileID: 8300000, guid: 1b2ee28ca6eeb452ca23e5d30ba59da1, type: 3}
+    volume: 0.515
+    pitch: 1
+    loop: 1
+  - weatherType: 4
+    clips:
+    - {fileID: 8300000, guid: 87fd90c73dce247d4afdf9f3a53447ae, type: 3}
+    - {fileID: 8300000, guid: bd0540684dfb54042b6d7ae8ff2f930e, type: 3}
+    - {fileID: 8300000, guid: bc081cea021b4486e9222b1f2bf4f6c4, type: 3}
+    volume: 0.516
+    pitch: 1
+    loop: 1
+  - weatherType: 5
+    clips:
+    - {fileID: 8300000, guid: 208196bbbe94c4458bddf549f6405844, type: 3}
+    volume: 0
+    pitch: 1
+    loop: 1
+  - weatherType: 6
+    clips:
+    - {fileID: 8300000, guid: 4a009e6dea75743e8b2504ece1109c48, type: 3}
+    - {fileID: 8300000, guid: a4fcc6d6d4706445ea8791822a6a8344, type: 3}
+    - {fileID: 8300000, guid: a4fcc6d6d4706445ea8791822a6a8344, type: 3}
+    volume: 0.474
+    pitch: 1
+    loop: 1
+  - weatherType: 7
+    clips:
+    - {fileID: 8300000, guid: a1844e58bf8cd4527bdcd95b20cc9352, type: 3}
+    - {fileID: 8300000, guid: ecbbca6efd7074f538d025ac32e44106, type: 3}
+    - {fileID: 8300000, guid: 1175918f8fdd84bf99eb5cc32beb31b4, type: 3}
+    volume: 0.474
+    pitch: 0.99
+    loop: 1
+  - weatherType: 8
+    clips: []
+    volume: 0
+    pitch: 0
+    loop: 1
+  - weatherType: 9
+    clips:
+    - {fileID: 8300000, guid: f7a03a609a7be40e9a05c2e83030d46f, type: 3}
+    - {fileID: 8300000, guid: 6e734d1a627c543759c5972f7bb6c409, type: 3}
+    - {fileID: 8300000, guid: b0a77ace904df45e1b65b94f27cd95b0, type: 3}
+    volume: 0.562
+    pitch: 1
+    loop: 1
+  - weatherType: 10
+    clips:
+    - {fileID: 8300000, guid: 66eb71000ec294e9b8b5c377729bcfb2, type: 3}
+    - {fileID: 8300000, guid: efedbfac94f304802a6d230ae79c9d4b, type: 3}
+    volume: 0.217
+    pitch: 1
+    loop: 1
+  - weatherType: 1
+    clips:
+    - {fileID: 8300000, guid: 5c83d6ba9342444ae92050f9fdd35a54, type: 3}
+    - {fileID: 8300000, guid: bb1d78e7471a74d99a1017339303195e, type: 3}
+    volume: 0.288
+    pitch: 1
+    loop: 1
 --- !u!1 &825856356
 GameObject:
   m_ObjectHideFlags: 0
@@ -7850,7 +8393,7 @@ MonoBehaviour:
   imageA: {fileID: 895616653}
   imageB: {fileID: 776351087}
   direction: {x: 0.35, y: -1}
-  speed: 80
+  speed: 100
 --- !u!114 &895616655
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7871,8 +8414,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9678c56d8031846b5b3b74ef66629c9a, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: 5360b739a7c55488c8ef4f8349760961, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7880,7 +8423,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &895616656
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -8041,98 +8584,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.UI.TooltipTrigger
   tooltip: {fileID: 894549376}
   tooltipType: 0
---- !u!1 &913786948
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 913786949}
-  - component: {fileID: 913786952}
-  - component: {fileID: 913786951}
-  - component: {fileID: 913786950}
-  m_Layer: 5
-  m_Name: Wind_Near_A
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &913786949
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913786948}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1199634344}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14, y: -281}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &913786950
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913786948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 478c9eeb794d144d2adae447e8eeb911, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherLayerScroller
-  imageA: {fileID: 913786949}
-  imageB: {fileID: 688812596}
-  direction: {x: 1, y: -0.15}
-  speed: 80
---- !u!114 &913786951
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913786948}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.7176471}
-  m_RaycastTarget: 0
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 901678a58569b4b919d90cd3897f8af3, type: 3}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &913786952
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 913786948}
-  m_CullTransparentMesh: 1
 --- !u!1 &921235484
 GameObject:
   m_ObjectHideFlags: 0
@@ -8179,6 +8630,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &925019351
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 925019352}
+  - component: {fileID: 925019354}
+  - component: {fileID: 925019353}
+  m_Layer: 5
+  m_Name: StrongWind_Near_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &925019352
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925019351}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1685804619}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 14, y: -150}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &925019353
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925019351}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.7019608}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9add0a17acdea4c1dacc06c687a3fd3d, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &925019354
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 925019351}
+  m_CullTransparentMesh: 1
 --- !u!1 &949949840
 GameObject:
   m_ObjectHideFlags: 0
@@ -8711,13 +9237,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 4
+  weatherType: 5
   rootObject: {fileID: 1006108227}
   scrollingLayers:
   - {fileID: 2002523856}
   - {fileID: 1595457295}
   - {fileID: 390216879}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &1028000736
 GameObject:
   m_ObjectHideFlags: 0
@@ -8866,7 +9393,7 @@ RectTransform:
   m_GameObject: {fileID: 1043200335}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 383284775}
@@ -8891,7 +9418,7 @@ MonoBehaviour:
   imageA: {fileID: 1043200336}
   imageB: {fileID: 1603040654}
   direction: {x: 0.35, y: -1}
-  speed: 100
+  speed: 120
 --- !u!114 &1043200338
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8912,8 +9439,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4af2f8a926b234a59adeb672d354892d, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: ed3a6f9705dc04860bc8d37a5b7f0a1c, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -8921,7 +9448,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1043200339
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9354,7 +9881,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4da6feb74853043079d0de3460d6a6b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 97a9c3253b3d24bc796ec9a6f4db3056, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9429,7 +9956,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5d8cb2842a3c94045a5c1a69c871c6e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 24e21afb986c447cd89e0ad4261c889b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9882,7 +10409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4da6feb74853043079d0de3460d6a6b1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 97a9c3253b3d24bc796ec9a6f4db3056, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10006,8 +10533,6 @@ RectTransform:
   m_Children:
   - {fileID: 499487175}
   - {fileID: 1614323069}
-  - {fileID: 913786949}
-  - {fileID: 688812596}
   m_Father: {fileID: 824708601}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -10027,12 +10552,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 8
+  weatherType: 9
   rootObject: {fileID: 1199634343}
   scrollingLayers:
   - {fileID: 499487176}
-  - {fileID: 913786950}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &1208216770
 GameObject:
   m_ObjectHideFlags: 0
@@ -10214,7 +10739,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: b855627496dfe45eda9c2c4a851b6a2b, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -10222,7 +10747,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1233149540
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -10415,7 +10940,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 5
+  weatherType: 6
   rootObject: {fileID: 1278103095}
   scrollingLayers:
   - {fileID: 706184092}
@@ -10423,6 +10948,7 @@ MonoBehaviour:
   - {fileID: 2067293463}
   - {fileID: 210789333}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &1297613508
 GameObject:
   m_ObjectHideFlags: 0
@@ -12373,7 +12899,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: e0747288a6ae44547b6f1bf22af2503c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: acef564608ba84b6daa1c470267cb7ca, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12578,7 +13104,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u043E\u0447\u044C \xB7 \u041E\u0441\u0435\u043D\u044C \xB7 \u042F\u0441\u043D\u043E"
+  m_text: "\u0412\u0435\u0447\u0435\u0440 \xB7 \u041E\u0441\u0435\u043D\u044C \xB7
+    \u0422\u0443\u043C\u0430\u043D"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8898bc11113fd49b3b0fc1eff5482cd6, type: 2}
   m_sharedMaterial: {fileID: 1715596477558356031, guid: 8898bc11113fd49b3b0fc1eff5482cd6, type: 2}
@@ -13329,7 +13856,7 @@ RectTransform:
   m_GameObject: {fileID: 1603040653}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: -1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 383284775}
@@ -13359,8 +13886,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4af2f8a926b234a59adeb672d354892d, type: 3}
-  m_Type: 0
+  m_Sprite: {fileID: 21300000, guid: ed3a6f9705dc04860bc8d37a5b7f0a1c, type: 3}
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13368,7 +13895,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1603040656
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -13434,7 +13961,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3a2a54ec636e74306967dc27f2535898, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 980bff26647c44bb9bd1f3029b7b0bd4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13572,6 +14099,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1628243343}
   m_CullTransparentMesh: 1
+--- !u!1 &1652049475
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1652049476}
+  - component: {fileID: 1652049477}
+  m_Layer: 0
+  m_Name: WeatherThunderAudio
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1652049476
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652049475}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 824708601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1652049477
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1652049475}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1656294497
 GameObject:
   m_ObjectHideFlags: 0
@@ -13695,6 +14351,66 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1685804618
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1685804619}
+  - component: {fileID: 1685804620}
+  m_Layer: 5
+  m_Name: 'StrongWind_Group '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &1685804619
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685804618}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 454593839}
+  - {fileID: 925019352}
+  - {fileID: 389621827}
+  - {fileID: 762989780}
+  m_Father: {fileID: 824708601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1685804620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685804618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
+  weatherType: 10
+  rootObject: {fileID: 1685804618}
+  scrollingLayers:
+  - {fileID: 0}
+  - {fileID: 454593840}
+  - {fileID: 389621828}
+  staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &1717788426
 GameObject:
   m_ObjectHideFlags: 0
@@ -14447,7 +15163,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 0559b522b87cb406ba6293b5bf7dfe03, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a920ee2cb1b4f427cb3062b7ea7dd626, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14657,7 +15373,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 080342a8c809f4ff39b6c2ffadacf137, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f4b707021868944bb95f5625e033dd75, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14796,6 +15512,135 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1859475098}
   m_CullTransparentMesh: 1
+--- !u!1 &1870499549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1870499550}
+  - component: {fileID: 1870499551}
+  m_Layer: 0
+  m_Name: WeatherAudio_B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1870499550
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870499549}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 824708601}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &1870499551
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870499549}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1877816275
 GameObject:
   m_ObjectHideFlags: 0
@@ -15135,7 +15980,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: befb224adfe7d4a9794c8b6cfee19e44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a540483c326a24d738b220eeb0d123e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15210,7 +16055,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 8304245233570557715, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  m_Sprite: {fileID: -8655628784269711096, guid: 183b3d65421d843d1b452841a990661f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -15719,6 +16564,7 @@ GameObject:
   - component: {fileID: 1960716566}
   - component: {fileID: 1960716568}
   - component: {fileID: 1960716567}
+  - component: {fileID: 1960716569}
   m_Layer: 5
   m_Name: Lightning_Bolt
   m_TagString: Untagged
@@ -15783,6 +16629,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1960716565}
   m_CullTransparentMesh: 1
+--- !u!114 &1960716569
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1960716565}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e49b0e6bc1d8425ebbcf5cad1560a5d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.LightningEffect
+  flashImage: {fileID: 1960716567}
+  flashCanvasGroup: {fileID: 0}
+  flashColor: {r: 1, g: 1, b: 1, a: 1}
+  flashDuration: 0.18
+  flashDecayDuration: 0.35
+  maxFlashAlpha: 0.9
+  minFlashInterval: 5
+  maxFlashInterval: 15
 --- !u!1 &2002523854
 GameObject:
   m_ObjectHideFlags: 0
@@ -15857,7 +16723,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: befb224adfe7d4a9794c8b6cfee19e44, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a540483c326a24d738b220eeb0d123e8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -15932,7 +16798,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1986041767, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
+  m_Sprite: {fileID: -794427139121413777, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16154,13 +17020,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9c1735005abb44ad8899a2eb054eba20, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CozyHome.Weather.WeatherVisualGroup
-  weatherType: 1
+  weatherType: 2
   rootObject: {fileID: 2057548581}
   scrollingLayers:
   - {fileID: 732951273}
   - {fileID: 337870665}
   - {fileID: 947821}
   staticVisuals: []
+  lightningEffect: {fileID: 0}
 --- !u!1 &2063472752
 GameObject:
   m_ObjectHideFlags: 0

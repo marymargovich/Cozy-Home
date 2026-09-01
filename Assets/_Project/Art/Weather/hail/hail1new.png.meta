@@ -1,0 +1,7150 @@
+fileFormatVersion: 2
+guid: 84ef866b7204e4bc9bd6021726368ff8
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 133766269106843639
+    second: hail1new_0
+  - first:
+      213: -1850184751710759360
+    second: hail1new_1
+  - first:
+      213: 7625065367626040055
+    second: hail1new_2
+  - first:
+      213: 2800671144744519774
+    second: hail1new_3
+  - first:
+      213: -4041431450945617867
+    second: hail1new_4
+  - first:
+      213: -1349099999821955560
+    second: hail1new_5
+  - first:
+      213: 5963896003124208116
+    second: hail1new_6
+  - first:
+      213: 7409553516298921862
+    second: hail1new_7
+  - first:
+      213: -2047033431440698604
+    second: hail1new_8
+  - first:
+      213: -884439570789745425
+    second: hail1new_9
+  - first:
+      213: 6479688826856316799
+    second: hail1new_10
+  - first:
+      213: -3265365394575882259
+    second: hail1new_11
+  - first:
+      213: 1165507736245919664
+    second: hail1new_12
+  - first:
+      213: -243663380923972792
+    second: hail1new_13
+  - first:
+      213: 2215567448774338161
+    second: hail1new_14
+  - first:
+      213: -1226795614574514666
+    second: hail1new_15
+  - first:
+      213: 7992244342713910133
+    second: hail1new_16
+  - first:
+      213: -4660935771307518236
+    second: hail1new_17
+  - first:
+      213: 420039038038020417
+    second: hail1new_18
+  - first:
+      213: 6304715835486411226
+    second: hail1new_19
+  - first:
+      213: -94866015602047430
+    second: hail1new_20
+  - first:
+      213: -2575964950371993469
+    second: hail1new_21
+  - first:
+      213: 424318044949585006
+    second: hail1new_22
+  - first:
+      213: 3840080067080298281
+    second: hail1new_23
+  - first:
+      213: -5477834026328190636
+    second: hail1new_24
+  - first:
+      213: -5137642247092327444
+    second: hail1new_25
+  - first:
+      213: 7408025595713096174
+    second: hail1new_26
+  - first:
+      213: 4397892721967897207
+    second: hail1new_27
+  - first:
+      213: 5040259780094422097
+    second: hail1new_28
+  - first:
+      213: -8993097116448118365
+    second: hail1new_29
+  - first:
+      213: -5413915275040186941
+    second: hail1new_30
+  - first:
+      213: 2493499347967334010
+    second: hail1new_31
+  - first:
+      213: -424925149588847176
+    second: hail1new_32
+  - first:
+      213: 1389217678662470343
+    second: hail1new_33
+  - first:
+      213: -5246265914308208023
+    second: hail1new_34
+  - first:
+      213: -5818161992697509828
+    second: hail1new_35
+  - first:
+      213: -5257658286923720127
+    second: hail1new_36
+  - first:
+      213: 6045402841413839344
+    second: hail1new_37
+  - first:
+      213: 1512719812713110954
+    second: hail1new_38
+  - first:
+      213: 5565680058574485667
+    second: hail1new_39
+  - first:
+      213: -9200626841373177684
+    second: hail1new_40
+  - first:
+      213: 4706744196755834659
+    second: hail1new_41
+  - first:
+      213: -2469064271487743627
+    second: hail1new_42
+  - first:
+      213: 6089288156665169093
+    second: hail1new_43
+  - first:
+      213: -1275968021521999649
+    second: hail1new_44
+  - first:
+      213: 2784373126400659587
+    second: hail1new_45
+  - first:
+      213: -7848099501274885033
+    second: hail1new_46
+  - first:
+      213: -4076039855562817629
+    second: hail1new_47
+  - first:
+      213: 5811564430755396468
+    second: hail1new_48
+  - first:
+      213: 7342085461673695870
+    second: hail1new_49
+  - first:
+      213: -1472670429963143016
+    second: hail1new_50
+  - first:
+      213: -3663852408007864545
+    second: hail1new_51
+  - first:
+      213: -5824010563068323656
+    second: hail1new_52
+  - first:
+      213: -1911839277853029041
+    second: hail1new_53
+  - first:
+      213: -4818397639078368728
+    second: hail1new_54
+  - first:
+      213: 6812272751113883569
+    second: hail1new_55
+  - first:
+      213: -3659979913900132737
+    second: hail1new_56
+  - first:
+      213: 8793210212559243798
+    second: hail1new_57
+  - first:
+      213: -4711523564161596238
+    second: hail1new_58
+  - first:
+      213: -3345563901590575234
+    second: hail1new_59
+  - first:
+      213: 777684789431573339
+    second: hail1new_60
+  - first:
+      213: 1796804349298354023
+    second: hail1new_61
+  - first:
+      213: -5742963253223234725
+    second: hail1new_62
+  - first:
+      213: 7374195002449909067
+    second: hail1new_63
+  - first:
+      213: 3265494373297762341
+    second: hail1new_64
+  - first:
+      213: 1165289443792010958
+    second: hail1new_65
+  - first:
+      213: -6998427385083140065
+    second: hail1new_66
+  - first:
+      213: 1297150471472764196
+    second: hail1new_67
+  - first:
+      213: -7195349670159238296
+    second: hail1new_68
+  - first:
+      213: -727826615068536384
+    second: hail1new_69
+  - first:
+      213: -3375675739856393518
+    second: hail1new_70
+  - first:
+      213: -3058194903254687125
+    second: hail1new_71
+  - first:
+      213: 637652674218381941
+    second: hail1new_72
+  - first:
+      213: 8475085265016346206
+    second: hail1new_73
+  - first:
+      213: -1743112710427423772
+    second: hail1new_74
+  - first:
+      213: 2600699400437071058
+    second: hail1new_75
+  - first:
+      213: 9189134325122457819
+    second: hail1new_76
+  - first:
+      213: -6240881976096574742
+    second: hail1new_77
+  - first:
+      213: -8764302822263506935
+    second: hail1new_78
+  - first:
+      213: 6003567679898666005
+    second: hail1new_79
+  - first:
+      213: 2368443049099335359
+    second: hail1new_80
+  - first:
+      213: 7448163746444325804
+    second: hail1new_81
+  - first:
+      213: -1099603201927178914
+    second: hail1new_82
+  - first:
+      213: 7712111253796225662
+    second: hail1new_83
+  - first:
+      213: 4108769476930097206
+    second: hail1new_84
+  - first:
+      213: 16747028012953325
+    second: hail1new_85
+  - first:
+      213: 6911606058708123415
+    second: hail1new_86
+  - first:
+      213: 3064155290011027655
+    second: hail1new_87
+  - first:
+      213: -4590017275416595387
+    second: hail1new_88
+  - first:
+      213: -2608780529514135418
+    second: hail1new_89
+  - first:
+      213: -98390046284730497
+    second: hail1new_90
+  - first:
+      213: 4088510307043472054
+    second: hail1new_91
+  - first:
+      213: 5707775615167573365
+    second: hail1new_92
+  - first:
+      213: 4867643526251620738
+    second: hail1new_93
+  - first:
+      213: -6649741505574736290
+    second: hail1new_94
+  - first:
+      213: 902503982660286892
+    second: hail1new_95
+  - first:
+      213: 5219995820832325299
+    second: hail1new_96
+  - first:
+      213: -8068820852577315729
+    second: hail1new_97
+  - first:
+      213: -6925381684719025929
+    second: hail1new_98
+  - first:
+      213: -9035852968933377799
+    second: hail1new_99
+  - first:
+      213: -5333659449875020271
+    second: hail1new_100
+  - first:
+      213: -7936036265592849769
+    second: hail1new_101
+  - first:
+      213: -4660439595752285324
+    second: hail1new_102
+  - first:
+      213: 5253349055551547132
+    second: hail1new_103
+  - first:
+      213: -4937839938747507468
+    second: hail1new_104
+  - first:
+      213: -6199558771956508518
+    second: hail1new_105
+  - first:
+      213: 433745504800880673
+    second: hail1new_106
+  - first:
+      213: 3603716319175894497
+    second: hail1new_107
+  - first:
+      213: 1181065574884019439
+    second: hail1new_108
+  - first:
+      213: 402843883596403964
+    second: hail1new_109
+  - first:
+      213: -2861798999514074588
+    second: hail1new_110
+  - first:
+      213: -6582938364318002585
+    second: hail1new_111
+  - first:
+      213: -8021944150669657074
+    second: hail1new_112
+  - first:
+      213: -804565305848820180
+    second: hail1new_113
+  - first:
+      213: 5614623194360817654
+    second: hail1new_114
+  - first:
+      213: -8987938199947413904
+    second: hail1new_115
+  - first:
+      213: 5458114977083083435
+    second: hail1new_116
+  - first:
+      213: -1774597809258903566
+    second: hail1new_117
+  - first:
+      213: 3093167524930125340
+    second: hail1new_118
+  - first:
+      213: 5357614588858364251
+    second: hail1new_119
+  - first:
+      213: 8088831063946698424
+    second: hail1new_120
+  - first:
+      213: 5008865224607387867
+    second: hail1new_121
+  - first:
+      213: 3723999716273877322
+    second: hail1new_122
+  - first:
+      213: -2872933540322104823
+    second: hail1new_123
+  - first:
+      213: -3050296767909258748
+    second: hail1new_124
+  - first:
+      213: -5293825040936169697
+    second: hail1new_125
+  - first:
+      213: -7998770735423472944
+    second: hail1new_126
+  - first:
+      213: -7042268502944547095
+    second: hail1new_127
+  - first:
+      213: 2211150663361365058
+    second: hail1new_128
+  - first:
+      213: 5754471939127034775
+    second: hail1new_129
+  - first:
+      213: 245718858663788744
+    second: hail1new_130
+  - first:
+      213: 2938506613982626489
+    second: hail1new_131
+  - first:
+      213: 6489574930033933277
+    second: hail1new_132
+  - first:
+      213: -3078761966598286456
+    second: hail1new_133
+  - first:
+      213: -1748517675842169630
+    second: hail1new_134
+  - first:
+      213: 5198835246815632586
+    second: hail1new_135
+  - first:
+      213: -7110027486338229841
+    second: hail1new_136
+  - first:
+      213: -1639277659807738640
+    second: hail1new_137
+  - first:
+      213: 3958331088614438991
+    second: hail1new_138
+  - first:
+      213: -6469055320140210989
+    second: hail1new_139
+  - first:
+      213: 2254536525925443016
+    second: hail1new_140
+  - first:
+      213: 1376610855290067517
+    second: hail1new_141
+  - first:
+      213: 7626599937778378011
+    second: hail1new_142
+  - first:
+      213: -4770426618999381271
+    second: hail1new_143
+  - first:
+      213: -4055989106645033453
+    second: hail1new_144
+  - first:
+      213: 6005798238069472331
+    second: hail1new_145
+  - first:
+      213: 5755682390472437837
+    second: hail1new_146
+  - first:
+      213: -5590747260755362436
+    second: hail1new_147
+  - first:
+      213: 8113486255855005234
+    second: hail1new_148
+  - first:
+      213: 2359062304114142347
+    second: hail1new_149
+  - first:
+      213: 7730338339902228409
+    second: hail1new_150
+  - first:
+      213: 8922256724252275842
+    second: hail1new_151
+  - first:
+      213: -4587314492658745099
+    second: hail1new_152
+  - first:
+      213: -1425498717628495818
+    second: hail1new_153
+  - first:
+      213: 7806497373471620626
+    second: hail1new_154
+  - first:
+      213: -389139436276275801
+    second: hail1new_155
+  - first:
+      213: 1288489113932635498
+    second: hail1new_156
+  - first:
+      213: -3617798828249984746
+    second: hail1new_157
+  - first:
+      213: 4916092648596848557
+    second: hail1new_158
+  - first:
+      213: 7851204587404716761
+    second: hail1new_159
+  - first:
+      213: 5648545229879677280
+    second: hail1new_160
+  - first:
+      213: 4529233243110913406
+    second: hail1new_161
+  - first:
+      213: 6962548825087616701
+    second: hail1new_162
+  - first:
+      213: -8272980134556491451
+    second: hail1new_163
+  - first:
+      213: -1053662095053054435
+    second: hail1new_164
+  - first:
+      213: -8561494673490962157
+    second: hail1new_165
+  - first:
+      213: -4528416762765814608
+    second: hail1new_166
+  - first:
+      213: 6762670193338299886
+    second: hail1new_167
+  - first:
+      213: 7912835978103950432
+    second: hail1new_168
+  - first:
+      213: 6633063733777575486
+    second: hail1new_169
+  - first:
+      213: 9088532209765988292
+    second: hail1new_170
+  - first:
+      213: -2899535447994301857
+    second: hail1new_171
+  - first:
+      213: -4248007022327404260
+    second: hail1new_172
+  - first:
+      213: -8320991204078341494
+    second: hail1new_173
+  - first:
+      213: 6255524410658570717
+    second: hail1new_174
+  - first:
+      213: 4547789143711564191
+    second: hail1new_175
+  - first:
+      213: 6408918327236512033
+    second: hail1new_176
+  - first:
+      213: -4622880149040147815
+    second: hail1new_177
+  - first:
+      213: 2323053034581137458
+    second: hail1new_178
+  - first:
+      213: 2252045517012994354
+    second: hail1new_179
+  - first:
+      213: 844736018929610037
+    second: hail1new_180
+  - first:
+      213: 6049292601639541272
+    second: hail1new_181
+  - first:
+      213: -8383966041046273000
+    second: hail1new_182
+  - first:
+      213: 8617814956614126187
+    second: hail1new_183
+  - first:
+      213: -3084379881272053410
+    second: hail1new_184
+  - first:
+      213: 550339041457083398
+    second: hail1new_185
+  - first:
+      213: 1707005465219899668
+    second: hail1new_186
+  - first:
+      213: 1247117674875223258
+    second: hail1new_187
+  - first:
+      213: 3551588769270004889
+    second: hail1new_188
+  - first:
+      213: -8063688699908402193
+    second: hail1new_189
+  - first:
+      213: 2332972535549238003
+    second: hail1new_190
+  - first:
+      213: -4640652232415116790
+    second: hail1new_191
+  - first:
+      213: -1568721482520398407
+    second: hail1new_192
+  - first:
+      213: -2471691991982874879
+    second: hail1new_193
+  - first:
+      213: 8713274596289716042
+    second: hail1new_194
+  - first:
+      213: -416994427102781177
+    second: hail1new_195
+  - first:
+      213: 3447121921807720346
+    second: hail1new_196
+  - first:
+      213: -137822880335818680
+    second: hail1new_197
+  - first:
+      213: 1999883577811256535
+    second: hail1new_198
+  - first:
+      213: 8938333014926107280
+    second: hail1new_199
+  - first:
+      213: 6505210422572863057
+    second: hail1new_200
+  - first:
+      213: -7168724565696888669
+    second: hail1new_201
+  - first:
+      213: 4072306266497201917
+    second: hail1new_202
+  - first:
+      213: 1130278120779078815
+    second: hail1new_203
+  - first:
+      213: 2885725285593532369
+    second: hail1new_204
+  - first:
+      213: -2759919955683787955
+    second: hail1new_205
+  - first:
+      213: -5496633919733252148
+    second: hail1new_206
+  - first:
+      213: 6194404512152167156
+    second: hail1new_207
+  - first:
+      213: 273782016764641303
+    second: hail1new_208
+  - first:
+      213: 1717945761039941549
+    second: hail1new_209
+  - first:
+      213: -4928748693620590003
+    second: hail1new_210
+  - first:
+      213: 1857981443762728411
+    second: hail1new_211
+  - first:
+      213: -9068089303050897454
+    second: hail1new_212
+  - first:
+      213: 3484644395805127220
+    second: hail1new_213
+  - first:
+      213: -8984610564804658695
+    second: hail1new_214
+  - first:
+      213: 680593493904603846
+    second: hail1new_215
+  - first:
+      213: -2526095566623589049
+    second: hail1new_216
+  - first:
+      213: 5240545809402440062
+    second: hail1new_217
+  - first:
+      213: -2382928504298776958
+    second: hail1new_218
+  - first:
+      213: -1449457292507192371
+    second: hail1new_219
+  - first:
+      213: 4781537927278126519
+    second: hail1new_220
+  - first:
+      213: -5542067562041013082
+    second: hail1new_221
+  - first:
+      213: -7245037839507910030
+    second: hail1new_222
+  - first:
+      213: 5306897691899416565
+    second: hail1new_223
+  - first:
+      213: -8257748360014845795
+    second: hail1new_224
+  - first:
+      213: -6893704539438155694
+    second: hail1new_225
+  - first:
+      213: -9049970663337699183
+    second: hail1new_226
+  - first:
+      213: -2090609007132730382
+    second: hail1new_227
+  - first:
+      213: -4154809008583203069
+    second: hail1new_228
+  - first:
+      213: -6016378258582368565
+    second: hail1new_229
+  - first:
+      213: -8651552422643681718
+    second: hail1new_230
+  - first:
+      213: -4749055932679693041
+    second: hail1new_231
+  - first:
+      213: 54396007438494754
+    second: hail1new_232
+  - first:
+      213: 5831607053950963623
+    second: hail1new_233
+  - first:
+      213: 5373541434068721740
+    second: hail1new_234
+  - first:
+      213: -6917763549669780568
+    second: hail1new_235
+  - first:
+      213: -323579832821224517
+    second: hail1new_236
+  - first:
+      213: -8359629151667785875
+    second: hail1new_237
+  - first:
+      213: -7356250080840115800
+    second: hail1new_238
+  - first:
+      213: 5886982325731149498
+    second: hail1new_239
+  - first:
+      213: -4804079774356956421
+    second: hail1new_240
+  - first:
+      213: -1993529559821069200
+    second: hail1new_241
+  - first:
+      213: -7225381804660689204
+    second: hail1new_242
+  - first:
+      213: 6509796945837028145
+    second: hail1new_243
+  - first:
+      213: -7341354676955267080
+    second: hail1new_244
+  - first:
+      213: -655405167138702735
+    second: hail1new_245
+  - first:
+      213: -8004347676172078124
+    second: hail1new_246
+  - first:
+      213: 1660730474579424126
+    second: hail1new_247
+  - first:
+      213: -7089108195515249558
+    second: hail1new_248
+  - first:
+      213: -8951078207073658452
+    second: hail1new_249
+  - first:
+      213: -5796341398732656209
+    second: hail1new_250
+  - first:
+      213: 3995932768466586643
+    second: hail1new_251
+  - first:
+      213: -7755621857935345049
+    second: hail1new_252
+  - first:
+      213: 6749435339141364900
+    second: hail1new_253
+  - first:
+      213: 5921502528370894632
+    second: hail1new_254
+  - first:
+      213: 6496062151815817270
+    second: hail1new_255
+  - first:
+      213: -7134491731682476768
+    second: hail1new_256
+  - first:
+      213: -7376083759723184500
+    second: hail1new_257
+  - first:
+      213: 6817630346470367803
+    second: hail1new_258
+  - first:
+      213: 6912924487192207363
+    second: hail1new_259
+  - first:
+      213: -3078565981357727800
+    second: hail1new_260
+  - first:
+      213: -859196235828379830
+    second: hail1new_261
+  - first:
+      213: -4516074813640340925
+    second: hail1new_262
+  - first:
+      213: 4792020841341438539
+    second: hail1new_263
+  - first:
+      213: 3111805074510815078
+    second: hail1new_264
+  - first:
+      213: -55478515142641858
+    second: hail1new_265
+  - first:
+      213: 5591571190224953027
+    second: hail1new_266
+  - first:
+      213: -4748694958649766467
+    second: hail1new_267
+  - first:
+      213: -1400402050805858437
+    second: hail1new_268
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: hail1new_0
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 895
+        width: 28
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffea0986bb3bd100800000000000000
+      internalID: 133766269106843639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_1
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 916
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0469f6165c2d256e0800000000000000
+      internalID: -1850184751710759360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_2
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 869
+        width: 91
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f2cb727d8ca1d960800000000000000
+      internalID: 7625065367626040055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_3
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 851
+        width: 114
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e580f2b419bfdd620800000000000000
+      internalID: 2800671144744519774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_4
+      rect:
+        serializedVersion: 2
+        x: 520
+        y: 875
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5308b4ef183f9e7c0800000000000000
+      internalID: -4041431450945617867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_5
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 745
+        width: 139
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ef120b2b8074de0800000000000000
+      internalID: -1349099999821955560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_6
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 857
+        width: 66
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f1279711d304c250800000000000000
+      internalID: 5963896003124208116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_7
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 453
+        width: 747
+        height: 486
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6876e336aa504d660800000000000000
+      internalID: 7409553516298921862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_8
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 814
+        width: 86
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 413d0a390f97793e0800000000000000
+      internalID: -2047033431440698604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_9
+      rect:
+        serializedVersion: 2
+        x: 1366
+        y: 914
+        width: 18
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec37c575e6d9b3f0800000000000000
+      internalID: -884439570789745425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_10
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 784
+        width: 104
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f96db38aa7ce950800000000000000
+      internalID: 6479688826856316799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_11
+      rect:
+        serializedVersion: 2
+        x: 1568
+        y: 907
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de7837a69771fa2d0800000000000000
+      internalID: -3265365394575882259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_12
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 899
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0bf58e96c17bc2010800000000000000
+      internalID: 1165507736245919664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_13
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 891
+        width: 12
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 843814f22755e9cf0800000000000000
+      internalID: -243663380923972792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_14
+      rect:
+        serializedVersion: 2
+        x: 696
+        y: 656
+        width: 215
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 176ec182bd64fbe10800000000000000
+      internalID: 2215567448774338161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 500
+        width: 407
+        height: 392
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61e674d63eb89fee0800000000000000
+      internalID: -1226795614574514666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_16
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 824
+        width: 13
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 573869d82e72aee60800000000000000
+      internalID: 7992244342713910133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_17
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 834
+        width: 51
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6dd465c97015fb0800000000000000
+      internalID: -4660935771307518236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_18
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 580
+        width: 160
+        height: 298
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1419d06974744d500800000000000000
+      internalID: 420039038038020417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_19
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 829
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad992f706a9de7750800000000000000
+      internalID: 6304715835486411226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_20
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 772
+        width: 41
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3688c68cd7feaef0800000000000000
+      internalID: -94866015602047430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_21
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 837
+        width: 7
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38878339685504cd0800000000000000
+      internalID: -2575964950371993469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_22
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 835
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c1205830b73e500800000000000000
+      internalID: 424318044949585006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_23
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 833
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f1163b974ba4530800000000000000
+      internalID: 3840080067080298281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_24
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 802
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4511922d9f2daf3b0800000000000000
+      internalID: -5477834026328190636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_25
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 796
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ceba50fb89d63b8b0800000000000000
+      internalID: -5137642247092327444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_26
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 786
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee90b77a7089ec660800000000000000
+      internalID: 7408025595713096174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_27
+      rect:
+        serializedVersion: 2
+        x: 565
+        y: 789
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a1c2d2124780d30800000000000000
+      internalID: 4397892721967897207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_28
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 770
+        width: 31
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15c6738c09992f540800000000000000
+      internalID: 5040259780094422097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_29
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 800
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9258fe1d9123380800000000000000
+      internalID: -8993097116448118365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_30
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 660
+        width: 144
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd1b23ddb8edd4b0800000000000000
+      internalID: -5413915275040186941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_31
+      rect:
+        serializedVersion: 2
+        x: 1551
+        y: 802
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76d2432270ba9220800000000000000
+      internalID: 2493499347967334010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_32
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 751
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b580aae3dc5a1af0800000000000000
+      internalID: -424925149588847176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_33
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 774
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ca8e5c4e1e774310800000000000000
+      internalID: 1389217678662470343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_34
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 768
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96a5b6462f48137b0800000000000000
+      internalID: -5246265914308208023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_35
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 684
+        width: 25
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38069b5e7cb14fa0800000000000000
+      internalID: -5818161992697509828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_36
+      rect:
+        serializedVersion: 2
+        x: 591
+        y: 692
+        width: 55
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14ad581f4ab0907b0800000000000000
+      internalID: -5257658286923720127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_37
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 753
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f9eb96bad595e350800000000000000
+      internalID: 6045402841413839344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_38
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 701
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aadd579a7a24ef410800000000000000
+      internalID: 1512719812713110954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_39
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 672
+        width: 25
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a8bec866844d3d40800000000000000
+      internalID: 5565680058574485667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_40
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 697
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca8070182aec05080800000000000000
+      internalID: -9200626841373177684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_41
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 706
+        width: 9
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3274348d8e6b15140800000000000000
+      internalID: 4706744196755834659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_42
+      rect:
+        serializedVersion: 2
+        x: 663
+        y: 697
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5794d52702f1cbdd0800000000000000
+      internalID: -2469064271487743627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_43
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 703
+        width: 35
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c44509e05f718450800000000000000
+      internalID: 6089288156665169093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_44
+      rect:
+        serializedVersion: 2
+        x: 1656
+        y: 727
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd85c6448d9da4ee0800000000000000
+      internalID: -1275968021521999649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_45
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 680
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38051413b9414a620800000000000000
+      internalID: 2784373126400659587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_46
+      rect:
+        serializedVersion: 2
+        x: 486
+        y: 522
+        width: 150
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7541798a513f51390800000000000000
+      internalID: -7848099501274885033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_47
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 672
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aff7ded85ffe67c0800000000000000
+      internalID: -4076039855562817629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_48
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 648
+        width: 37
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b787c0f03d6a050800000000000000
+      internalID: 5811564430755396468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_49
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 670
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ade9dc3d354e560800000000000000
+      internalID: 7342085461673695870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_50
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 662
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89833d6eb06009be0800000000000000
+      internalID: -1472670429963143016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_51
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 666
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f4b3795a1672dc0800000000000000
+      internalID: -3663852408007864545
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_52
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 652
+        width: 19
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b89034ff35fc2fa0800000000000000
+      internalID: -5824010563068323656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_53
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 638
+        width: 15
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4d4eef5e48c775e0800000000000000
+      internalID: -1911839277853029041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_54
+      rect:
+        serializedVersion: 2
+        x: 376
+        y: 593
+        width: 41
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82a272050ec912db0800000000000000
+      internalID: -4818397639078368728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_55
+      rect:
+        serializedVersion: 2
+        x: 392
+        y: 648
+        width: 6
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bf473369fd0a8e50800000000000000
+      internalID: 6812272751113883569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_56
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 646
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f76fae2e8a3253dc0800000000000000
+      internalID: -3659979913900132737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_57
+      rect:
+        serializedVersion: 2
+        x: 705
+        y: 630
+        width: 20
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61a4ee29912c70a70800000000000000
+      internalID: 8793210212559243798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_58
+      rect:
+        serializedVersion: 2
+        x: 731
+        y: 634
+        width: 28
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b40447f74e4d9eb0800000000000000
+      internalID: -4711523564161596238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_59
+      rect:
+        serializedVersion: 2
+        x: 794
+        y: 632
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e77e2586b5b2291d0800000000000000
+      internalID: -3345563901590575234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_60
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 646
+        width: 11
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5b1b451234eaca00800000000000000
+      internalID: 777684789431573339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_61
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 628
+        width: 65
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7672eca29088fe810800000000000000
+      internalID: 1796804349298354023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_62
+      rect:
+        serializedVersion: 2
+        x: 638
+        y: 540
+        width: 163
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b53e1854955ec40b0800000000000000
+      internalID: -5742963253223234725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_63
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 637
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b45dc79d847665660800000000000000
+      internalID: 7374195002449909067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_64
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 581
+        width: 29
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5203378c4dd515d20800000000000000
+      internalID: 3265494373297762341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_65
+      rect:
+        serializedVersion: 2
+        x: 434
+        y: 615
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ece3cbd3390fb2010800000000000000
+      internalID: 1165289443792010958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_66
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 587
+        width: 29
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f18e0cd5f5790ee90800000000000000
+      internalID: -6998427385083140065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_67
+      rect:
+        serializedVersion: 2
+        x: 814
+        y: 597
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4255d503b77600210800000000000000
+      internalID: 1297150471472764196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_68
+      rect:
+        serializedVersion: 2
+        x: 830
+        y: 597
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86b3f6bf89bf42c90800000000000000
+      internalID: -7195349670159238296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_69
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 583
+        width: 9
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c1d3cebc8d36e5f0800000000000000
+      internalID: -727826615068536384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_70
+      rect:
+        serializedVersion: 2
+        x: 468
+        y: 599
+        width: 9
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2daa4f8bcc03721d0800000000000000
+      internalID: -3375675739856393518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_71
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 449
+        height: 592
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62289140fb1f85d0800000000000000
+      internalID: -3058194903254687125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_72
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 461
+        width: 74
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5725dd09ab569d800800000000000000
+      internalID: 637652674218381941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_73
+      rect:
+        serializedVersion: 2
+        x: 488
+        y: 561
+        width: 24
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e565276452d8d9570800000000000000
+      internalID: 8475085265016346206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_74
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 467
+        width: 62
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4eb418ba9383fc7e0800000000000000
+      internalID: -1743112710427423772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_75
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 544
+        width: 21
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dc7f9a535a871420800000000000000
+      internalID: 2600699400437071058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_76
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 505
+        width: 37
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0e54a8bfc568f70800000000000000
+      internalID: 9189134325122457819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_77
+      rect:
+        serializedVersion: 2
+        x: 657
+        y: 488
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae230a988eee369a0800000000000000
+      internalID: -6240881976096574742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_78
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 432
+        width: 168
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 908b707b401fe5680800000000000000
+      internalID: -8764302822263506935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_79
+      rect:
+        serializedVersion: 2
+        x: 1113
+        y: 372
+        width: 108
+        height: 220
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51440612ff4f05350800000000000000
+      internalID: 6003567679898666005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_80
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 502
+        width: 100
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb61f4497666ed020800000000000000
+      internalID: 2368443049099335359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_81
+      rect:
+        serializedVersion: 2
+        x: 1606
+        y: 541
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca3b1cf17713d5760800000000000000
+      internalID: 7448163746444325804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_82
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 502
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e559f3bb6bc6db0f0800000000000000
+      internalID: -1099603201927178914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_83
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 303
+        width: 342
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7201d6235ce60b60800000000000000
+      internalID: 7712111253796225662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_84
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 506
+        width: 47
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630d260f118450930800000000000000
+      internalID: 4108769476930097206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_85
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 486
+        width: 48
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dee61cf455f7b3000800000000000000
+      internalID: 16747028012953325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_86
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 279
+        width: 160
+        height: 257
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f3cb45715faef50800000000000000
+      internalID: 6911606058708123415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_87
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 167
+        width: 361
+        height: 350
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c8cdbd6001168a20800000000000000
+      internalID: 3064155290011027655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_88
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 469
+        width: 43
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54433e16b9bfc40c0800000000000000
+      internalID: -4590017275416595387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_89
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 500
+        width: 19
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 680ca592eefbbcbd0800000000000000
+      internalID: -2608780529514135418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_90
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 500
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7fa3c136c272aef0800000000000000
+      internalID: -98390046284730497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_91
+      rect:
+        serializedVersion: 2
+        x: 1527
+        y: 496
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b279df567e4db830800000000000000
+      internalID: 4088510307043472054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_92
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 423
+        width: 90
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d23bf4ea7163f40800000000000000
+      internalID: 5707775615167573365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_93
+      rect:
+        serializedVersion: 2
+        x: 1630
+        y: 469
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 289257b4ff75d8340800000000000000
+      internalID: 4867643526251620738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_94
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 334
+        width: 120
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5eeb00255f57b3a0800000000000000
+      internalID: -6649741505574736290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_95
+      rect:
+        serializedVersion: 2
+        x: 697
+        y: 475
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca977de2796568c00800000000000000
+      internalID: 902503982660286892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_96
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 439
+        width: 19
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3befbb5da86217840800000000000000
+      internalID: 5219995820832325299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_97
+      rect:
+        serializedVersion: 2
+        x: 1525
+        y: 478
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f645ddd5f2ac50090800000000000000
+      internalID: -8068820852577315729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_98
+      rect:
+        serializedVersion: 2
+        x: 1533
+        y: 455
+        width: 32
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0835ccc0a14ef90800000000000000
+      internalID: -6925381684719025929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_99
+      rect:
+        serializedVersion: 2
+        x: 950
+        y: 453
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f8311849933a9280800000000000000
+      internalID: -9035852968933377799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_100
+      rect:
+        serializedVersion: 2
+        x: 1003
+        y: 453
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1164b414df80bf5b0800000000000000
+      internalID: -5333659449875020271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_101
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 334
+        width: 80
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79a78b830198dd190800000000000000
+      internalID: -7936036265592849769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_102
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 436
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47b150631eac25fb0800000000000000
+      internalID: -4660439595752285324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_103
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 192
+        width: 365
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6a841f125a7e840800000000000000
+      internalID: 5253349055551547132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_104
+      rect:
+        serializedVersion: 2
+        x: 1481
+        y: 330
+        width: 82
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fcd73dccb4497bb0800000000000000
+      internalID: -4937839938747507468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_105
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 387
+        width: 33
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a981061c42eb6f9a0800000000000000
+      internalID: -6199558771956508518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_106
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 358
+        width: 60
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12834901d39f40600800000000000000
+      internalID: 433745504800880673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_107
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 413
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e5e1c326e8f20230800000000000000
+      internalID: 3603716319175894497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_108
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 380
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec876ff1ecf36010800000000000000
+      internalID: 1181065574884019439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_109
+      rect:
+        serializedVersion: 2
+        x: 1563
+        y: 380
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf4d3b5b060379500800000000000000
+      internalID: 402843883596403964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_110
+      rect:
+        serializedVersion: 2
+        x: 1565
+        y: 380
+        width: 6
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422356fe8f8d848d0800000000000000
+      internalID: -2861798999514074588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_111
+      rect:
+        serializedVersion: 2
+        x: 1628
+        y: 323
+        width: 44
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 762d8808f64b4a4a0800000000000000
+      internalID: -6582938364318002585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_112
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 355
+        width: 22
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0cff4b0c445ca090800000000000000
+      internalID: -8021944150669657074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_113
+      rect:
+        serializedVersion: 2
+        x: 1616
+        y: 364
+        width: 15
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2e074afd1c95d4f0800000000000000
+      internalID: -804565305848820180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_114
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 332
+        width: 42
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f7ab873c062bed40800000000000000
+      internalID: 5614623194360817654
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_115
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 323
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07678f8c3dd644380800000000000000
+      internalID: -8987938199947413904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_116
+      rect:
+        serializedVersion: 2
+        x: 1170
+        y: 327
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: baac64047ae1fbb40800000000000000
+      internalID: 5458114977083083435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_117
+      rect:
+        serializedVersion: 2
+        x: 1493
+        y: 289
+        width: 27
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f7cfe7d1bc5f57e0800000000000000
+      internalID: -1774597809258903566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_118
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 325
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1efb32c9732dea20800000000000000
+      internalID: 3093167524930125340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_119
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 163
+        width: 63
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b517a5c25121a5a40800000000000000
+      internalID: 5357614588858364251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 202
+        width: 85
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be10b60ffc414070800000000000000
+      internalID: 8088831063946698424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_121
+      rect:
+        serializedVersion: 2
+        x: 82
+        y: 288
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd0d7883260138540800000000000000
+      internalID: 5008865224607387867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_122
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 310
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a41f828e20e4ea330800000000000000
+      internalID: 3723999716273877322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_123
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 317
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90aabc1aa2a4128d0800000000000000
+      internalID: -2872933540322104823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_124
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 307
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40a1f31304b2ba5d0800000000000000
+      internalID: -3050296767909258748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_125
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 319
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1f8ee35c2e8886b0800000000000000
+      internalID: -5293825040936169697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_126
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 297
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da3b4b3568aef090800000000000000
+      internalID: -7998770735423472944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_127
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 307
+        width: 14
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ee711dab16d44e90800000000000000
+      internalID: -7042268502944547095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_128
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 307
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 244068a20d59fae10800000000000000
+      internalID: 2211150663361365058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_129
+      rect:
+        serializedVersion: 2
+        x: 530
+        y: 299
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793ce997dbdfbdf40800000000000000
+      internalID: 5754471939127034775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_130
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 291
+        width: 25
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c005450008f86300800000000000000
+      internalID: 245718858663788744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_131
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 305
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b20290523ca7c820800000000000000
+      internalID: 2938506613982626489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_132
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 72
+        width: 168
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddbf3fff30a9f0a50800000000000000
+      internalID: 6489574930033933277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_133
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 287
+        width: 18
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8831de8ad4a0645d0800000000000000
+      internalID: -3078761966598286456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_134
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 151
+        width: 89
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e49fe710740cb7e0800000000000000
+      internalID: -1748517675842169630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_135
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 155
+        width: 144
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: accd934cc19f52840800000000000000
+      internalID: 5198835246815632586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_136
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 273
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa9db85fbab145d90800000000000000
+      internalID: -7110027486338229841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_137
+      rect:
+        serializedVersion: 2
+        x: 1045
+        y: 275
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f41de657ad1049e0800000000000000
+      internalID: -1639277659807738640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_138
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 283
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f48bf382721dee630800000000000000
+      internalID: 3958331088614438991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_139
+      rect:
+        serializedVersion: 2
+        x: 1139
+        y: 273
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dc11baf57c4936a0800000000000000
+      internalID: -6469055320140210989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_140
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 285
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c5ede87609b94f10800000000000000
+      internalID: 2254536525925443016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_141
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 275
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3ad28f7744ba1310800000000000000
+      internalID: 1376610855290067517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_142
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 270
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b15eb476c3027d960800000000000000
+      internalID: 7626599937778378011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_143
+      rect:
+        serializedVersion: 2
+        x: 1005
+        y: 267
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e2697bc34a0ccdb0800000000000000
+      internalID: -4770426618999381271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_144
+      rect:
+        serializedVersion: 2
+        x: 1131
+        y: 265
+        width: 9
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31e9195a56b36b7c0800000000000000
+      internalID: -4055989106645033453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_145
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 196
+        width: 134
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4c3ccc6da1e85350800000000000000
+      internalID: 6005798238069472331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_146
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 263
+        width: 12
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d40b414a3aa40ef40800000000000000
+      internalID: 5755682390472437837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_147
+      rect:
+        serializedVersion: 2
+        x: 546
+        y: 258
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7d30b5ccfca962b0800000000000000
+      internalID: -5590747260755362436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_148
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 250
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e604a33c4e89070800000000000000
+      internalID: 8113486255855005234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_149
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 161
+        width: 83
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cecbfaaa21db020800000000000000
+      internalID: 2359062304114142347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_150
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 252
+        width: 10
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b7847753cda74b60800000000000000
+      internalID: 7730338339902228409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_151
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 240
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284b5e3f73932db70800000000000000
+      internalID: 8922256724252275842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_152
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 242
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f0031806c59650c0800000000000000
+      internalID: -4587314492658745099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_153
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 236
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6388afb087c973ce0800000000000000
+      internalID: -1425498717628495818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_154
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 238
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21ebbc52000465c60800000000000000
+      internalID: 7806497373471620626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_155
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 243
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a528a49ebf799af0800000000000000
+      internalID: -389139436276275801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_156
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 226
+        width: 41
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6d99ecb502a1e110800000000000000
+      internalID: 1288489113932635498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_157
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 181
+        width: 53
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 611d555322ffacdc0800000000000000
+      internalID: -3617798828249984746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_158
+      rect:
+        serializedVersion: 2
+        x: 30
+        y: 95
+        width: 73
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf3682a738793440800000000000000
+      internalID: 4916092648596848557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_159
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 175
+        width: 74
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9daec2b89f415fc60800000000000000
+      internalID: 7851204587404716761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_160
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 218
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06194b495f9a36e40800000000000000
+      internalID: 5648545229879677280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_161
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 204
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e75348043a11bde30800000000000000
+      internalID: 4529233243110913406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_162
+      rect:
+        serializedVersion: 2
+        x: 878
+        y: 110
+        width: 116
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db629aa6441ff9060800000000000000
+      internalID: 6962548825087616701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_163
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 208
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 541a5e55668703d80800000000000000
+      internalID: -8272980134556491451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_164
+      rect:
+        serializedVersion: 2
+        x: 1409
+        y: 205
+        width: 13
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e911738e3a061f0800000000000000
+      internalID: -1053662095053054435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_165
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 200
+        width: 11
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3191c2884f57f2980800000000000000
+      internalID: -8561494673490962157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_166
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 180
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b45b6462f4d721c0800000000000000
+      internalID: -4528416762765814608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_167
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 199
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee53d0fe5b4d9dd50800000000000000
+      internalID: 6762670193338299886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_168
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 166
+        width: 17
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06c01d8e56a00dd60800000000000000
+      internalID: 7912835978103950432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_169
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 192
+        width: 32
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3ea65882506d0c50800000000000000
+      internalID: 6633063733777575486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_170
+      rect:
+        serializedVersion: 2
+        x: 322
+        y: 200
+        width: 17
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c73cc444e3f02e70800000000000000
+      internalID: 9088532209765988292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_171
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5285a85fd7c2c7d0800000000000000
+      internalID: -2899535447994301857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_172
+      rect:
+        serializedVersion: 2
+        x: 386
+        y: 196
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c196fcebe1c0c05c0800000000000000
+      internalID: -4248007022327404260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_173
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 35
+        width: 80
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a82b2cd1696e58c80800000000000000
+      internalID: -8320991204078341494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_174
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 202
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd1c61dee4610d650800000000000000
+      internalID: 6255524410658570717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_175
+      rect:
+        serializedVersion: 2
+        x: 866
+        y: 183
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f914e48812efc1f30800000000000000
+      internalID: 4547789143711564191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_176
+      rect:
+        serializedVersion: 2
+        x: 1256
+        y: 185
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1294c61434d01f850800000000000000
+      internalID: 6408918327236512033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_177
+      rect:
+        serializedVersion: 2
+        x: 1348
+        y: 177
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 992d14d5ffa38dfb0800000000000000
+      internalID: -4622880149040147815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_178
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 167
+        width: 21
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2381a984d642d3020800000000000000
+      internalID: 2323053034581137458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_179
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 169
+        width: 17
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2390293477fd04f10800000000000000
+      internalID: 2252045517012994354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_180
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 161
+        width: 23
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53de6410fea19bb00800000000000000
+      internalID: 844736018929610037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_181
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 117
+        width: 102
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a9f17129763f350800000000000000
+      internalID: 6049292601639541272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_182
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 169
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 814bf7a4e4b26ab80800000000000000
+      internalID: -8383966041046273000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_183
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 165
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6a880d3b01a89770800000000000000
+      internalID: 8617814956614126187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_184
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 177
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51fa68f6d41235d0800000000000000
+      internalID: -3084379881272053410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_185
+      rect:
+        serializedVersion: 2
+        x: 637
+        y: 144
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6041410417233a700800000000000000
+      internalID: 550339041457083398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_186
+      rect:
+        serializedVersion: 2
+        x: 804
+        y: 139
+        width: 33
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41125103d6080b710800000000000000
+      internalID: 1707005465219899668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_187
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 145
+        width: 51
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc7c04fae6ae4110800000000000000
+      internalID: 1247117674875223258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_188
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 177
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99cfa942b27c94130800000000000000
+      internalID: 3551588769270004889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_189
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 177
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3d0a6c9d5081090800000000000000
+      internalID: -8063688699908402193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_190
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 153
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fa97241922606020800000000000000
+      internalID: 2332972535549238003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_191
+      rect:
+        serializedVersion: 2
+        x: 1336
+        y: 177
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0206c0c167199fb0800000000000000
+      internalID: -4640652232415116790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_192
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 169
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b5f8d28f18ca3ae0800000000000000
+      internalID: -1568721482520398407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_193
+      rect:
+        serializedVersion: 2
+        x: 1405
+        y: 175
+        width: 9
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10fdea79a39c2bdd0800000000000000
+      internalID: -2471691991982874879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_194
+      rect:
+        serializedVersion: 2
+        x: 1427
+        y: 159
+        width: 11
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4f98469415cbe870800000000000000
+      internalID: 8713274596289716042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_195
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 18
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 701a83327c9863af0800000000000000
+      internalID: -416994427102781177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_196
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 163
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f9fcecf13a6df20800000000000000
+      internalID: 3447121921807720346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_197
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 155
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 84099af02da561ef0800000000000000
+      internalID: -137822880335818680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_198
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 163
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4c397a48301cb10800000000000000
+      internalID: 1999883577811256535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_199
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 147
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09221de05865b0c70800000000000000
+      internalID: 8938333014926107280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_200
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 149
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15ecf9ac966274a50800000000000000
+      internalID: 6505210422572863057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_201
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 125
+        width: 45
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a045013df2938c90800000000000000
+      internalID: -7168724565696888669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_202
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 119
+        width: 17
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df6b92f29fcb38830800000000000000
+      internalID: 4072306266497201917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_203
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 115
+        width: 31
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9cde6e56fd8faf00800000000000000
+      internalID: 1130278120779078815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_204
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 112
+        width: 27
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d74a27abd72c0820800000000000000
+      internalID: 2885725285593532369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_205
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 161
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4bb4f84c6bc2b9d0800000000000000
+      internalID: -2759919955683787955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_206
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 145
+        width: 34
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccfbfe9829808b3b0800000000000000
+      internalID: -5496633919733252148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_207
+      rect:
+        serializedVersion: 2
+        x: 1021
+        y: 0
+        width: 176
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f228ed9512f6f550800000000000000
+      internalID: 6194404512152167156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_208
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 147
+        width: 13
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710852f2b4bacc300800000000000000
+      internalID: 273782016764641303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_209
+      rect:
+        serializedVersion: 2
+        x: 1196
+        y: 0
+        width: 252
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf7c2e419e57d710800000000000000
+      internalID: 1717945761039941549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_210
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 153
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4af2914d21999bb0800000000000000
+      internalID: -4928748693620590003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_211
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 164
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bddaeb27740e8c910800000000000000
+      internalID: 1857981443762728411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_212
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 136
+        width: 13
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d7b12cd2dca72280800000000000000
+      internalID: -9068089303050897454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_213
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 147
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43235849d91fb5030800000000000000
+      internalID: 3484644395805127220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_214
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 145
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9b8973b40405380800000000000000
+      internalID: -8984610564804658695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_215
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 131
+        width: 13
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca30a04d24f17900800000000000000
+      internalID: 680593493904603846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_216
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 0
+        width: 234
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74d36ba477181fcd0800000000000000
+      internalID: -2526095566623589049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_217
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 145
+        width: 9
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e792896e5a82ab840800000000000000
+      internalID: 5240545809402440062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_218
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 143
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2865e1096232eeed0800000000000000
+      internalID: -2382928504298776958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_219
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 147
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc36203a54e72ebe0800000000000000
+      internalID: -1449457292507192371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_220
+      rect:
+        serializedVersion: 2
+        x: 786
+        y: 137
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b56873496f6b5240800000000000000
+      internalID: 4781537927278126519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_221
+      rect:
+        serializedVersion: 2
+        x: 997
+        y: 137
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ac845b5aee9613b0800000000000000
+      internalID: -5542067562041013082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_222
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 121
+        width: 23
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2721ed78874747b90800000000000000
+      internalID: -7245037839507910030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_223
+      rect:
+        serializedVersion: 2
+        x: 1389
+        y: 103
+        width: 47
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ff41096553e5a940800000000000000
+      internalID: 5306897691899416565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_224
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 133
+        width: 15
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9820c43e95966d80800000000000000
+      internalID: -8257748360014845795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_225
+      rect:
+        serializedVersion: 2
+        x: 1545
+        y: 96
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2587a4cee34a450a0800000000000000
+      internalID: -6893704539438155694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_226
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 133
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 198dc0861ab086280800000000000000
+      internalID: -9049970663337699183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_227
+      rect:
+        serializedVersion: 2
+        x: 496
+        y: 115
+        width: 30
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fb1f9d3f2aacf2e0800000000000000
+      internalID: -2090609007132730382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_228
+      rect:
+        serializedVersion: 2
+        x: 776
+        y: 75
+        width: 57
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3072ec548372756c0800000000000000
+      internalID: -4154809008583203069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_229
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 44
+        width: 113
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bce80d699d7818ca0800000000000000
+      internalID: -6016378258582368565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_230
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 127
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4637a4d8e28fe780800000000000000
+      internalID: -8651552422643681718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_231
+      rect:
+        serializedVersion: 2
+        x: 1484
+        y: 0
+        width: 185
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0d5a227ac6f71eb0800000000000000
+      internalID: -4749055932679693041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_232
+      rect:
+        serializedVersion: 2
+        x: 1636
+        y: 117
+        width: 36
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22c229c61e041c000800000000000000
+      internalID: 54396007438494754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_233
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 95
+        width: 16
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7afc868e7b70ee050800000000000000
+      internalID: 5831607053950963623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_234
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 82
+        width: 9
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40628bc677a29a40800000000000000
+      internalID: 5373541434068721740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_235
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 56
+        width: 69
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a399c514ba2fff90800000000000000
+      internalID: -6917763549669780568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_236
+      rect:
+        serializedVersion: 2
+        x: 502
+        y: 110
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbbe5304bd9628bf0800000000000000
+      internalID: -323579832821224517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_237
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 72
+        width: 54
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f67d8e391acfb80800000000000000
+      internalID: -8359629151667785875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_238
+      rect:
+        serializedVersion: 2
+        x: 989
+        y: 88
+        width: 37
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a9169cc68959e990800000000000000
+      internalID: -7356250080840115800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_239
+      rect:
+        serializedVersion: 2
+        x: 1465
+        y: 110
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab645341c33c2b150800000000000000
+      internalID: 5886982325731149498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_240
+      rect:
+        serializedVersion: 2
+        x: 1474
+        y: 30
+        width: 30
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfa90d8f5ea745db0800000000000000
+      internalID: -4804079774356956421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_241
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 72
+        width: 25
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 074df917d6f8554e0800000000000000
+      internalID: -1993529559821069200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_242
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 82
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc6f0a6c7894abb90800000000000000
+      internalID: -7225381804660689204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_243
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 80
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 133f984f4d1775a50800000000000000
+      internalID: 6509796945837028145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_244
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 80
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ffbde541d44e1a90800000000000000
+      internalID: -7341354676955267080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_245
+      rect:
+        serializedVersion: 2
+        x: 286
+        y: 40
+        width: 39
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17afdb4197887e6f0800000000000000
+      internalID: -655405167138702735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_246
+      rect:
+        serializedVersion: 2
+        x: 338
+        y: 75
+        width: 7
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d33a078238dae090800000000000000
+      internalID: -8004347676172078124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_247
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 78
+        width: 9
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73f8f451991c0710800000000000000
+      internalID: 1660730474579424126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_248
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 59
+        width: 47
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6cc008e7ad6e9d90800000000000000
+      internalID: -7089108195515249558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_249
+      rect:
+        serializedVersion: 2
+        x: 890
+        y: 0
+        width: 114
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca952a6abc167c380800000000000000
+      internalID: -8951078207073658452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_250
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 86
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa136ab45324f8fa0800000000000000
+      internalID: -5796341398732656209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_251
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 35
+        width: 81
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c4bca7ea7647730800000000000000
+      internalID: 3995932768466586643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_252
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 64
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a3281e20f7e5490800000000000000
+      internalID: -7755621857935345049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_253
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 64
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ac3dff4eafcaad50800000000000000
+      internalID: 6749435339141364900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_254
+      rect:
+        serializedVersion: 2
+        x: 344
+        y: 48
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827ef141d276d2250800000000000000
+      internalID: 5921502528370894632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_255
+      rect:
+        serializedVersion: 2
+        x: 476
+        y: 44
+        width: 40
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63867d50c16a62a50800000000000000
+      internalID: 6496062151815817270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_256
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 31
+        width: 27
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02dba18f1913dfc90800000000000000
+      internalID: -7134491731682476768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_257
+      rect:
+        serializedVersion: 2
+        x: 963
+        y: 70
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8efb2496e2e2a990800000000000000
+      internalID: -7376083759723184500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_258
+      rect:
+        serializedVersion: 2
+        x: 1453
+        y: 46
+        width: 27
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b322a43cda61d9e50800000000000000
+      internalID: 6817630346470367803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_259
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 22
+        width: 77
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 300e032e134afef50800000000000000
+      internalID: 6912924487192207363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_260
+      rect:
+        serializedVersion: 2
+        x: 362
+        y: 48
+        width: 9
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf12970d8cb645d0800000000000000
+      internalID: -3078565981357727800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_261
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 55
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fb81363958314f0800000000000000
+      internalID: -859196235828379830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_262
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 31
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a01e952eda351c0800000000000000
+      internalID: -4516074813640340925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_263
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 25
+        width: 9
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4acc64e09da08240800000000000000
+      internalID: 4792020841341438539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_264
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 13
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66f997c6a3a5f2b20800000000000000
+      internalID: 3111805074510815078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_265
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 15
+        width: 59
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e37b14c9596ea3ff0800000000000000
+      internalID: -55478515142641858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_266
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 7
+        width: 28
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ce9aa14f50499d40800000000000000
+      internalID: 5591571190224953027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_267
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 15
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbd0ef2481f391eb0800000000000000
+      internalID: -4748694958649766467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: hail1new_268
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 0
+        width: 35
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7ffcf221c5c09ce0800000000000000
+      internalID: -1400402050805858437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      hail1new_0: 133766269106843639
+      hail1new_1: -1850184751710759360
+      hail1new_10: 6479688826856316799
+      hail1new_100: -5333659449875020271
+      hail1new_101: -7936036265592849769
+      hail1new_102: -4660439595752285324
+      hail1new_103: 5253349055551547132
+      hail1new_104: -4937839938747507468
+      hail1new_105: -6199558771956508518
+      hail1new_106: 433745504800880673
+      hail1new_107: 3603716319175894497
+      hail1new_108: 1181065574884019439
+      hail1new_109: 402843883596403964
+      hail1new_11: -3265365394575882259
+      hail1new_110: -2861798999514074588
+      hail1new_111: -6582938364318002585
+      hail1new_112: -8021944150669657074
+      hail1new_113: -804565305848820180
+      hail1new_114: 5614623194360817654
+      hail1new_115: -8987938199947413904
+      hail1new_116: 5458114977083083435
+      hail1new_117: -1774597809258903566
+      hail1new_118: 3093167524930125340
+      hail1new_119: 5357614588858364251
+      hail1new_12: 1165507736245919664
+      hail1new_120: 8088831063946698424
+      hail1new_121: 5008865224607387867
+      hail1new_122: 3723999716273877322
+      hail1new_123: -2872933540322104823
+      hail1new_124: -3050296767909258748
+      hail1new_125: -5293825040936169697
+      hail1new_126: -7998770735423472944
+      hail1new_127: -7042268502944547095
+      hail1new_128: 2211150663361365058
+      hail1new_129: 5754471939127034775
+      hail1new_13: -243663380923972792
+      hail1new_130: 245718858663788744
+      hail1new_131: 2938506613982626489
+      hail1new_132: 6489574930033933277
+      hail1new_133: -3078761966598286456
+      hail1new_134: -1748517675842169630
+      hail1new_135: 5198835246815632586
+      hail1new_136: -7110027486338229841
+      hail1new_137: -1639277659807738640
+      hail1new_138: 3958331088614438991
+      hail1new_139: -6469055320140210989
+      hail1new_14: 2215567448774338161
+      hail1new_140: 2254536525925443016
+      hail1new_141: 1376610855290067517
+      hail1new_142: 7626599937778378011
+      hail1new_143: -4770426618999381271
+      hail1new_144: -4055989106645033453
+      hail1new_145: 6005798238069472331
+      hail1new_146: 5755682390472437837
+      hail1new_147: -5590747260755362436
+      hail1new_148: 8113486255855005234
+      hail1new_149: 2359062304114142347
+      hail1new_15: -1226795614574514666
+      hail1new_150: 7730338339902228409
+      hail1new_151: 8922256724252275842
+      hail1new_152: -4587314492658745099
+      hail1new_153: -1425498717628495818
+      hail1new_154: 7806497373471620626
+      hail1new_155: -389139436276275801
+      hail1new_156: 1288489113932635498
+      hail1new_157: -3617798828249984746
+      hail1new_158: 4916092648596848557
+      hail1new_159: 7851204587404716761
+      hail1new_16: 7992244342713910133
+      hail1new_160: 5648545229879677280
+      hail1new_161: 4529233243110913406
+      hail1new_162: 6962548825087616701
+      hail1new_163: -8272980134556491451
+      hail1new_164: -1053662095053054435
+      hail1new_165: -8561494673490962157
+      hail1new_166: -4528416762765814608
+      hail1new_167: 6762670193338299886
+      hail1new_168: 7912835978103950432
+      hail1new_169: 6633063733777575486
+      hail1new_17: -4660935771307518236
+      hail1new_170: 9088532209765988292
+      hail1new_171: -2899535447994301857
+      hail1new_172: -4248007022327404260
+      hail1new_173: -8320991204078341494
+      hail1new_174: 6255524410658570717
+      hail1new_175: 4547789143711564191
+      hail1new_176: 6408918327236512033
+      hail1new_177: -4622880149040147815
+      hail1new_178: 2323053034581137458
+      hail1new_179: 2252045517012994354
+      hail1new_18: 420039038038020417
+      hail1new_180: 844736018929610037
+      hail1new_181: 6049292601639541272
+      hail1new_182: -8383966041046273000
+      hail1new_183: 8617814956614126187
+      hail1new_184: -3084379881272053410
+      hail1new_185: 550339041457083398
+      hail1new_186: 1707005465219899668
+      hail1new_187: 1247117674875223258
+      hail1new_188: 3551588769270004889
+      hail1new_189: -8063688699908402193
+      hail1new_19: 6304715835486411226
+      hail1new_190: 2332972535549238003
+      hail1new_191: -4640652232415116790
+      hail1new_192: -1568721482520398407
+      hail1new_193: -2471691991982874879
+      hail1new_194: 8713274596289716042
+      hail1new_195: -416994427102781177
+      hail1new_196: 3447121921807720346
+      hail1new_197: -137822880335818680
+      hail1new_198: 1999883577811256535
+      hail1new_199: 8938333014926107280
+      hail1new_2: 7625065367626040055
+      hail1new_20: -94866015602047430
+      hail1new_200: 6505210422572863057
+      hail1new_201: -7168724565696888669
+      hail1new_202: 4072306266497201917
+      hail1new_203: 1130278120779078815
+      hail1new_204: 2885725285593532369
+      hail1new_205: -2759919955683787955
+      hail1new_206: -5496633919733252148
+      hail1new_207: 6194404512152167156
+      hail1new_208: 273782016764641303
+      hail1new_209: 1717945761039941549
+      hail1new_21: -2575964950371993469
+      hail1new_210: -4928748693620590003
+      hail1new_211: 1857981443762728411
+      hail1new_212: -9068089303050897454
+      hail1new_213: 3484644395805127220
+      hail1new_214: -8984610564804658695
+      hail1new_215: 680593493904603846
+      hail1new_216: -2526095566623589049
+      hail1new_217: 5240545809402440062
+      hail1new_218: -2382928504298776958
+      hail1new_219: -1449457292507192371
+      hail1new_22: 424318044949585006
+      hail1new_220: 4781537927278126519
+      hail1new_221: -5542067562041013082
+      hail1new_222: -7245037839507910030
+      hail1new_223: 5306897691899416565
+      hail1new_224: -8257748360014845795
+      hail1new_225: -6893704539438155694
+      hail1new_226: -9049970663337699183
+      hail1new_227: -2090609007132730382
+      hail1new_228: -4154809008583203069
+      hail1new_229: -6016378258582368565
+      hail1new_23: 3840080067080298281
+      hail1new_230: -8651552422643681718
+      hail1new_231: -4749055932679693041
+      hail1new_232: 54396007438494754
+      hail1new_233: 5831607053950963623
+      hail1new_234: 5373541434068721740
+      hail1new_235: -6917763549669780568
+      hail1new_236: -323579832821224517
+      hail1new_237: -8359629151667785875
+      hail1new_238: -7356250080840115800
+      hail1new_239: 5886982325731149498
+      hail1new_24: -5477834026328190636
+      hail1new_240: -4804079774356956421
+      hail1new_241: -1993529559821069200
+      hail1new_242: -7225381804660689204
+      hail1new_243: 6509796945837028145
+      hail1new_244: -7341354676955267080
+      hail1new_245: -655405167138702735
+      hail1new_246: -8004347676172078124
+      hail1new_247: 1660730474579424126
+      hail1new_248: -7089108195515249558
+      hail1new_249: -8951078207073658452
+      hail1new_25: -5137642247092327444
+      hail1new_250: -5796341398732656209
+      hail1new_251: 3995932768466586643
+      hail1new_252: -7755621857935345049
+      hail1new_253: 6749435339141364900
+      hail1new_254: 5921502528370894632
+      hail1new_255: 6496062151815817270
+      hail1new_256: -7134491731682476768
+      hail1new_257: -7376083759723184500
+      hail1new_258: 6817630346470367803
+      hail1new_259: 6912924487192207363
+      hail1new_26: 7408025595713096174
+      hail1new_260: -3078565981357727800
+      hail1new_261: -859196235828379830
+      hail1new_262: -4516074813640340925
+      hail1new_263: 4792020841341438539
+      hail1new_264: 3111805074510815078
+      hail1new_265: -55478515142641858
+      hail1new_266: 5591571190224953027
+      hail1new_267: -4748694958649766467
+      hail1new_268: -1400402050805858437
+      hail1new_27: 4397892721967897207
+      hail1new_28: 5040259780094422097
+      hail1new_29: -8993097116448118365
+      hail1new_3: 2800671144744519774
+      hail1new_30: -5413915275040186941
+      hail1new_31: 2493499347967334010
+      hail1new_32: -424925149588847176
+      hail1new_33: 1389217678662470343
+      hail1new_34: -5246265914308208023
+      hail1new_35: -5818161992697509828
+      hail1new_36: -5257658286923720127
+      hail1new_37: 6045402841413839344
+      hail1new_38: 1512719812713110954
+      hail1new_39: 5565680058574485667
+      hail1new_4: -4041431450945617867
+      hail1new_40: -9200626841373177684
+      hail1new_41: 4706744196755834659
+      hail1new_42: -2469064271487743627
+      hail1new_43: 6089288156665169093
+      hail1new_44: -1275968021521999649
+      hail1new_45: 2784373126400659587
+      hail1new_46: -7848099501274885033
+      hail1new_47: -4076039855562817629
+      hail1new_48: 5811564430755396468
+      hail1new_49: 7342085461673695870
+      hail1new_5: -1349099999821955560
+      hail1new_50: -1472670429963143016
+      hail1new_51: -3663852408007864545
+      hail1new_52: -5824010563068323656
+      hail1new_53: -1911839277853029041
+      hail1new_54: -4818397639078368728
+      hail1new_55: 6812272751113883569
+      hail1new_56: -3659979913900132737
+      hail1new_57: 8793210212559243798
+      hail1new_58: -4711523564161596238
+      hail1new_59: -3345563901590575234
+      hail1new_6: 5963896003124208116
+      hail1new_60: 777684789431573339
+      hail1new_61: 1796804349298354023
+      hail1new_62: -5742963253223234725
+      hail1new_63: 7374195002449909067
+      hail1new_64: 3265494373297762341
+      hail1new_65: 1165289443792010958
+      hail1new_66: -6998427385083140065
+      hail1new_67: 1297150471472764196
+      hail1new_68: -7195349670159238296
+      hail1new_69: -727826615068536384
+      hail1new_7: 7409553516298921862
+      hail1new_70: -3375675739856393518
+      hail1new_71: -3058194903254687125
+      hail1new_72: 637652674218381941
+      hail1new_73: 8475085265016346206
+      hail1new_74: -1743112710427423772
+      hail1new_75: 2600699400437071058
+      hail1new_76: 9189134325122457819
+      hail1new_77: -6240881976096574742
+      hail1new_78: -8764302822263506935
+      hail1new_79: 6003567679898666005
+      hail1new_8: -2047033431440698604
+      hail1new_80: 2368443049099335359
+      hail1new_81: 7448163746444325804
+      hail1new_82: -1099603201927178914
+      hail1new_83: 7712111253796225662
+      hail1new_84: 4108769476930097206
+      hail1new_85: 16747028012953325
+      hail1new_86: 6911606058708123415
+      hail1new_87: 3064155290011027655
+      hail1new_88: -4590017275416595387
+      hail1new_89: -2608780529514135418
+      hail1new_9: -884439570789745425
+      hail1new_90: -98390046284730497
+      hail1new_91: 4088510307043472054
+      hail1new_92: 5707775615167573365
+      hail1new_93: 4867643526251620738
+      hail1new_94: -6649741505574736290
+      hail1new_95: 902503982660286892
+      hail1new_96: 5219995820832325299
+      hail1new_97: -8068820852577315729
+      hail1new_98: -6925381684719025929
+      hail1new_99: -9035852968933377799
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
