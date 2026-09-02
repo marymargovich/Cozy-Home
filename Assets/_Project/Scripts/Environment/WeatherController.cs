@@ -9,6 +9,8 @@ namespace CozyHome.Weather
     /// </summary>
     public class WeatherController : MonoBehaviour
     {
+        public event Action<WeatherType> OnWeatherChanged;
+
         [Header("Weather groups")]
         [SerializeField] private WeatherVisualGroup lightRain;
         [SerializeField] private WeatherVisualGroup heavyRain;
@@ -72,6 +74,7 @@ namespace CozyHome.Weather
             }
 
             CurrentWeather = type;
+            OnWeatherChanged?.Invoke(type);
 
             if (type == WeatherType.None || type == WeatherType.Clear)
             {

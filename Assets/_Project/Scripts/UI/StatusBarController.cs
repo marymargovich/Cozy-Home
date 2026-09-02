@@ -80,6 +80,7 @@ namespace CozyHome.UI
         private TimeOfDay activeTimeOfDay;
         private SeasonType activeSeason;
         private WeatherType activeWeather;
+        private WeatherController weatherController;
         private Coroutine tooltipDelayRoutine;
         private Coroutine tooltipFadeRoutine;
 
@@ -87,6 +88,7 @@ namespace CozyHome.UI
         {
             CacheIcons();
             ResolveTooltipReferences();
+            ResolveWeatherController();
             InitializeTooltip();
             RefreshAll();
             RefreshLanguageFromManager();
@@ -100,6 +102,12 @@ namespace CozyHome.UI
                 LanguageManager.Instance.OnLanguageChanged += HandleLanguageChanged;
             }
 
+            ResolveWeatherController();
+            if (weatherController != null)
+            {
+                weatherController.OnWeatherChanged += HandleWeatherChanged;
+            }
+
             RefreshLanguageFromManager();
         }
 
@@ -108,6 +116,11 @@ namespace CozyHome.UI
             if (LanguageManager.Instance != null)
             {
                 LanguageManager.Instance.OnLanguageChanged -= HandleLanguageChanged;
+            }
+
+            if (weatherController != null)
+            {
+                weatherController.OnWeatherChanged -= HandleWeatherChanged;
             }
         }
 
@@ -258,6 +271,16 @@ namespace CozyHome.UI
             StartTooltipFade(0f);
         }
 
+        private void ResolveWeatherController()
+        {
+            if (weatherController != null)
+            {
+                return;
+            }
+
+            weatherController = FindAnyObjectByType<WeatherController>();
+        }
+
         private void HandleLanguageChanged(AppLanguage newLanguage)
         {
             ApplyTextDirection(newLanguage);
@@ -266,6 +289,13 @@ namespace CozyHome.UI
             {
                 UpdateTooltipText();
             }
+        }
+
+        private void HandleWeatherChanged(WeatherType weather)
+        {
+            activeWeather = weather;
+            ApplyWeatherSprite();
+            UpdateTooltipText();
         }
 
         private AppLanguage GetCurrentLanguage()
