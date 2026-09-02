@@ -18,6 +18,9 @@ namespace CozyHome.Weather
 
         private RectTransform weatherBounds;
         private Vector2 normalizedDirection;
+        private float elapsedDistance;
+        private Vector2 initialAAnchor;
+        private Vector2 initialBAnchor;
 
         private void Reset()
         {
@@ -48,14 +51,14 @@ namespace CozyHome.Weather
         {
             ResolveReferences();
             ConfigureMovement();
-            InitializeLayerPair();
+            ResetPosition();
         }
 
         private void OnEnable()
         {
             ResolveReferences();
             ConfigureMovement();
-            InitializeLayerPair();
+            ResetPosition();
         }
 
         private void Update()
@@ -65,12 +68,8 @@ namespace CozyHome.Weather
                 return;
             }
 
-            Vector2 delta = normalizedDirection * speed * Time.deltaTime;
-            imageA.anchoredPosition += delta;
-            imageB.anchoredPosition += delta;
-
-            WrapImage(imageA);
-            WrapImage(imageB);
+            elapsedDistance += speed * Time.deltaTime;
+            UpdateLayerPositions();
         }
 
         public void SetLayerPair(RectTransform a, RectTransform b)
@@ -78,7 +77,7 @@ namespace CozyHome.Weather
             imageA = a;
             imageB = b;
             ResolveReferences();
-            InitializeLayerPair();
+            ResetPosition();
         }
 
         public void SetMovement(Vector2 newDirection, float newSpeed)
@@ -86,7 +85,7 @@ namespace CozyHome.Weather
             direction = newDirection;
             speed = newSpeed;
             ConfigureMovement();
-            InitializeLayerPair();
+            ResetPosition();
         }
 
         public void Play()
@@ -102,7 +101,7 @@ namespace CozyHome.Weather
             }
 
             enabled = true;
-            InitializeLayerPair();
+            ResetPosition();
         }
 
         public void Stop()
@@ -120,6 +119,18 @@ namespace CozyHome.Weather
                 imageB.anchoredPosition = Vector2.zero;
                 imageB.gameObject.SetActive(false);
             }
+        }
+
+        public void ResetPosition()
+        {
+            if (imageA == null || imageB == null || weatherBounds == null)
+            {
+                return;
+            }
+
+            elapsedDistance = 0f;
+            ApplyFixedLayerAnchors();
+            UpdateLayerPositions();
         }
 
         private void ResolveReferences()
@@ -164,69 +175,67 @@ namespace CozyHome.Weather
             }
         }
 
-        private void InitializeLayerPair()
+        private void ApplyFixedLayerAnchors()
         {
-            if (imageA == null || imageB == null || weatherBounds == null)
+            initialAAnchor = Vector2.zero;
+            initialBAnchor = -GetTileOffset();
+
+            imageA.anchoredPosition = initialAAnchor;
+            imageB.anchoredPosition = initialBAnchor;
+        }
+
+        private void UpdateLayerPositions()
+        {
+            if (imageA == null || imageB == null)
             {
                 return;
             }
 
-            imageA.anchoredPosition = Vector2.zero;
-            imageB.anchoredPosition = -GetTileOffset();
+            float cycleLength = GetRepeatCycleLength();
+            if (cycleLength <= Mathf.Epsilon)
+            {
+                imageA.anchoredPosition = initialAAnchor;
+                imageB.anchoredPosition = initialBAnchor;
+                return;
+            }
+
+            float wrappedDistance = Mathf.Repeat(elapsedDistance, cycleLength);
+            Vector2 offset = normalizedDirection * wrappedDistance;
+
+            imageA.anchoredPosition = initialAAnchor + offset;
+            imageB.anchoredPosition = initialBAnchor + offset;
         }
 
-        private Vector2 GetTileOffset()
+        private float GetRepeatCycleLength()
         {
-            Vector2 dir = normalizedDirection;
-            float absX = Mathf.Abs(dir.x);
-            float absY = Mathf.Abs(dir.y);
+            if (weatherBounds == null)
+            {
+                return 0f;
+            }
+
+            float absX = Mathf.Abs(normalizedDirection.x);
+            float absY = Mathf.Abs(normalizedDirection.y);
 
             float tileWidth = Mathf.Max(weatherBounds.rect.width, 1f);
             float tileHeight = Mathf.Max(weatherBounds.rect.height, 1f);
 
-            float travelDistance;
             if (absY >= absX)
             {
-                travelDistance = tileHeight / Mathf.Max(absY, 0.0001f);
-            }
-            else
-            {
-                travelDistance = tileWidth / Mathf.Max(absX, 0.0001f);
+                return tileHeight / Mathf.Max(absY, 0.0001f);
             }
 
-            Vector2 offset = dir * travelDistance;
-            return offset;
+            return tileWidth / Mathf.Max(absX, 0.0001f);
         }
 
-        private void WrapImage(RectTransform rect)
+        private Vector2 GetTileOffset()
         {
-            if (rect == null || weatherBounds == null)
+            float cycleLength = GetRepeatCycleLength();
+            if (cycleLength <= Mathf.Epsilon)
             {
-                return;
+                return Vector2.zero;
             }
 
-            Vector2 size = weatherBounds.rect.size;
-            Vector2 position = rect.anchoredPosition;
-
-            if (normalizedDirection.x > 0f && position.x > size.x)
-            {
-                position.x -= size.x * 2f;
-            }
-            else if (normalizedDirection.x < 0f && position.x < -size.x)
-            {
-                position.x += size.x * 2f;
-            }
-
-            if (normalizedDirection.y > 0f && position.y > size.y)
-            {
-                position.y -= size.y * 2f;
-            }
-            else if (normalizedDirection.y < 0f && position.y < -size.y)
-            {
-                position.y += size.y * 2f;
-            }
-
-            rect.anchoredPosition = position;
+            return normalizedDirection * cycleLength;
         }
     }
 }
