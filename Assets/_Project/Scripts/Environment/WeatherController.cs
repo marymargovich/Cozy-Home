@@ -46,7 +46,10 @@ namespace CozyHome.Weather
             if (useTestWeatherOnStart)
             {
                 SetWeather(testWeather);
+                return;
             }
+
+            SetRandomWeather();
         }
 
         private void OnValidate()

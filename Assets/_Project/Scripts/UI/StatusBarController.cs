@@ -712,9 +712,15 @@ namespace CozyHome.UI
 
         public WeatherType GetCurrentWeather()
         {
-            int currentHour = DateTime.Now.Hour;
-            int currentMonth = DateTime.Now.Month;
-            return GetSeasonallyValidWeatherForHour(currentMonth, currentHour);
+            WeatherController weatherController = FindAnyObjectByType<WeatherController>();
+            if (weatherController != null)
+            {
+                return weatherController.CurrentWeather != WeatherType.None
+                    ? weatherController.CurrentWeather
+                    : WeatherSeasonality.GetRandomWeatherForCurrentMonth();
+            }
+
+            return WeatherSeasonality.GetRandomWeatherForCurrentMonth();
         }
 
         public WeatherType GetRandomWeather()
