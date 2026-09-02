@@ -37,13 +37,33 @@ namespace CozyHome.UI
         [SerializeField] private Image iconWeather;
 
         [Header("Time-of-Day Sprites")]
-        [SerializeField] private Sprite[] timeOfDaySprites = new Sprite[4];
+        [SerializeField] private Sprite morningSprite;
+        [SerializeField] private Sprite daySprite;
+        [SerializeField] private Sprite eveningSprite;
+        [SerializeField] private Sprite nightSprite;
 
         [Header("Season Sprites")]
-        [SerializeField] private Sprite[] seasonSprites = new Sprite[4];
+        [SerializeField] private Sprite springSprite;
+        [SerializeField] private Sprite summerSprite;
+        [SerializeField] private Sprite autumnSprite;
+        [SerializeField] private Sprite winterSprite;
 
         [Header("Weather Sprites")]
-        [SerializeField] private Sprite[] weatherSprites = new Sprite[9];
+        [SerializeField] private Sprite clearSprite;
+        [SerializeField] private Sprite lightRainSprite;
+        [SerializeField] private Sprite heavyRainSprite;
+        [SerializeField] private Sprite thunderstormSprite;
+        [SerializeField] private Sprite lightSnowSprite;
+        [SerializeField] private Sprite snowstormSprite;
+        [SerializeField] private Sprite hailSprite;
+        [SerializeField] private Sprite fogSprite;
+        [SerializeField] private Sprite windSprite;
+        [SerializeField] private Sprite strongWindSprite;
+
+        [Header("Legacy Inspector Compatibility")]
+        [SerializeField] private Sprite[] legacyTimeOfDaySprites = new Sprite[4];
+        [SerializeField] private Sprite[] legacySeasonSprites = new Sprite[4];
+        [SerializeField] private Sprite[] legacyWeatherSprites = new Sprite[10];
 
         [Header("Tooltip")]
         [SerializeField] private CanvasGroup tooltipCanvasGroup;
@@ -256,6 +276,81 @@ namespace CozyHome.UI
         private void RefreshLanguageFromManager()
         {
             ApplyTextDirection(GetCurrentLanguage());
+        }
+
+        private void SyncLegacyInspectorSprites()
+        {
+            if (legacyTimeOfDaySprites != null && legacyTimeOfDaySprites.Length >= 4)
+            {
+                morningSprite ??= legacyTimeOfDaySprites[0];
+                daySprite ??= legacyTimeOfDaySprites[1];
+                eveningSprite ??= legacyTimeOfDaySprites[2];
+                nightSprite ??= legacyTimeOfDaySprites[3];
+            }
+
+            if (legacySeasonSprites != null && legacySeasonSprites.Length >= 4)
+            {
+                springSprite ??= legacySeasonSprites[0];
+                summerSprite ??= legacySeasonSprites[1];
+                autumnSprite ??= legacySeasonSprites[2];
+                winterSprite ??= legacySeasonSprites[3];
+            }
+
+            if (legacyWeatherSprites != null && legacyWeatherSprites.Length >= 10)
+            {
+                clearSprite ??= legacyWeatherSprites[(int)WeatherType.Clear];
+                lightRainSprite ??= legacyWeatherSprites[(int)WeatherType.LightRain];
+                heavyRainSprite ??= legacyWeatherSprites[(int)WeatherType.HeavyRain];
+                thunderstormSprite ??= legacyWeatherSprites[(int)WeatherType.Thunderstorm];
+                lightSnowSprite ??= legacyWeatherSprites[(int)WeatherType.LightSnow];
+                snowstormSprite ??= legacyWeatherSprites[(int)WeatherType.Snowstorm];
+                hailSprite ??= legacyWeatherSprites[(int)WeatherType.Hail];
+                fogSprite ??= legacyWeatherSprites[(int)WeatherType.Fog];
+                windSprite ??= legacyWeatherSprites[(int)WeatherType.Wind];
+                strongWindSprite ??= legacyWeatherSprites[(int)WeatherType.StrongWind];
+            }
+        }
+
+        private Sprite GetTimeOfDaySprite(TimeOfDay phase)
+        {
+            return phase switch
+            {
+                TimeOfDay.Morning => morningSprite,
+                TimeOfDay.Day => daySprite,
+                TimeOfDay.Evening => eveningSprite,
+                TimeOfDay.Night => nightSprite,
+                _ => daySprite
+            };
+        }
+
+        private Sprite GetSeasonSprite(SeasonType season)
+        {
+            return season switch
+            {
+                SeasonType.Spring => springSprite,
+                SeasonType.Summer => summerSprite,
+                SeasonType.Autumn => autumnSprite,
+                SeasonType.Winter => winterSprite,
+                _ => springSprite
+            };
+        }
+
+        private Sprite GetWeatherSprite(WeatherType weather)
+        {
+            return weather switch
+            {
+                WeatherType.Clear => clearSprite,
+                WeatherType.LightRain => lightRainSprite,
+                WeatherType.HeavyRain => heavyRainSprite,
+                WeatherType.Thunderstorm => thunderstormSprite,
+                WeatherType.LightSnow => lightSnowSprite,
+                WeatherType.Snowstorm => snowstormSprite,
+                WeatherType.Hail => hailSprite,
+                WeatherType.Fog => fogSprite,
+                WeatherType.Wind => windSprite,
+                WeatherType.StrongWind => strongWindSprite,
+                _ => clearSprite
+            };
         }
 
         private void ApplyTextDirection(AppLanguage language)
@@ -675,13 +770,8 @@ namespace CozyHome.UI
                 return;
             }
 
-            if (timeOfDaySprites == null || timeOfDaySprites.Length <= (int)activeTimeOfDay)
-            {
-                iconTimeOfDay.sprite = null;
-                return;
-            }
-
-            iconTimeOfDay.sprite = timeOfDaySprites[(int)activeTimeOfDay];
+            SyncLegacyInspectorSprites();
+            iconTimeOfDay.sprite = GetTimeOfDaySprite(activeTimeOfDay);
         }
 
         private void ApplySeasonSprite()
@@ -691,13 +781,8 @@ namespace CozyHome.UI
                 return;
             }
 
-            if (seasonSprites == null || seasonSprites.Length <= (int)activeSeason)
-            {
-                iconSeason.sprite = null;
-                return;
-            }
-
-            iconSeason.sprite = seasonSprites[(int)activeSeason];
+            SyncLegacyInspectorSprites();
+            iconSeason.sprite = GetSeasonSprite(activeSeason);
         }
 
         private void ApplyWeatherSprite()
@@ -707,13 +792,8 @@ namespace CozyHome.UI
                 return;
             }
 
-            if (weatherSprites == null || weatherSprites.Length <= (int)activeWeather)
-            {
-                iconWeather.sprite = null;
-                return;
-            }
-
-            iconWeather.sprite = weatherSprites[(int)activeWeather];
+            SyncLegacyInspectorSprites();
+            iconWeather.sprite = GetWeatherSprite(activeWeather);
         }
 
         private static TimeOfDay ConvertControllerTimeOfDay(CozyHome.Environment.TimeOfDayController.TimeOfDay controllerPhase)
