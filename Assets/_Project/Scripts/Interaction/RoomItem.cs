@@ -211,6 +211,8 @@ namespace CozyHome.Interaction
                 HandleAnimationClick();
             }
 
+            SecretHintController.TryRegisterInteraction();
+
             bool isActiveForAudio = MusicPuzzleManager.Instance != null && MusicPuzzleManager.Instance.IsItemActive(this);
             if (!isActiveForAudio)
             {
