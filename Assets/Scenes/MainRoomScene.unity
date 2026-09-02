@@ -3203,7 +3203,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 36dbb9913325049aa8e470c1a914363f, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -3795,7 +3795,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9add0a17acdea4c1dacc06c687a3fd3d, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4303,7 +4303,7 @@ MonoBehaviour:
   imageA: {fileID: 499487175}
   imageB: {fileID: 1614323069}
   direction: {x: 1, y: -0.08}
-  speed: 50
+  speed: 70
 --- !u!114 &499487177
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4325,7 +4325,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 980bff26647c44bb9bd1f3029b7b0bd4, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -4333,7 +4333,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &499487178
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -6945,7 +6945,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 36dbb9913325049aa8e470c1a914363f, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -7774,7 +7774,7 @@ MonoBehaviour:
   strongWind: {fileID: 1685804620}
   weatherAudioManager: {fileID: 824708604}
   useTestWeatherOnStart: 1
-  testWeather: 10
+  testWeather: 9
 --- !u!114 &824708604
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7844,9 +7844,9 @@ MonoBehaviour:
     loop: 1
   - weatherType: 9
     clips:
-    - {fileID: 8300000, guid: f7a03a609a7be40e9a05c2e83030d46f, type: 3}
+    - {fileID: 8300000, guid: 33b241cb31b894ee69369bcc75ea33fe, type: 3}
     - {fileID: 8300000, guid: 6e734d1a627c543759c5972f7bb6c409, type: 3}
-    - {fileID: 8300000, guid: b0a77ace904df45e1b65b94f27cd95b0, type: 3}
+    - {fileID: 8300000, guid: 33b241cb31b894ee69369bcc75ea33fe, type: 3}
     volume: 0.562
     pitch: 1
     loop: 1
@@ -7854,6 +7854,7 @@ MonoBehaviour:
     clips:
     - {fileID: 8300000, guid: 66eb71000ec294e9b8b5c377729bcfb2, type: 3}
     - {fileID: 8300000, guid: efedbfac94f304802a6d230ae79c9d4b, type: 3}
+    - {fileID: 8300000, guid: f7a03a609a7be40e9a05c2e83030d46f, type: 3}
     volume: 0.384
     pitch: 1
     loop: 1
@@ -8688,7 +8689,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 9add0a17acdea4c1dacc06c687a3fd3d, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13104,7 +13105,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u041D\u043E\u0447\u044C \xB7 \u041E\u0441\u0435\u043D\u044C \xB7 \u042F\u0441\u043D\u043E"
+  m_text: "\u0414\u0435\u043D\u044C \xB7 \u041E\u0441\u0435\u043D\u044C \xB7 \u041C\u0435\u0442\u0435\u043B\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8898bc11113fd49b3b0fc1eff5482cd6, type: 2}
   m_sharedMaterial: {fileID: 1715596477558356031, guid: 8898bc11113fd49b3b0fc1eff5482cd6, type: 2}
@@ -13961,7 +13962,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 980bff26647c44bb9bd1f3029b7b0bd4, type: 3}
-  m_Type: 0
+  m_Type: 2
   m_PreserveAspect: 0
   m_FillCenter: 1
   m_FillMethod: 4
@@ -13969,7 +13970,7 @@ MonoBehaviour:
   m_FillClockwise: 1
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
+  m_PixelsPerUnitMultiplier: 2
 --- !u!222 &1614323071
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -16053,7 +16054,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -345486250592894587, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  m_Sprite: {fileID: -6914052474657122252, guid: 183b3d65421d843d1b452841a990661f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -16796,7 +16797,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1986041767, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
+  m_Sprite: {fileID: 3296595106453343776, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1

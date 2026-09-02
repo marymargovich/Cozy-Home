@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 namespace CozyHome.Weather
@@ -146,6 +147,26 @@ namespace CozyHome.Weather
                 wind,
                 strongWind,
             };
+        }
+
+        public WeatherType GenerateRandomWeatherForMonth(int month)
+        {
+            return WeatherSeasonality.GetRandomWeatherForMonth(month);
+        }
+
+        public WeatherType GenerateRandomWeatherForCurrentMonth()
+        {
+            return WeatherSeasonality.GetRandomWeatherForCurrentMonth();
+        }
+
+        public bool IsWeatherAllowedForCurrentMonth(WeatherType type)
+        {
+            return WeatherSeasonality.IsWeatherAllowedForCurrentMonth(type);
+        }
+
+        public void SetRandomWeather()
+        {
+            SetWeather(GenerateRandomWeatherForCurrentMonth());
         }
 
         private WeatherVisualGroup GetGroupForType(WeatherType type)

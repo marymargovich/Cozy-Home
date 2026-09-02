@@ -555,42 +555,76 @@ namespace CozyHome.UI
         /// <summary>
         /// Returns a generated weather state when no dedicated weather manager is available yet.
         /// </summary>
-        public WeatherType GetCurrentWeather()
+        private WeatherType GetSeasonallyValidWeatherForHour(int currentMonth, int currentHour)
         {
-            int currentHour = DateTime.Now.Hour;
-            int currentMonth = DateTime.Now.Month;
+            WeatherType[] allowedWeather = WeatherSeasonality.GetAllowedWeatherTypesForMonth(currentMonth);
+            if (allowedWeather.Length == 0)
+            {
+                return WeatherType.Clear;
+            }
 
             if (currentHour >= 22 || currentHour <= 4)
             {
                 return WeatherType.Clear;
             }
 
-            if (currentMonth == 12 || currentMonth == 1 || currentMonth == 2)
+            bool isWinterSnowMonth = currentMonth == 12 || currentMonth == 1 || currentMonth == 2 || currentMonth == 3 || currentMonth == 4 || currentMonth == 11;
+            if (isWinterSnowMonth)
             {
-                return currentHour >= 9 && currentHour <= 16 ? WeatherType.LightSnow : WeatherType.Snowstorm;
-            }
+                if (currentHour >= 9 && currentHour <= 16)
+                {
+                    return Array.Exists(allowedWeather, type => type == WeatherType.LightSnow) ? WeatherType.LightSnow : WeatherType.Clear;
+                }
 
-            if (currentMonth == 6 || currentMonth == 7 || currentMonth == 8)
-            {
-                return currentHour >= 9 && currentHour <= 16 ? WeatherType.LightRain : WeatherType.Clear;
-            }
-
-            if (currentMonth == 9 || currentMonth == 10 || currentMonth == 11)
-            {
-                return WeatherType.Fog;
+                return Array.Exists(allowedWeather, type => type == WeatherType.Snowstorm) ? WeatherType.Snowstorm : WeatherType.Clear;
             }
 
             if (currentHour >= 9 && currentHour <= 16)
             {
-                return WeatherType.Wind;
+                if (Array.Exists(allowedWeather, type => type == WeatherType.LightRain))
+                {
+                    return WeatherType.LightRain;
+                }
+
+                if (Array.Exists(allowedWeather, type => type == WeatherType.Wind))
+                {
+                    return WeatherType.Wind;
+                }
+
+                if (Array.Exists(allowedWeather, type => type == WeatherType.Fog))
+                {
+                    return WeatherType.Fog;
+                }
+
+                if (Array.Exists(allowedWeather, type => type == WeatherType.Hail))
+                {
+                    return WeatherType.Hail;
+                }
             }
 
-            return WeatherType.Clear;
+            if (Array.Exists(allowedWeather, type => type == WeatherType.Fog))
+            {
+                return WeatherType.Fog;
+            }
+
+            if (Array.Exists(allowedWeather, type => type == WeatherType.Clear))
+            {
+                return WeatherType.Clear;
+            }
+
+            return allowedWeather[0];
+        }
+
+        public WeatherType GetCurrentWeather()
+        {
+            int currentHour = DateTime.Now.Hour;
+            int currentMonth = DateTime.Now.Month;
+            return GetSeasonallyValidWeatherForHour(currentMonth, currentHour);
         }
 
         public WeatherType GetRandomWeather()
         {
-            return (WeatherType)UnityEngine.Random.Range(0, Enum.GetValues(typeof(WeatherType)).Length);
+            return WeatherSeasonality.GetRandomWeatherForCurrentMonth();
         }
 
         public void SetRandomWeather()
