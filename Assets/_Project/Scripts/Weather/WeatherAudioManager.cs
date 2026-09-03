@@ -11,25 +11,16 @@ namespace CozyHome.Weather
     /// </summary>
     public class WeatherAudioManager : MonoBehaviour
     {
-        private enum WeatherAudioTimeVariant
-        {
-            Any,
-            Day,
-            Night
-        }
-
         [Serializable]
         private sealed class WeatherSoundPool
         {
             [SerializeField] private WeatherType weatherType;
-            [SerializeField] private WeatherAudioTimeVariant timeVariant = WeatherAudioTimeVariant.Any;
             [SerializeField] private AudioClip[] clips = Array.Empty<AudioClip>();
             [SerializeField] [Range(0f, 1f)] private float volume = 0.5f;
             [SerializeField] [Range(0.1f, 2f)] private float pitch = 1f;
             [SerializeField] private bool loop = true;
 
             public WeatherType WeatherType => weatherType;
-            public WeatherAudioTimeVariant TimeVariant => timeVariant;
             public AudioClip[] Clips => clips;
             public float Volume => volume;
             public float Pitch => pitch;
@@ -59,7 +50,7 @@ namespace CozyHome.Weather
 
         public void SetWeather(WeatherType weatherType)
         {
-            if (weatherType == WeatherType.None)
+            if (weatherType == WeatherType.None || weatherType == WeatherType.Clear)
             {
                 StopWeather();
                 return;
@@ -67,7 +58,7 @@ namespace CozyHome.Weather
 
             EnsureAudioSource();
 
-            WeatherSoundPool pool = GetSoundPoolForWeather(weatherType);
+            WeatherSoundPool pool = GetSoundPool(weatherType);
             if (pool == null || pool.Clips == null || pool.Clips.Length == 0)
             {
                 StopWeather();
@@ -115,45 +106,23 @@ namespace CozyHome.Weather
             return clips[UnityEngine.Random.Range(0, clips.Length)];
         }
 
-        private WeatherSoundPool GetSoundPoolForWeather(WeatherType weatherType)
+        private WeatherSoundPool GetSoundPool(WeatherType weatherType)
         {
             if (weatherPools == null)
             {
                 return null;
             }
 
-            WeatherAudioTimeVariant currentVariant = GetCurrentDayNightVariant();
-            WeatherSoundPool exactMatch = null;
-            WeatherSoundPool fallbackMatch = null;
-
             for (int i = 0; i < weatherPools.Count; i++)
             {
                 WeatherSoundPool pool = weatherPools[i];
-                if (pool == null || pool.WeatherType != weatherType)
+                if (pool != null && pool.WeatherType == weatherType)
                 {
-                    continue;
-                }
-
-                if (pool.TimeVariant == WeatherAudioTimeVariant.Any)
-                {
-                    fallbackMatch ??= pool;
-                    continue;
-                }
-
-                if (pool.TimeVariant == currentVariant)
-                {
-                    exactMatch = pool;
-                    break;
+                    return pool;
                 }
             }
 
-            return exactMatch != null ? exactMatch : fallbackMatch;
-        }
-
-        private WeatherAudioTimeVariant GetCurrentDayNightVariant()
-        {
-            int currentHour = DateTime.Now.Hour;
-            return currentHour >= 6 && currentHour < 21 ? WeatherAudioTimeVariant.Day : WeatherAudioTimeVariant.Night;
+            return null;
         }
 
         private void EnsureAudioSource()

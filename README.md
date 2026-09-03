@@ -1,98 +1,100 @@
 # Cozy Home
 
-Cozy Home is a Unity project built as a small interactive cozy-room experience with environmental atmosphere, click-based interaction, sound-driven gameplay loops, and a localized secret hint system.
+Cozy Home is a Unity project built as a small interactive cozy-room experience with a warm indoor scene, touch-friendly interaction, environment-driven ambience, and localized UI feedback.
 
 ## Overview
 
-The project focuses on a warm indoor scene where the player interacts with room objects to trigger ambience, animations, lighting changes, and round-based sound activity. The interaction logic is centered around a unified `RoomItem` system, while the environment responds dynamically to the current active state of objects.
+This project focuses on a living-room style interactive space where the player taps or clicks objects to trigger visual changes, ambient effects, sound cues, and layered UI states. The final build is centered on a unified interaction model, a reactive weather system, and a status bar that reflects the actual current state of the room.
 
-## Core gameplay loop
+## Current gameplay loop
 
-- interactive props and furniture items use `RoomItem`
-- active objects can play sounds, animate, and influence the room state
-- `MusicPuzzleManager` picks the current round's sound-active items
-- lighting and decorative environment elements react to state changes in real time
-- floating note feedback confirms successful valid interactions
-- a secret hint appears after a defined number of valid interactions
+- interactive objects are driven by `RoomItem`
+- valid interactions can animate the object and update the room state
+- `MusicPuzzleManager` controls which sound-capable objects are active in the current round
+- weather state affects the visual environment and the weather sound channel
+- the status bar updates time-of-day, season, and current weather icons based on the active state
+- the secret hint appears after several valid interactions and supports localization
 
 ## Main systems
 
 ### Room interaction
 
-`RoomItem` is the primary interactive component used throughout the project.
+`RoomItem` is the primary interaction component used by the playable objects.
 
-Features include:
+Included logic:
 
-- click handling through `IPointerClickHandler`
-- animation support with sprite/animator state switching
-- configurable sound variation arrays
-- optional guaranteed active sound behavior
-- safe audio playback checks to avoid invalid or missing source calls
+- pointer/tap click handling through `IPointerClickHandler`
+- sprite and animator-based states for interactive props
+- optional sound playback and clip selection
+- round gating for valid sound interactions
 - lamp and room-state synchronization with the environment controller
-- note spawning tied to valid active items
+- floating note feedback for valid action results
 
-### Round logic and sound gating
+### Weather system
 
-`MusicPuzzleManager` controls which items are currently active in the round.
+The weather system is built around `WeatherController` and `WeatherAudioManager`.
 
-Rules implemented in the project:
+Current behavior:
 
-- guaranteed items remain active every round
-- non-guaranteed items are randomized into the active subset
-- inactive items do not produce sound or floating note feedback
-- the system prevents invalid audio calls when items are missing a source component
+- `WeatherType.Clear` produces no background weather audio and leaves the room silent
+- all active non-clear weather states trigger their matching weather ambience
+- the controller updates the active weather state and notifies the UI layer
+- weather changes are reflected in the status bar and tooltip text
 
-### Environment feedback
+### Status bar and UI state
 
-The room responds visually to item interaction:
+`StatusBarController` updates the icon group for time of day, season, and weather.
 
-- floor lamp state updates through `TimeOfDayController`
-- ceiling lamp state updates when relevant items are toggled
-- garland states update as objects are activated or deactivated
-- the lighting scheme changes immediately to match the current room state
+Important fixes in the final version:
+
+- sprite selection is explicit and enum-based instead of raw array indexing
+- `WeatherType.Clear` icon is matched to the clear sprite instead of fog or another weather state
+- weather icon and tooltip are synchronized with the active weather value rather than stale startup state
+- old serialized array values are still read as a compatibility fallback when needed
 
 ### Secret hint system
 
-`SecretHintController` adds a contextual hidden clue after repeated valid interactions.
+`SecretHintController` adds localized contextual hints after repeated valid interactions.
 
-Included functionality:
+Features include:
 
-- interaction counter before the hint appears
-- localized sprites for English, Russian, and Hebrew
-- smooth fade-in / fade-out hint animation
-- language-aware sprite switching through the UI language manager
+- localized English, Russian, and Hebrew sprites
+- interaction counter threshold before showing the hint
+- fade-in and fade-out animation
+- dynamic sprite update when the language changes
 
 ## Project structure
 
-- `Assets/_Project` — main gameplay scripts, art, scenes, and prefabs
+- `Assets/_Project` — main gameplay logic, art, UI, and environment systems
 - `Assets/Scenes` — Unity scene files
-- `ProjectSettings` — Unity editor settings
-- `Packages` — Unity package configuration
-- `README.md` — project summary and setup notes
+- `ProjectSettings` — Unity editor configuration
+- `Packages` — Unity package definitions
+- `README.md` — project summary and current status
 
 ## Current status
 
-The project is in the final stable milestone for this build:
+The project is in the final stable milestone for this version:
 
-- the `RoomItem` interaction model is the active architecture
-- the round-based sound logic is integrated and working
-- environment lighting and animation state follow object state changes
-- secret hint flow is implemented and language-aware
-- the repository is committed locally on the `main` branch
+- touch/click interactivity is the active input model
+- room logic is unified around `RoomItem`
+- weather state and audio are synchronized to real active weather values
+- status bar icons are explicit and no longer depend on fragile array index order
+- clear weather remains silent without background weather ambience
+- the project is ready to be used as a local, final build snapshot
 
 ## Local Git note
 
-This project is configured for local Git usage only. There is no remote Git repository configured at the moment, so all progress is kept in the local repository history.
+This project is configured for local Git usage only. There is no remote Git repository configured at the moment, so all progress is kept in the local `main` branch history.
 
 ## Unity usage
 
 1. Open the project in Unity.
-2. Load the main scene used for the Cozy Home experience.
-3. Test interaction flow in Play Mode.
-4. Keep all gameplay logic within the `_Project` folder structure.
+2. Load the main room scene.
+3. Run the scene in Play Mode.
+4. Validate interaction, weather changes, status icons, and UI text in editor play mode.
 
 ## Notes
 
-- the project uses a unified interaction model rather than multiple fragmented prop systems
-- the codebase is organized around a clear environment + interaction + UI flow
-- documentation is maintained in English for project consistency
+- interaction logic is designed for mouse and touch input through Unity pointer events
+- the weather audio system intentionally keeps clear weather silent
+- the status bar now reflects the real weather state instead of a stale startup value
