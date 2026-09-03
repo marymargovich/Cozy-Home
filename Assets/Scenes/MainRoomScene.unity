@@ -10758,7 +10758,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1208216770}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d3e83581a1dd24282af6e9163216eb95, type: 3}
   m_Name: 
@@ -10766,26 +10766,45 @@ MonoBehaviour:
   iconTimeOfDay: {fileID: 2041031104}
   iconSeason: {fileID: 2044441713}
   iconWeather: {fileID: 1926027871}
-  timeOfDaySprites:
-  - {fileID: -2719373854542976460, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
-  - {fileID: 3296595106453343776, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
-  - {fileID: -794427139121413777, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
-  - {fileID: -1986041767, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
-  seasonSprites:
-  - {fileID: 8957712438823235123, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
-  - {fileID: -8194324300897759995, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
-  - {fileID: 7839977319215721277, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
-  - {fileID: -7358724549348430161, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
-  weatherSprites:
-  - {fileID: 8304245233570557715, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: -345486250592894587, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: 2228355592419652263, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: -436979794725176981, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: 4981932990698440635, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: 113564278335001611, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: -6914052474657122252, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: -5610466669748010939, guid: 183b3d65421d843d1b452841a990661f, type: 3}
-  - {fileID: -8655628784269711096, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  morningSprite: {fileID: -2719373854542976460, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
+  daySprite: {fileID: 3296595106453343776, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
+  eveningSprite: {fileID: -794427139121413777, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
+  nightSprite: {fileID: -1986041767, guid: e3dec09ce37d4404cb09495e838a52a1, type: 3}
+  springSprite: {fileID: 8957712438823235123, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
+  summerSprite: {fileID: -8194324300897759995, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
+  autumnSprite: {fileID: 7839977319215721277, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
+  winterSprite: {fileID: -7358724549348430161, guid: 26d482cf66d8e42b1bf0489ac9e17f08, type: 3}
+  clearSprite: {fileID: 8304245233570557715, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  lightRainSprite: {fileID: -436979794725176981, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  heavyRainSprite: {fileID: 4981932990698440635, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  thunderstormSprite: {fileID: -8655628784269711096, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  lightSnowSprite: {fileID: 113564278335001611, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  snowstormSprite: {fileID: -6914052474657122252, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  hailSprite: {fileID: -5610466669748010939, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  fogSprite: {fileID: 2228355592419652263, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  windSprite: {fileID: 2228355592419652263, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  strongWindSprite: {fileID: 2228355592419652263, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  legacyTimeOfDaySprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  legacySeasonSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  legacyWeatherSprites:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
   tooltipCanvasGroup: {fileID: 967514216}
   tooltipText: {fileID: 1515590188}
   fadeDuration: 0.2
@@ -13218,7 +13237,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_text: "\u0412\u0435\u0447\u0435\u0440 \xB7 \u041E\u0441\u0435\u043D\u044C \xB7
-    \u0422\u0443\u043C\u0430\u043D"
+    \u041C\u0435\u0442\u0435\u043B\u044C"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8898bc11113fd49b3b0fc1eff5482cd6, type: 2}
   m_sharedMaterial: {fileID: 1715596477558356031, guid: 8898bc11113fd49b3b0fc1eff5482cd6, type: 2}
@@ -16167,7 +16186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -8655628784269711096, guid: 183b3d65421d843d1b452841a990661f, type: 3}
+  m_Sprite: {fileID: -6914052474657122252, guid: 183b3d65421d843d1b452841a990661f, type: 3}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
