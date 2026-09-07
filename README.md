@@ -1,7 +1,5 @@
 # Cozy Home
 
-🎮 **[Играть онлайн](https://marymargovich.github.io/Cozy-Home)**
-
 Cozy Home is a Unity project built as a small interactive cozy-room experience with a warm indoor scene, touch-friendly interaction, environment-driven ambience, and localized UI feedback.
 
 ## Overview
@@ -83,10 +81,6 @@ The project is in the final stable milestone for this version:
 - status bar icons are explicit and no longer depend on fragile array index order
 - clear weather remains silent without background weather ambience
 - the project is ready to be used as a local, final build snapshot
-
-## Local Git note
-
-This project is configured for local Git usage only. There is no remote Git repository configured at the moment, so all progress is kept in the local `main` branch history.
 
 ## Unity usage
 
