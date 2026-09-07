@@ -1,5 +1,7 @@
 name: Deploy WebGL build to GitHub Pages
 
+# Publish the binary LFS-backed Unity WebGL build, not the pointer file.
+
 on:
   push:
     branches: [main]
