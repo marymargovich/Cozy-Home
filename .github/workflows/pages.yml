@@ -26,6 +26,10 @@ jobs:
         with:
           lfs: true
 
+      - name: Verify Unity WebGL data file
+        run: |
+          test "$(xxd -l 16 -p docs/Build/CozySoundRoom.data)" = "556e69747957656244617461312e3000"
+
       - name: Configure Pages
         uses: actions/configure-pages@v5
 
