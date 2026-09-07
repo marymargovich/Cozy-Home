@@ -26,7 +26,7 @@ namespace CozyHome.Weather
         [SerializeField] private WeatherAudioManager weatherAudioManager;
 
         [Header("Test mode")]
-        [SerializeField] private bool useTestWeatherOnStart = true;
+        [SerializeField] private bool useTestWeatherOnStart = false;
         [SerializeField] private WeatherType testWeather = WeatherType.LightRain;
 
         public WeatherType CurrentWeather { get; private set; } = WeatherType.None;
