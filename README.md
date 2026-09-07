@@ -2,6 +2,8 @@
 
 Cozy Home is a Unity project built as a small interactive cozy-room experience with a warm indoor scene, touch-friendly interaction, environment-driven ambience, and localized UI feedback.
 
+▶️ **[Запустить игру онлайн](https://marymargovich.github.io/Cozy-Home/)**
+
 ## Overview
 
 This project focuses on a living-room style interactive space where the player taps or clicks objects to trigger visual changes, ambient effects, sound cues, and layered UI states. The final build is centered on a unified interaction model, a reactive weather system, and a status bar that reflects the actual current state of the room.
