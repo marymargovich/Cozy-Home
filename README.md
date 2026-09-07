@@ -1,5 +1,7 @@
 # Cozy Home
 
+🎮 **[Играть онлайн](https://marymargovich.github.io/Cozy-Home)**
+
 Cozy Home is a Unity project built as a small interactive cozy-room experience with a warm indoor scene, touch-friendly interaction, environment-driven ambience, and localized UI feedback.
 
 ## Overview
