@@ -1,1 +1,4 @@
+*.data filter=lfs diff=lfs merge=lfs -text
+*.unity filter=lfs diff=lfs merge=lfs -text
+*.bytes filter=lfs diff=lfs merge=lfs -text
 CozySoundRoom/Build/CozySoundRoom.data filter=lfs diff=lfs merge=lfs -text
