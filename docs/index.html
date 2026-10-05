@@ -23,7 +23,6 @@
       <div id="unity-warning"> </div>
       <div id="unity-footer">
         <div id="unity-logo-title-footer"></div>
-        <div id="unity-fullscreen-button"></div>
         <div id="unity-build-title">Cozy Home</div>
       </div>
     </div>
@@ -67,7 +66,7 @@
         productName: "Cozy Home",
         productVersion: "1.0",
         showBanner: unityShowBanner,
-        matchWebGLToCanvasSize: true,
+        matchWebGLToCanvasSize: false,
         // errorHandler: function(err, url, line) {
         //    alert("error " + err + " occurred at line " + line);
         //    // Return 'true' if you handled this error and don't want Unity
@@ -96,7 +95,6 @@
       if (/iPhone|iPad|iPod|Android/i.test(navigator.userAgent)) {
         // Mobile device style: lock to landscape orientation
         document.querySelector("#unity-container").className = "unity-mobile";
-        canvas.className = "unity-mobile";
 
         // Try to lock screen to landscape orientation
         if (screen.orientation && screen.orientation.lock) {
@@ -130,46 +128,11 @@
 
       document.querySelector("#unity-loading-bar").style.display = "block";
 
-      // Function to maintain responsive canvas sizing with 16:9 aspect ratio
-      function updateCanvasSize() {
-        const container = document.querySelector("#unity-container");
-        const rect = container.getBoundingClientRect();
-        
-        // Calculate dimensions maintaining 16:9 aspect ratio
-        let width = rect.width;
-        let height = width * 9 / 16;
-        
-        // If calculated height exceeds container, scale down from height
-        if (height > rect.height) {
-          height = rect.height;
-          width = height * 16 / 9;
-        }
-        
-        // Set canvas resolution
-        canvas.width = width * window.devicePixelRatio;
-        canvas.height = height * window.devicePixelRatio;
-        
-        // Set display size (CSS pixels)
-        canvas.style.width = width + 'px';
-        canvas.style.height = height + 'px';
-      }
-
-      // Remove inline styles that might conflict
-      canvas.style.cssText = '';
-      canvas.removeAttribute('width');
-      canvas.removeAttribute('height');
-
-      // Initial size setup
-      updateCanvasSize();
-
-      // Handle window resize and orientation changes
-      window.addEventListener('resize', updateCanvasSize);
-      window.addEventListener('orientationchange', updateCanvasSize);
-      
-      // Handle fullscreen changes (with vendor prefixes for cross-browser compatibility)
-      document.addEventListener('fullscreenchange', updateCanvasSize);
-      document.addEventListener('webkitfullscreenchange', updateCanvasSize);
-      document.addEventListener('mozfullscreenchange', updateCanvasSize);
+      // Fixed native render size; the host iframe handles scaling.
+      canvas.width = 1920;
+      canvas.height = 1080;
+      // CSS-only fit that preserves the 16:9 aspect ratio.
+      canvas.style.cssText = 'display:block;aspect-ratio:16/9;width:min(100vw, 177.7778vh);height:auto;';
 
       var script = document.createElement("script");
       script.src = loaderUrl;
@@ -178,13 +141,6 @@
           document.querySelector("#unity-progress-bar-full").style.width = 100 * progress + "%";
               }).then((unityInstance) => {
                 document.querySelector("#unity-loading-bar").style.display = "none";
-                document.querySelector("#unity-fullscreen-button").onclick = () => {
-                  unityInstance.SetFullscreen(1);
-                  // Ensure canvas resolution recalculates immediately after entering fullscreen
-                  setTimeout(updateCanvasSize, 50);
-                };
-                // Reapply sizing after Unity initialization
-                setTimeout(updateCanvasSize, 100);
               }).catch((message) => {
                 alert(message);
               });

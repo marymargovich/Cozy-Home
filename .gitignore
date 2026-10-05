@@ -113,6 +113,9 @@ InitTestScene*.unity*
 # macOS metadata
 .DS_Store
 **/.DS_Store
+._*
+**/._*
+__MACOSX/
 
 # Editor and local tooling
 .vscode/
